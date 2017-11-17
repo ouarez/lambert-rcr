@@ -1,5 +1,7 @@
 ---
+layout: default
 title: Accueil
+permalink: /
 ---
 Nous sommes une entreprise de matériel de premiers soins et nous donnons des cours aux services de gardes et CPEs adaptés pour les gens en milieux de gardes.
 
