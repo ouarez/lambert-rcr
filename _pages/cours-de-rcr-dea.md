@@ -2,6 +2,7 @@
 layout: default
 title: Cours de RCR/DEA
 permalink: /cours-de-rcr-dea
+image:
 ---
 
 Nous offrons deux formations de RCR/DEA. Le premier cours s'addresse au grand public, et peut être donné à tous.

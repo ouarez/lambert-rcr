@@ -2,6 +2,7 @@
 layout: default
 title: Questions et réponses
 permalink: /faq
+image:
 ---
 
 Q : Comment faire pour m'inscrire au prochain cours?  

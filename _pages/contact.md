@@ -2,6 +2,7 @@
 layout: default
 title: Contact
 permalink: /contact
+image:
 ---
 Nous sommes une école de premiers soins qui offre aussi du matériel de premiers soins à prix abordable. Nous travaillons avec les écoles, CPEs, garderies et membres de l'industrie.  
 
