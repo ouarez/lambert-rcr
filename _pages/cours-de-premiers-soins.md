@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Cours de premiers soins
 permalink: /cours-de-premiers-soins
 image:

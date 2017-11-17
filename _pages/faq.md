@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Questions et réponses
 permalink: /faq
 image:

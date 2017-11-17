@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Cours de RCR/DEA
 permalink: /cours-de-rcr-dea
 image:
