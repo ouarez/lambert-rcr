@@ -23,11 +23,16 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Order", name: "order", widget: "number"}
+      - name: title
+        label: Title
+        widget: relation
+        collection: pages
+        searchFields: [title]
+        valueField: title
       - name: slug
         label: Link
         widget: relation
         collection: pages
         searchFields: [permalink]
         valueField: permalink
+      - {label: "Order", name: "order", widget: "number"}
