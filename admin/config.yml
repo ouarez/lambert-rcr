@@ -24,5 +24,10 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Link", name: "slug", widget: "string"}
       - {label: "Order", name: "order", widget: "number"}
+      - name: slug
+        label: Link
+        widget: relation
+        collection: pages
+        searchFields: [permalink]
+        valueField: permalink
