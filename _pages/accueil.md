@@ -14,3 +14,5 @@ Contactez-nous : 579 - 631 - 1303 ou 450 974 0972
 Nous avons une gamme variée de produits de premiers soins comprenant des trousses de premiers soins pour services de garde, trousses de sorties ainsi que du matériel pour industrie.
 
 Visiter le magasin >
+
+## Formations
