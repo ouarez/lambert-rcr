@@ -6,7 +6,7 @@ media_folder: "img"
 
 collections:
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
-    label: "Page" # Used in the UI
+    label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -16,6 +16,19 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "homepage"
+    label: "Page d'accueil"
+    files:
+      - file: "index.md"
+        label: "Éditer la page d'accueil"
+        name: "home"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "default"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
+          - {label: "Featured Image", name: "image", widget: "image", required: false}
+          - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "navigation" # Used in routes, e.g., /admin/collections/blog
     label: "Navigation" # Used in the UI
@@ -36,3 +49,15 @@ collections:
         searchFields: [permalink]
         valueField: permalink
       - {label: "Order", name: "order", widget: "number"}
+
+  - name: "formations" # Used in routes, e.g., /admin/collections/blog
+    label: "Formations" # Used in the UI
+    folder: "_formations" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Featured Image", name: "image", widget: "image", required: false}
+      - {label: "Durée", name: "duree", widget: "string", required: false}
+      - {label: "Prix", name: "prix", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "markdown"}
