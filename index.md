@@ -2,6 +2,12 @@
 layout: default
 title: Accueil
 permalink: /
+intro:
+  blurbs:
+    - text: hey
+    - text: hey
+  description: this is a test
+  heading: hey
 ---
 Nous sommes une entreprise de matériel de premiers soins et nous donnons des cours aux services de gardes et CPEs adaptés pour les gens en milieux de gardes.
 
