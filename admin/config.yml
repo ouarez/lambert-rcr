@@ -29,7 +29,7 @@ collections:
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
           - {label: "Slideshow", name: slideshow, widget: object, required: false,
               fields: [{label: Image, name: slideshow-images, widget: list, required: false,
-                  fields: [{label: Image, name: slideshow-image, widget: image}, {label: Title, name: title, widget: string}
+                  fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}
                   ]
               }]
             }
