@@ -1,1 +1,4 @@
-{% include_relative _pages/accueil.md %}
+---
+title: Accueil
+---
+This is a test
