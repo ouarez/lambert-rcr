@@ -1,5 +1,4 @@
 ---
 title: Matériel de premiers soins
-link: materiel-de-premiers-soins
+slug: materiel-de-premiers-soins
 ---
-
