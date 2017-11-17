@@ -25,12 +25,6 @@
       <nav>
         <div class="ml-auto mr-auto">
           <div class="flex flex-wrap justify-center justify-start-l pv1-l">
-            <div class="w-80 pt4 pb3 mh4 w-auto-l pv3-l"><a href="/">Accueil</a></div>
-            <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="/materiel-de-premiers-soins">Matériel premiers soins</a></div>
-            <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="/cours-de-premiers-soins">Cours de premiers soins</a></div>
-            <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="/cours-de-rcr-dea">Cours de RCR/DEA</a></div>
-            <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="/faq">FAQ</a></div>
-            <div class="w-80 pt3 pb4 mh4 w-auto-l pv3-l"><a href="/contact">Contact</a></div>
             {% for link in site.nav %}
               <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="{{ link.slug }}">{{ link.title }}</a></div>
             {% endfor %}
