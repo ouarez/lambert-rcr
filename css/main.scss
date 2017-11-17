@@ -1,0 +1,96 @@
+---
+# Main SCSS File
+---
+
+// variables
+
+$sans: 'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+$serif: 'Merriweather', serif;
+$primary-bg: #fff;
+$primary-color: #111;
+$red: #D90001;
+$blue: #0275d8;
+
+// typography
+
+   h1,h2 {
+     margin:1em 0;
+     font-family:$sans;
+     font-weight:100;
+   }
+
+   h3,h4,h5,h6 {
+     margin:0.5em;
+     font-family:$sans;
+     font-weight:100;
+   }
+
+   h1 {
+     font-size:3rem;
+   }
+
+   h2 {
+     font-size:2.25rem;
+   }
+
+   h3 {
+     font-size:1.5rem;
+   }
+
+   h4 {
+     font-size:1.25rem;
+   }
+
+   h5 {
+     font-size:1rem;
+   }
+
+   h6 {
+     font-size:0.75rem;
+   }
+
+   p {
+     color:#333;
+   }
+
+   p.light {
+     color:#666;
+   }
+
+// main
+
+body {
+    font-family: $sans;
+    color: $primary-color;
+    background-color:$primary-bg;
+}
+
+.logo {
+  max-width:1000px;
+  img {
+  }
+}
+
+nav {
+  background-color:$red;
+  div {
+    max-width:1100px;
+    text-align:center;
+    a {
+      color:$primary-bg;
+      text-decoration:none;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+main {
+  max-width:1000px;
+}
+
+p {
+  line-height:1.5;
+  text-align: justify;
+}
