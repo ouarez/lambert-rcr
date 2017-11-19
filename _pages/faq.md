@@ -7,11 +7,17 @@ meta_desc: Questions et réponses courantes sur nos services.
 Q : Comment faire pour m'inscrire au prochain cours?
 R : Simplement nous envoyer un courriel à <mailto:Lambertrcr@gmail.com> avec votre nom et numéro de téléphone avec la date du cours voulu.
 
+
+
 Q : Quelle est la date du prochain cours?
 R : Visitez la page <https://lambertrcr.com/cours-de-premiers-soins/>
 
+
+
 Q : Combien ma carte est-elle valide?
 R : 3 ans
+
+
 
 Q : Combien de personnes avez vous besoin pour faire un cours privé (envoyer un instructeur dans votre CPE / Garderie / Gym / École ) ?
 R : Nous facturons un minimum de 8 participants et plus selon le cours pour un déplacement.
