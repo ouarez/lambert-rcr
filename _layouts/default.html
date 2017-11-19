@@ -30,13 +30,11 @@
     </div>
   </div>
 
-  {% assign links = site.nav | sort: 'order' %}
-
   <nav>
     <div class="ml-auto mr-auto">
       <div class="flex flex-wrap justify-center justify-start-l pv1-l">
-        {% for link in links %}
-          <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="{{ link.slug }}">{{ link.title }}</a></div>
+        {% for link in site.data.navigation.main_nav.links %}
+          <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="{{ link.url }}">{{ link.title }}</a></div>
         {% endfor %}
       </div>
     </div>

@@ -1,4 +1,5 @@
 backend:
+
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
@@ -66,19 +67,20 @@ collections:
        - name: "navigation"
          label: "Navigation"
          file: "_data/navigation.json"
-         description: "Navigation principale"
+         description: "Navigation du site"
          fields:
           - label: "Navigation principale"
-            name: item
+            name: main_nav
             widget: object
             fields:
               - label: Link
-                name: link
+                name: links
                 widget: list
                 required: false
                 fields:
-                  - {label: Lien, name: url, widget: string}
                   - {label: Titre, name: title, widget: string}
+                  - {label: URL, name: url, widget: string}
+
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
     label: "Formations" # Used in the UI
