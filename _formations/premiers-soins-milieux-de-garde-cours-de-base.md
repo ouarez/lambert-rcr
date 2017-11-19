@@ -1,4 +1,5 @@
 ---
+layout: formation-page
 title: Premiers soins milieux de garde - cours de base
 order: '1'
 permalink: /formations/premiers-soins-milieux-de-garde-cours-de-base
@@ -10,9 +11,9 @@ description: >-
 duration: 8h
 price: '199.95'
 ---
-Nous offrons deux formations de premiers soins. 
+Nous offrons deux formations de premiers soins.
 
-Le cours de base (8 heures) s'addresse aux débutants ainsi qu'à ceux qui ont déjà complété le cours mais qui n'ont pas complété le cours de mise à niveau avant l'échéance.Nos cours de bases sont conformes à ceux exigés par le MFA. 
+Le cours de base (8 heures) s'addresse aux débutants ainsi qu'à ceux qui ont déjà complété le cours mais qui n'ont pas complété le cours de mise à niveau avant l'échéance.Nos cours de bases sont conformes à ceux exigés par le MFA.
 
 [Le cours de mise à niveau (6 heures) ](/formations/premiers-soins-milieux-de-garde-mise-a-niveau)s'addresse à ceux qui possèdent une carte de cours non échue.
 
