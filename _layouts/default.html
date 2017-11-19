@@ -1,31 +1,8 @@
 ---
 layout: site
+navigation:
+  links:
+    - link: test
+      title: test
 ---
 
-<header>
-
-  <div class="flex justify-center">
-    <div class="logo w-100-l pv3-l ph3-l">
-      <a href="/" alt="{{site.title}}"><img src="/img/lambert-rcr-logo.jpg"/></a>
-    </div>
-  </div>
-
-  {% assign links = site.nav | sort: 'order' %}
-
-  <nav>
-    <div class="ml-auto mr-auto">
-      <div class="flex flex-wrap justify-center justify-start-l pv1-l">
-        {% for link in links %}
-          <div class="w-80 pt3 pb3 mh4 w-auto-l pv3-l"><a href="{{ link.slug }}">{{ link.title }}</a></div>
-        {% endfor %}
-      </div>
-    </div>
-  </nav>
-
-
-</header>
-
-{{ content }}
-
-<footer>
-</footer>
