@@ -13,10 +13,41 @@ collections:
       - name: "home"
         file: "index.md"
         label: "Éditer la page d'accueil"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
+          - label: "Slideshow"
+            name: slideshow
+            widget: object
+            required: false
+            fields:
+              - label: Image
+                name: slideshow-images
+                widget: list
+                required: false
+                fields:
+                  - {label: Image, name: image, widget: image}
+                  - {label: Title, name: title, widget: string}
+          - {label: "Body", name: "body", widget: "markdown"}
 
-      - name: "formation-pages"
+      - name: "formation-page"
         file: "_formations/index.md"
         label: "Éditer la page des formations"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "formation"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "string", default: "/formations" }
+          - {label: "Body", name: "body", widget: "markdown"}
+
+      - name: "materiel-page"
+        file: "_materiel/index.md"
+        label: "Éditer la page de vente des matériels"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "materiel"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "string", default: "/materiels-de-premiers-soins" }
+          - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
