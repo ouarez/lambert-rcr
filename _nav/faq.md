@@ -1,6 +1,6 @@
 ---
 title: FAQ
 slug: /faq
-order: '5'
+order: '4'
 ---
 
