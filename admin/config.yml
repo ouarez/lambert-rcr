@@ -41,13 +41,39 @@ collections:
           - {label: "Body", name: "body", widget: "markdown"}
 
       - name: "materiel-page"
-        file: "_materiel/index.md"
+        file: "materiel.md"
         label: "Éditer la page de vente des matériels"
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "materiel"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "/materiels-de-premiers-soins" }
           - {label: "Body", name: "body", widget: "markdown"}
+
+  - name: "formations" # Used in routes, e.g., /admin/collections/blog
+    label: "Formations" # Used in the UI
+    folder: "_formations" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "permalink", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Durée", name: "duration", widget: "string", required: false}
+      - {label: "Prix", name: "price", widget: "string", required: false}
+      - {label: "Description", name: "description", widget: "markdown"}
+
+  - name: "materiel" # Used in routes, e.g., /admin/collections/blog
+    label: "Matériel de premiers soins" # Used in the UI
+    folder: "_materiel" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "permalink", widget: "string"}
+      - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Prix", name: "price", widget: "string"}
+
 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
@@ -80,15 +106,3 @@ collections:
         searchFields: [permalink]
         valueField: permalink
       - {label: "Ordre", name: "order", widget: "number"}
-
-  - name: "formations" # Used in routes, e.g., /admin/collections/blog
-    label: "Formations" # Used in the UI
-    folder: "_formations" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - {label: "Titre", name: "title", widget: "string"}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Durée", name: "duration", widget: "string", required: false}
-      - {label: "Prix", name: "price", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "markdown"}
