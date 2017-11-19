@@ -1,6 +1,6 @@
 ---
 title: Formations
 slug: formations
-order: '3'
+order: '2'
 ---
 
