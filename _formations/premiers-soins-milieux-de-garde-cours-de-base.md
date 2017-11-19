@@ -1,6 +1,6 @@
 ---
 title: Premiers soins milieux de garde - cours de base
-order: ''
+order: '1'
 permalink: /formations/premiers-soins-milieux-de-garde-cours-de-base
 image: /img/cpr-4.jpg
 description: >-
