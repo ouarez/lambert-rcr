@@ -18,6 +18,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
+          - {label: "Description", name: "meta_desc", widget: "string" }
           - label: "Slideshow"
             name: slideshow
             widget: object
@@ -39,6 +40,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "formation"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "/formations" }
+          - {label: "Description", name: "meta_desc", widget: "string" }
           - {label: "Body", name: "body", widget: "markdown"}
 
       - name: "materiel-page"
@@ -48,6 +50,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "materiel"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "/materiels-de-premiers-soins" }
+          - {label: "Description", name: "meta_desc", widget: "string" }
           - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "settings"
@@ -62,7 +65,7 @@ collections:
          description: "Paramètres Généraux"
          fields:
            - {label: "Titre du site", name: "site_title", widget: "string"}
-           - {label: "Description du site", name: "site_description", widget: "string"}
+           - {label: "Slogan du site", name: "site_slogan", widget: "string"}
 
        - name: "navigation"
          label: "Navigation"
@@ -117,25 +120,6 @@ collections:
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Description", name: "meta_desc", widget: "string" }
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "navigation" # Used in routes, e.g., /admin/collections/blog
-    label: "Navigation" # Used in the UI
-    folder: "_nav" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - name: title
-        label: Titre
-        widget: relation
-        collection: pages
-        searchFields: [title]
-        valueField: title
-      - name: slug
-        label: Lien
-        widget: relation
-        collection: pages
-        searchFields: [permalink]
-        valueField: permalink
-      - {label: "Ordre", name: "order", widget: "number"}
