@@ -10,39 +10,25 @@ layout: default
 
   </div>
 
+  {% assign sorted = site.formations | sort:"order" %}
+
+  {% for formation in sorted %}
+
   <div class="formation w-100 w-80-m w-50-l mv2 pr5-l">
-    <img src="/img/artificial-respiration-first-aid.jpg" alt="RCR" class="mv3 w-100"/>
-    <h3>RCR/DEA - Professionels de la santé</h3>
-    <p>Ce cours spécialisé pour les professionels de la santé comprend un module sur la réanimation chez le bébé,
-      l'enfant et l'adulte, le dégagement des voies respiratoires, la réanimation à 2 sauveteurs ainsi qu'en équipe.
-    </p>
-    <a href="#">Consulter les détails du cours ></a>
+    <img src="{{formation.image}}" alt="{{formation.title}}" class="mv3 w-100"/>
+    <h3>{{formation.title}}</h3>
+    <p>{{formation.description}}</p>
+    <a href="{{formation.permalink}}">Consulter les détails du cours ></a>
     <div class="icon mv4">
       <img src="/img/clock-icon.png" alt="Durée:" class="mr3"/>
-      <span>4.5 heures</span>
+      <span>{{formation.duration}}</span>
     </div>
     <div class="icon mv4">
       <img src="/img/dollar-icon.png" alt="Prix:" class="mr3"/>
-      <span>119.95 $</span>
+      <span>{{formation.price}} $</span>
     </div>
   </div>
 
-  <div class="formation w-100 w-80-m w-50-l mv2 pr5-l">
-    <img src="/img/rcr-2.jpg" alt="RCR" class="mv3 w-100"/>
-    <h3>RCR/DEA - grand public et particuliers</h3>
-    <p>Ce cours est ouvert à tous et comprend un module sur la réanimation et défibrilation,
-      un module sur le dégagement des voies respiratoires ainsi qu'un module sur la chaine de survie.
-    </p>
-    <a href="#">Consulter les détails du cours ></a>
-    <div class="icon mv4">
-      <img src="/img/clock-icon.png" alt="Durée:" class="mr3"/>
-      <span>4.5 heures</span>
-    </div>
-    <div class="icon mv4">
-      <img src="/img/dollar-icon.png" alt="Prix:" class="mr3"/>
-      <span>119.95 $</span>
-    </div>
-  </div>
-
+   {% endfor %}
 
 </main>
