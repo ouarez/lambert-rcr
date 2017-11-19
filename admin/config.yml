@@ -5,6 +5,19 @@ backend:
 media_folder: "img"
 
 collections:
+
+  - name: "special-pages"
+    label: "Pages uniques"
+    delete: false # Prevent users from deleting documents in this collection
+    files:
+      - name: "home"
+        file: "index.md"
+        label: "Éditer la page d'accueil"
+
+      - name: "formation-pages"
+        file: "_formations/index.md"
+        label: "Éditer la page des formations"
+
   - name: "pages" # Used in routes, e.g., /admin/collections/blog
     label: "Pages" # Used in the UI
     folder: "_pages" # The path to the folder where the documents are stored
@@ -16,24 +29,6 @@ collections:
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-
-  - name: "homepage"
-    label: "Page d'accueil"
-    files:
-      - file: "index.md"
-        label: "Éditer la page d'accueil"
-        name: "home"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
-          - {label: "Slideshow", name: slideshow, widget: object, required: false,
-              fields: [{label: Image, name: slideshow-images, widget: list, required: false,
-                  fields: [{label: Image, name: image, widget: image}, {label: Title, name: title, widget: string}
-                  ]
-              }]
-            }
-          - {label: "Body", name: "body", widget: "markdown"}
 
   - name: "navigation" # Used in routes, e.g., /admin/collections/blog
     label: "Navigation" # Used in the UI
