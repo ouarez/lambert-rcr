@@ -20,7 +20,7 @@ $blue: #0275d8;
    }
 
    h3,h4,h5,h6 {
-     margin:0.5em;
+     margin:0.5em 0;
      font-family:$sans;
      font-weight:100;
    }
@@ -34,7 +34,7 @@ $blue: #0275d8;
    }
 
    h3 {
-     font-size:1.5rem;
+     font-size:1.75rem;
    }
 
    h4 {
@@ -93,6 +93,10 @@ main {
 p {
   line-height:1.5;
   text-align: justify;
+}
+
+.formation {
+
 }
 
 // flexslider
