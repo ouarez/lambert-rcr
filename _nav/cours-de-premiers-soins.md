@@ -1,5 +1,6 @@
 ---
-title: Cours de premiers soins
-slug: cours-de-premiers-soins
+title: Formations
+slug: formations
 order: '3'
 ---
+
