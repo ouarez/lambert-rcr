@@ -49,6 +49,24 @@ collections:
           - {label: "Permalink", name: "permalink", widget: "string", default: "/materiels-de-premiers-soins" }
           - {label: "Body", name: "body", widget: "markdown"}
 
+      - name: "home"
+        file: "_layouts/default.html"
+        label: "Éditer les liens de navigation"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "site"}
+          - label: "Navigation"
+            name: navigation
+            widget: object
+            required: false
+            fields:
+              - label: Liens de navigation
+                name: links
+                widget: list
+                required: false
+                fields:
+                  - {label: Lien, name: link, widget: string}
+                  - {label: Titre, name: title, widget: string}
+
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
     label: "Formations" # Used in the UI
     folder: "_formations" # The path to the folder where the documents are stored
