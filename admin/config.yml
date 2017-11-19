@@ -51,6 +51,7 @@ collections:
 
   - name: "settings"
     label: "Paramètres du site"
+    delete: false # Prevent users from deleting documents in this collection
     editor:
      preview: false
     files:
@@ -62,13 +63,22 @@ collections:
            - {label: "Titre du site", name: "site_title", widget: "string"}
            - {label: "Description du site", name: "site_description", widget: "string"}
 
-       - name: "nav"
+       - name: "navigation"
          label: "Navigation"
          file: "_data/navigation.json"
          description: "Navigation principale"
          fields:
-           - {label: "Titre", name: "title", widget: "string"}
-           - {label: "Lien", name: "link", widget: "string"}
+          - label: "Navigation principale"
+            name: item
+            widget: object
+            fields:
+              - label: Link
+                name: link
+                widget: list
+                required: false
+                fields:
+                  - {label: Lien, name: url, widget: string}
+                  - {label: Titre, name: title, widget: string}
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
     label: "Formations" # Used in the UI

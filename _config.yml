@@ -24,7 +24,6 @@ collections:
     output: true
   materiel:
     output: true
-  nav:
 
 # SASS
 sass:
