@@ -18,7 +18,7 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
-          - {label: "Description", name: "meta_desc", widget: "string" }
+          - {label: "Description", name: "description", widget: "string" }
           - label: "Slideshow"
             name: slideshow
             widget: object
@@ -31,7 +31,7 @@ collections:
                 fields:
                   - {label: Image, name: image, widget: image}
                   - {label: Title, name: title, widget: string}
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Contenu", name: "body", widget: "markdown"}
 
       - name: "formation-page"
         file: "formations.md"
@@ -40,8 +40,8 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "formation"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "/formations" }
-          - {label: "Description", name: "meta_desc", widget: "string" }
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string" }
+          - {label: "Contenu", name: "body", widget: "markdown"}
 
       - name: "materiel-page"
         file: "materiel.md"
@@ -50,8 +50,8 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "materiel"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "string", default: "/materiels-de-premiers-soins" }
-          - {label: "Description", name: "meta_desc", widget: "string" }
-          - {label: "Body", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string" }
+          - {label: "Contenu", name: "body", widget: "markdown"}
 
   - name: "settings"
     label: "Paramètres du site"
@@ -94,9 +94,11 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Lien", name: "permalink", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Durée", name: "duration", widget: "string", required: false}
       - {label: "Prix", name: "price", widget: "string", required: false}
-      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Certification", name: "certification", widget: "string", required: false}
+      - {label: "Contenu", name: "body", widget: "markdown"}
 
   - name: "materiel" # Used in routes, e.g., /admin/collections/blog
     label: "Matériel de premiers soins" # Used in the UI
@@ -118,8 +120,8 @@ collections:
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Permalink", name: "permalink", widget: "string"}
-      - {label: "Description", name: "meta_desc", widget: "string" }
+      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Lien", name: "permalink", widget: "string"}
+      - {label: "Description", name: "description", widget: "string" }
       - {label: "Featured Image", name: "image", widget: "image", required: false}
-      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Contenu", name: "body", widget: "markdown"}
