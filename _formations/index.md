@@ -1,6 +1,6 @@
 ---
 layout: formation
 title: Formations
-permalink: /formations
+permalink: /formations-test
 ---
 this is a test
