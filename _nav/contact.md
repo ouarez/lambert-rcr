@@ -1,6 +1,6 @@
 ---
 title: Contact
 slug: /contact
-order: '6'
+order: '5'
 ---
 
