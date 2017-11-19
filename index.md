@@ -1,13 +1,9 @@
 ---
-layout: home
+layout: default
 title: Accueil
 permalink: /
 slideshow:
-  slideshow-images:
-    - image: /img/soins_mains.jpg
-      title: 'Premier soins, bandage pour mains'
-    - image: /img/rcr.jpg
-      title: RCR DEA
+  slideshow-images: []
 ---
 Nous sommes une entreprise de matériel de premiers soins et nous donnons des cours aux services de gardes et CPEs adaptés pour les gens en milieux de gardes.
 
