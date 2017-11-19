@@ -19,8 +19,7 @@ layouts_dir: ./_layouts
 data_dir: ./_data
 
 # Collections
-collections:
-  nav:
+collections: []
 
 # SASS
 sass:
