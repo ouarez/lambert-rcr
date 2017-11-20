@@ -123,7 +123,7 @@ collections:
                     name: date
                     widget: list
                     fields:
-                    - {label: Date, name: date, widget: datetime}
+                    - {label: Date, name: date, widget: string}
 
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
