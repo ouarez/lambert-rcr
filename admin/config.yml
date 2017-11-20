@@ -123,8 +123,8 @@ collections:
                     name: date
                     widget: list
                     fields:
-                    - {label: Date, name: date, widget: string}
-
+                      - {label: ID, name: date-id, widget: "hidden", default: "1"}
+                      - {label: Date, name: date-item, widget: "string"}
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
     label: "Formations" # Used in the UI
