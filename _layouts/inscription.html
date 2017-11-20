@@ -10,6 +10,8 @@ layout: default
 
   </div>
 
+  {{ site.data.dates_de_cours.cours.date }}
+
   <form name="inscription" data-netlify="true" class="w-100 w-80-m w-40-l">
 
       <div class="mv3">
@@ -33,11 +35,11 @@ layout: default
       </div>
 
       <div class="mv3">
-        <label for="date">Nom du cours et date</label>
+        <label for="date">Nom du cours</label>
         <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="date" id="date" required>
           <option value="">Choisir une formation</option>
-        {% for cours in site.data.dates.dates.cours %}
-          <option value="{{cours.title}} - {{cours.date}}">{{cours.title}} - {{cours.date}}</option>
+        {% for cours in site.data.dates_de_cours.cours %}
+          <option value="{{cours.title}}">{{cours.title}}</option>
         {% endfor %}
          </select>
      </div>

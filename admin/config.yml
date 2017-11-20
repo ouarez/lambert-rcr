@@ -102,7 +102,7 @@ collections:
 
       - name: "dates-de-cours"
         label: "Éditer les dates de cours"
-        file: "_data/dates.json"
+        file: "_data/dates.yml"
         description: "Éditer les dates de cours"
         fields:
           - label: "Dates de formation"
