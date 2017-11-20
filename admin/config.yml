@@ -100,7 +100,7 @@ collections:
             widget: object
             fields:
               - label: Date
-                name: date
+                name: cours
                 widget: list
                 fields:
                   - name: title

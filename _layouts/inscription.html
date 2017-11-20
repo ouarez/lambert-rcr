@@ -10,11 +10,9 @@ layout: default
 
   </div>
 
+  {{ site.data.dates.date }}
+
   <form name="inscription" data-netlify="true" class="w-100 w-80-m w-40-l">
-
-      {% assign sorted = site.data.dates | sort:"order" %}
-
-      {{ site.data.dates.title }}
 
       <div class="mv3">
         <label for="prenom">Prénom</label>
