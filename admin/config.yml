@@ -84,6 +84,28 @@ collections:
                   - {label: Titre, name: title, widget: string}
                   - {label: URL, name: url, widget: string}
 
+  - name: "formation-dates"
+    label: "Dates de cours"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+     preview: false
+    files:
+       - name: "dates-de-cours"
+         label: "Éditer les dates de cours"
+         file: "_data/dates.json"
+         description: "Éditer les dates de cours"
+         fields:
+          - label: "Navigation principale"
+            name: main_nav
+            widget: object
+            fields:
+              - label: Link
+                name: links
+                widget: list
+                required: false
+                fields:
+                  - {label: Titre, name: title, widget: string}
+                  - {label: URL, name: url, widget: string}
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
     label: "Formations" # Used in the UI
