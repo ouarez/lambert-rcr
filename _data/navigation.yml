@@ -5,7 +5,7 @@ main_nav:
     - title: Formations
       url: /formations
     - title: Inscription
-      url: /
+      url: /inscription
     - title: Matériel de premiers soins
       url: /materiel-de-premiers-soins
     - title: FAQ
