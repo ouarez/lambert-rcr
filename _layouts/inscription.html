@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
+<main class="mv2 ml-auto mr-auto ph4 flex flex-wrap">
   <div class="w-100">
 
     <h1> {{ page.title }}</h1>
@@ -9,3 +9,37 @@ layout: default
     {{ content }}
 
   </div>
+
+  <form name="inscription" data-netlify="true" class="w-100 w-80-m w-40-l">
+
+      {% assign sorted = site.data.dates | sort:"order" %}
+
+      {{ site.data.dates.title }}
+
+      <div class="mv3">
+        <label for="prenom">Prénom</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="input" name="prenom" id="prenom" required>
+      </div>
+
+      <div class="mv3">
+        <label for="nom">Nom</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="input" name="nom" id="nom" required>
+      </div>
+
+      <div class="mv3">
+        <label for="tel">Numéro de téléphone (Format: xxx-xxx-xxxx)</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="input" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
+      </div>
+
+      <div class="mv3">
+        <label for="email">Courriel</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      </div>
+
+    <div class="mv3">
+      <input class="b ph3 pv3 input-reset grow pointer br3 submit" type="submit" value="Inscription">
+    </div>
+
+  </form>
+
+</main>

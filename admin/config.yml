@@ -96,7 +96,7 @@ collections:
          description: "Éditer les dates de cours"
          fields:
           - label: "Dates de cours"
-            name: main_nav
+            name: dates
             widget: object
             fields:
               - label: Date
