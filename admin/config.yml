@@ -100,26 +100,30 @@ collections:
           - {label: "Description", name: "description", widget: "string" }
           - {label: "Contenu", name: "body", widget: "markdown"}
 
-       - name: "dates-de-cours"
-         label: "Éditer les dates de cours"
-         file: "_data/dates.json"
-         description: "Éditer les dates de cours"
-         fields:
-          - label: "Dates de cours"
-            name: dates
+      - name: "dates-de-cours"
+        label: "Éditer les dates de cours"
+        file: "_data/dates.json"
+        description: "Éditer les dates de cours"
+        fields:
+          - label: "Dates de formation"
+            name: dates_de_cours
             widget: object
             fields:
-              - label: Date
+              - label: Formation
                 name: cours
-                widget: list
+                widget: object
                 fields:
                   - name: title
-                    label: Nom du cours
+                    label: Titre de la formation
                     widget: relation
                     collection: formations
                     searchFields: [title]
                     valueField: title
-                  - {label: "Date", name: "date", widget: "datetime"}
+                  - label: Date
+                    name: date
+                    widget: list
+                    fields:
+                    - {label: Date, name: date, widget: datetime}
 
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
