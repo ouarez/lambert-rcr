@@ -61,7 +61,7 @@ collections:
     files:
        - name: "general"
          label: "Général"
-         file: "_data/settings.json"
+         file: "_data/settings.yml"
          description: "Paramètres Généraux"
          fields:
            - {label: "Titre du site", name: "site_title", widget: "string"}
@@ -69,7 +69,7 @@ collections:
 
        - name: "navigation"
          label: "Navigation"
-         file: "_data/navigation.json"
+         file: "_data/navigation.yml"
          description: "Navigation du site"
          fields:
           - label: "Navigation principale"
