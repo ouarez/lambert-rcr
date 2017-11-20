@@ -124,8 +124,12 @@ a {
 }
 
 form {
-  label {
+  label,legend {
     color:#333
+  }
+  fieldset {
+    color:#fff;
+    border-color:#fff;
   }
   input,select {
     color:#666;
