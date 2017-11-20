@@ -90,6 +90,16 @@ collections:
     editor:
      preview: false
     files:
+      - name: "inscription-page"
+        file: "inscription.md"
+        label: "Éditer la page des inscriptions"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "inscription"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "string", default: "/inscription" }
+          - {label: "Description", name: "description", widget: "string" }
+          - {label: "Contenu", name: "body", widget: "markdown"}
+
        - name: "dates-de-cours"
          label: "Éditer les dates de cours"
          file: "_data/dates.json"
