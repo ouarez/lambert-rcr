@@ -41,7 +41,7 @@ layout: default
             <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{cours.title}}" id="{{cours.title}}">
               <option value="">Choisir une date</option>
             {% for date in cours.date %}
-             <option value="{{cours.title}} - {{date.date-item}}">{{date.date-item}}</option>
+             <option value="{{date.date-item}}">{{date.date-item}}</option>
             {% endfor %}
           </select>
           </div>
