@@ -49,7 +49,7 @@ $blue: #0275d8;
      font-size:0.75rem;
    }
 
-   p,li,label,input {
+   p,li,label,input,select {
      color:#333;
    }
 
@@ -127,7 +127,7 @@ form {
   label {
     color:#333
   }
-  input {
+  input,select {
     color:#666;
     border-color:#ccc;
   }
