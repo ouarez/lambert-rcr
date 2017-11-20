@@ -121,7 +121,7 @@ collections:
                     valueField: title
                   - label: Date
                     name: date
-                    widget: string
+                    widget: list
                     fields:
                       - {label: ID, name: date-id, widget: "hidden", default: "1"}
                       - {label: Date, name: date-item, widget: "string"}
