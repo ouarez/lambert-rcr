@@ -111,7 +111,7 @@ collections:
             fields:
               - label: Formation
                 name: cours
-                widget: object
+                widget: list
                 fields:
                   - name: title
                     label: Titre de la formation
@@ -121,7 +121,7 @@ collections:
                     valueField: title
                   - label: Date
                     name: date
-                    widget: list
+                    widget: string
                     fields:
                       - {label: ID, name: date-id, widget: "hidden", default: "1"}
                       - {label: Date, name: date-item, widget: "string"}
