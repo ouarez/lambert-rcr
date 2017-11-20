@@ -38,7 +38,7 @@ layout: default
           {% for cours in site.data.dates.dates_de_cours.cours %}
           <div class="mv3">
             <label for="{{cours.title}}">{{cours.title}}</label>
-            <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{cours.title}}" id="{{cours.title}}" required>
+            <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{cours.title}}" id="{{cours.title}}">
               <option value="">Choisir une date</option>
             {% for date in cours.date %}
              <option value="{{cours.title}} - {{date.date-item}}">{{date.date-item}}</option>
