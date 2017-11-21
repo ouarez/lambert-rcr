@@ -142,16 +142,12 @@ collections:
       - {label: "Prix", name: "price", widget: "string", required: false}
       - {label: "Certification", name: "certification", widget: "string", required: false}
       - {label: "Contenu", name: "body", widget: "markdown"}
-      - label: "Dates de formation"
-        name: dates_de_cours
-        widget: object
+      - label: "Dates de cours"
+        name: dates
+        widget: list
         fields:
-          - label: Date
-            name: date
-            widget: list
-            fields:
-              - {label: ID, name: date-id, widget: "hidden", default: "1"}
-              - {label: Date, name: date-item, widget: "string"}
+          - {label: ID, name: date-id, widget: "hidden", default: "1"}
+          - {label: Date, name: date, widget: "string"}
 
   - name: "materiel" # Used in routes, e.g., /admin/collections/blog
     label: "Matériel de premiers soins" # Used in the UI
