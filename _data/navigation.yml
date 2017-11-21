@@ -14,5 +14,7 @@ top_nav:
       url: /faq
     - title: Contact
       url: /contact
+    - title: test
+      url: test
 bottom_nav:
   links: []
