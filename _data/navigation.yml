@@ -8,3 +8,15 @@ main_nav:
       url: /inscription
     - title: Matériel de premiers soins
       url: /materiel-de-premiers-soins
+top_nav:
+  links:
+    - title: FAQ
+      url: /faq
+    - title: Contact
+      url: /contact
+    - title: test
+      url: /test
+bottom_nav:
+  links:
+    - title: test
+      url: /test
