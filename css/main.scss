@@ -4,6 +4,7 @@
 
 // variables
 
+$max-width:1200px;
 $primary-font:'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
 $sans: 'Open Sans', Arial, sans-serif;
 $serif: 'Merriweather', serif;
@@ -67,20 +68,20 @@ body {
 }
 
 .logo {
-  max-width:1200px;
+  max-width:$max-width;
   img {
   }
 }
 
 .top-nav {
-  background-color:#333;
+  background-color:#fff;
   border-bottom:solid #ccc 1px;
   div {
-    max-width:1200px;
+    max-width:$max-width;
     nav {
       p,a {
         display:inline;
-        color:#fff;
+        color:#666;
         border-right:solid #ccc 1px;
         font-size:14px;
         font-family:$sans;
@@ -102,11 +103,14 @@ body {
 nav.main   {
   background-color:$red;
   div {
-    max-width:1200px;
+    max-width:$max-width;
     text-align:center;
     a {
       color:$primary-bg;
+      font-size:1em;
+      font-family:$sans;
       font-weight:bold;
+      text-shadow:1px 1px 1px #666;
       text-decoration:none;
       &:hover {
         text-decoration: underline;
@@ -116,7 +120,7 @@ nav.main   {
 }
 
 main {
-  max-width:1200px;
+  max-width:$max-width;
 }
 
 p {
