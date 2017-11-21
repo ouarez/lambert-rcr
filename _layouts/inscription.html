@@ -37,10 +37,11 @@ layout: default
       {% assign sorted = site.formations | sort:"order" %}
 
       {% for formation in sorted %}
-      <div class="mv4 w-100 w-80-l flex flex-wrap">
+      <div class="mv4 w-100 flex flex-wrap ba b--light-gray">
 
-        <img src="{{formation.image}}" alt="formation.title" class="w-100 w-80-m w-30-l"/>
-        <div class="w-100 w-60-l mt3 mt0-l ml2-l">
+        <img src="{{formation.image}}" alt="formation.title" class="w100 w-30-l"/>
+
+        <div class="w-100 w-60-l mv3 mh3">
 
           <label class="f4" for="{{formation.title}}">{{formation.title}}</label>
           <div class="icon mv2">
@@ -52,7 +53,7 @@ layout: default
             <span>{{formation.price}} $</span>
           </div>
 
-          <select class="pa2 mv2 input-reset ba bg-transparent w-90 br2" name="{{formation.title}}" id="{{formation.title}}">
+          <select class="pa2 mv2 input-reset ba bg-transparent w-80 br2" name="{{formation.title}}" id="{{formation.title}}">
             <option value="">Choisir une date</option>
           {% for date in formation.dates %}
            <option value="{{date.date}}">{{date.date}}</option>
