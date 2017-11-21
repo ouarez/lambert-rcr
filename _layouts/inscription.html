@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<main class="mv2 ml-auto mr-auto ph4 flex flex-wrap">
+<main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
   <div class="w-100">
 
     <h1> {{ page.title }}</h1>
@@ -10,55 +10,58 @@ layout: default
 
   </div>
 
-  <form name="inscription" data-netlify="true" class="w-100 w-80-m w-40-l">
+  <form name="inscription" data-netlify="true">
 
-      <div class="mv3">
+      <div class="mv3 w-100 w-80-m w-40-l">
         <label for="prenom">Prénom</label>
         <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="prenom" id="prenom" required>
       </div>
 
-      <div class="mv3">
+      <div class="mv3 w-100 w-80-m w-40-l">
         <label for="nom">Nom</label>
         <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="nom" id="nom" required>
       </div>
 
-      <div class="mv3">
+      <div class="mv3 w-100 w-80-m w-40-l">
         <label for="tel">Numéro de téléphone (Format: xxx-xxx-xxxx)</label>
         <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
       </div>
 
-      <div class="mv3">
+      <div class="mv3 w-100 w-80-m w-40-l">
         <label for="email">Courriel</label>
         <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
       </div>
-      {% for cours in site.data.dates.dates_de_cours.cours %}
-      <div class="mv3">
-        <label for="{{cours.title}}">{{cours.title}}</label>
-        <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{cours.title}}" id="{{cours.title}}">
-          <option value="">Choisir une date</option>
-        {% for date in cours.date %}
-         <option value="{{date.date-item}}">{{date.date-item}}</option>
-        {% endfor %}
-        </select>
+
+      <h3>Choisir une formation</h3>
+
+      {% assign sorted = site.formations | sort:"order" %}
+
+      {% for formation in sorted %}
+      <div class="mv4 w-100 w-80-l flex flex-wrap">
+
+        <img src="{{formation.image}}" alt="formation.title" class="w-100 w-80-m w-30-l"/>
+        <div class="w-100 w-60-l mt3 mt0-l ml2-l">
+
+          <label class="f4" for="{{formation.title}}">{{formation.title}}</label>
+          <div class="icon mv2">
+            <img src="/img/clock-icon.png" alt="Durée:" class="mr3"/>
+            <span>{{formation.duration}}</span>
+          </div>
+          <div class="icon mv2">
+            <img src="/img/dollar-icon.png" alt="Prix:" class="mr3"/>
+            <span>{{formation.price}} $</span>
+          </div>
+
+          <select class="pa2 mv2 input-reset ba bg-transparent w-90 br2" name="{{formation.title}}" id="{{formation.title}}">
+            <option value="">Choisir une date</option>
+          {% for date in formation.dates %}
+           <option value="{{date.date}}">{{date.date}}</option>
+          {% endfor %}
+          </select>
+
+        </div>
       </div>
       {% endfor %}
-
-
-          {% for cours in site.data.dates.dates_de_cours.cours %}
-          <div class="mv3">
-            <label for="{{cours.title}}">{{cours.title}}</label>
-            <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{cours.title}}" id="{{cours.title}}">
-              <option value="">Choisir une date</option>
-            {% for date in cours.date %}
-             <option value="{{date.date-item}}">{{date.date-item}}</option>
-            {% endfor %}
-          </select>
-          </div>
-          {% endfor %}
-
-
-
-
 
     <div class="mv3">
       <input class="b ph3 pv3 input-reset grow pointer br3 submit" type="submit" value="Inscription">
