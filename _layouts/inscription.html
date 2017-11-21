@@ -31,10 +31,19 @@ layout: default
         <label for="email">Courriel</label>
         <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
       </div>
+      {% for cours in site.data.dates.dates_de_cours.cours %}
+      <div class="mv3">
+        <label for="{{cours.title}}">{{cours.title}}</label>
+        <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{cours.title}}" id="{{cours.title}}">
+          <option value="">Choisir une date</option>
+        {% for date in cours.date %}
+         <option value="{{date.date-item}}">{{date.date-item}}</option>
+        {% endfor %}
+        </select>
+      </div>
+      {% endfor %}
 
 
-      <fieldset>
-        <legend>Choisir une formation</legend>
           {% for cours in site.data.dates.dates_de_cours.cours %}
           <div class="mv3">
             <label for="{{cours.title}}">{{cours.title}}</label>
@@ -47,7 +56,7 @@ layout: default
           </div>
           {% endfor %}
 
-     </fieldset>
+
 
 
 
