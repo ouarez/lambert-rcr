@@ -4,10 +4,11 @@
 
 // variables
 
-$sans: 'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+$primary-font:'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
+$sans: 'Open Sans', Arial, sans-serif;
 $serif: 'Merriweather', serif;
 $primary-bg: #fff;
-$primary-color: #111;
+$primary-color: #333;
 $red: #D90001;
 $blue: #0275d8;
 
@@ -15,13 +16,13 @@ $blue: #0275d8;
 
    h1,h2 {
      margin:1em 0;
-     font-family:$sans;
+     font-family:$primary-font;
      font-weight:100;
    }
 
    h3,h4,h5,h6 {
      margin:0.5em 0;
-     font-family:$sans;
+     font-family:$primary-font;
      font-weight:100;
    }
 
@@ -50,7 +51,7 @@ $blue: #0275d8;
    }
 
    p,li,label,input,select {
-     color:#333;
+     color:$primary-color;
    }
 
    p.light {
@@ -60,24 +61,53 @@ $blue: #0275d8;
 // main
 
 body {
-    font-family: $sans;
+    font-family: $primary-font;
     color: $primary-color;
     background-color:$primary-bg;
 }
 
 .logo {
-  max-width:1000px;
+  max-width:1200px;
   img {
   }
 }
 
-nav {
+.top-nav {
+  background-color:#333;
+  border-bottom:solid #ccc 1px;
+  div {
+    width:1200px;
+    nav {
+      padding:0.8em 0 1em 0;
+      p,a {
+        display:inline;
+        color:#fff;
+        border-right:solid #ccc 1px;
+        font-size:14px;
+        font-family:$sans;
+        &:last-child {
+          border:none;
+        }
+      }
+      a {
+        font-weight:900;
+        &:hover {
+          text-decoration:underline;
+        }
+      }
+    }
+  }
+
+}
+
+nav.main   {
   background-color:$red;
   div {
-    max-width:1100px;
+    max-width:1200px;
     text-align:center;
     a {
       color:$primary-bg;
+      font-weight:bold;
       text-decoration:none;
       &:hover {
         text-decoration: underline;
@@ -125,7 +155,7 @@ a {
 
 form {
   label,legend {
-    color:#333
+    color:$primary-color;
   }
   fieldset {
     color:#fff;
