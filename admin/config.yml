@@ -132,6 +132,12 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
+      - label: "Dates de cours"
+        name: dates
+        widget: list
+        fields:
+          - {label: ID, name: date-id, widget: "hidden", default: "1"}
+          - {label: Date, name: date, widget: "string"}
       - {label: "Layout", name: "layout", widget: "hidden", default: "formation-page"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Ordre", name: "order", widget: "number", default: "1"}
@@ -142,12 +148,6 @@ collections:
       - {label: "Prix", name: "price", widget: "string", required: false}
       - {label: "Certification", name: "certification", widget: "string", required: false}
       - {label: "Contenu", name: "body", widget: "markdown"}
-      - label: "Dates de cours"
-        name: dates
-        widget: list
-        fields:
-          - {label: ID, name: date-id, widget: "hidden", default: "1"}
-          - {label: Date, name: date, widget: "string"}
 
   - name: "materiel" # Used in routes, e.g., /admin/collections/blog
     label: "Matériel de premiers soins" # Used in the UI
