@@ -1,4 +1,8 @@
 ---
+dates:
+  - date: 25 novembre 2017
+  - date: 9 décembre 2017
+  - date: 16 décembre 2017
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base
 order: '1'
