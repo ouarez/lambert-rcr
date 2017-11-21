@@ -10,6 +10,10 @@ description: >-
   cours est ouvert à tous.
 duration: 6h
 price: '59.95'
+dates:
+  - date: 25 novembre 2017
+  - date: 9 décembre 2017
+  - date: 16 décembre 2017
 ---
 Pour les gens qui doivent seulement refaire le cours de mise a niveau (carte non échue), nous offrons le cours de mise à jour, d'une durée de 6 heures, pour les milieux de garde. Ce cours comprend le volet adapté a la petite enfance tel que exigé par le ministère de la famille, ainsi qu'un volet sur le choc anaphylactique et allergies sévères.
 
