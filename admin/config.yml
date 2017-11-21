@@ -53,6 +53,16 @@ collections:
           - {label: "Description", name: "description", widget: "string" }
           - {label: "Contenu", name: "body", widget: "markdown"}
 
+      - name: "inscription-page"
+        file: "inscription.md"
+        label: "Éditer la page des inscriptions"
+        fields:
+          - {label: "Layout", name: "layout", widget: "hidden", default: "inscription"}
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Permalink", name: "permalink", widget: "string", default: "/inscription" }
+          - {label: "Description", name: "description", widget: "string" }
+          - {label: "Contenu", name: "body", widget: "markdown"}
+
   - name: "settings"
     label: "Paramètres du site"
     delete: false # Prevent users from deleting documents in this collection
@@ -83,48 +93,6 @@ collections:
                 fields:
                   - {label: Titre, name: title, widget: string}
                   - {label: URL, name: url, widget: string}
-
-  - name: "formation-dates"
-    label: "Dates de cours"
-    delete: false # Prevent users from deleting documents in this collection
-    editor:
-     preview: false
-    files:
-      - name: "inscription-page"
-        file: "inscription.md"
-        label: "Éditer la page des inscriptions"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "inscription"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "string", default: "/inscription" }
-          - {label: "Description", name: "description", widget: "string" }
-          - {label: "Contenu", name: "body", widget: "markdown"}
-
-      - name: "dates-de-cours"
-        label: "Éditer les dates de cours"
-        file: "_data/dates.yml"
-        description: "Éditer les dates de cours"
-        fields:
-          - label: "Dates de formation"
-            name: dates_de_cours
-            widget: object
-            fields:
-              - label: Formation
-                name: cours
-                widget: list
-                fields:
-                  - name: title
-                    label: Titre de la formation
-                    widget: relation
-                    collection: formations
-                    searchFields: [title]
-                    valueField: title
-                  - label: Date
-                    name: date
-                    widget: list
-                    fields:
-                      - {label: ID, name: date-id, widget: "hidden", default: "1"}
-                      - {label: Date, name: date-item, widget: "string"}
 
   - name: "formations" # Used in routes, e.g., /admin/collections/blog
     label: "Formations" # Used in the UI
