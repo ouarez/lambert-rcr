@@ -76,6 +76,8 @@ collections:
          fields:
            - {label: "Titre du site", name: "site_title", widget: "string"}
            - {label: "Slogan du site", name: "site_slogan", widget: "string"}
+           - {label: "Courriel de contact", name: "site_email", widget: "string"}
+           - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string"}
 
        - name: "navigation"
          label: "Navigation"
@@ -84,6 +86,28 @@ collections:
          fields:
           - label: "Navigation principale"
             name: main_nav
+            widget: object
+            fields:
+              - label: Link
+                name: links
+                widget: list
+                required: false
+                fields:
+                  - {label: Titre, name: title, widget: string}
+                  - {label: URL, name: url, widget: string}
+          - label: "Navigation haut de page"
+            name: top_nav
+            widget: object
+            fields:
+              - label: Link
+                name: links
+                widget: list
+                required: false
+                fields:
+                  - {label: Titre, name: title, widget: string}
+                  - {label: URL, name: url, widget: string}
+          - label: "Navigation pied de page"
+            name: bottom_nav
             widget: object
             fields:
               - label: Link
