@@ -150,11 +150,11 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - {label: "Titre", name: "title", widget: "string"}
+      - {label: "Nom", name: "name", widget: "string"}
+      - {label: "Prix", name: "price", widget: "integer"}
       - {label: "Lien", name: "permalink", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Prix", name: "price", widget: "string"}
 
 
   - name: "pages" # Used in routes, e.g., /admin/collections/blog

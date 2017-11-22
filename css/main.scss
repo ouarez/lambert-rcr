@@ -74,14 +74,14 @@ body {
 }
 
 .top-nav {
-  background-color:#fff;
+  background-color:#333;
   border-bottom:solid #ccc 1px;
   div {
     max-width:$max-width;
     nav {
       p,a {
         display:inline;
-        color:#666;
+        color:#fff;
         border-right:solid #ccc 1px;
         font-size:14px;
         font-family:$sans;
@@ -153,6 +153,27 @@ a {
 .formation {
   img {
     max-height:225px;
+  }
+}
+
+.product {
+  &:last-child {
+    padding:0;
+  }
+  a {
+    text-decoration: none;
+    color:#333;
+    font-weight:bold;
+  }
+  img {&:hover + p {
+      color:$blue;
+    }
+  }
+  p:hover {color:$blue;}
+  .price {
+    color:$red;
+    &:hover {color:$red;
+    }
   }
 }
 
