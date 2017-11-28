@@ -5,3 +5,5 @@ permalink: /inscription
 description: Page d'inscription et formulaire pour les formations de RCR/DEA.
 ---
 Pour vous inscrire, veuillez compléter le formulaire ci-dessous.
+
+Notez que les formations sont payables le jour même.
