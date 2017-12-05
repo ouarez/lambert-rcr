@@ -9,31 +9,22 @@ layout: default
     {{ content }}
 
   </div>
+
+  {% assign sorted = site.materiel | sort:"order" %}
+
+  {% for materiel in sorted %}
   <div class="product w-100 mv2 mv4-l tc">
 
-    <a class="pointer" href="#">
+    <a class="pointer" href="{{materiel.permalink}}">
       <div class="w-50 w-33-l fl">
-        <img class="w-90 mv2 grow" src="/img/Trousse_Ceinturon.jpg" alt="Trousse ceinturons pour sorties"/>
-        <p class="tc w-100 mv2">Trousse ceinturons pour sorties</p>
-        <p class="price tc w-100 mv2">40.00 $</p>
+        <img class="w-90 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+        <p class="tc w-100 mv2">{{materiel.title}}</p>
+        <p class="price tc w-100 mv2">{{materiel.price}} $</p>
       </div>
     </a>
 
-    <a class="pointer" href="#">
-      <div class="w-50 w-33-l fl">
-        <img class="w-90 mv2 grow" src="/img/Trousse_Ceinturon.jpg" alt="Trousse ceinturons pour sorties"/>
-        <p class="tc w-100 mv2">Trousse ceinturons pour sorties</p>
-        <p class="price tc w-100 mv2">40.00 $</p>
-      </div>
-    </a>
-
-    <a class="pointer" href="#">
-      <div class="w-50 w-33-l fl">
-        <img class="w-90 mv2 grow" src="/img/Trousse_Ceinturon.jpg" alt="Trousse ceinturons pour sorties"/>
-        <p class="tc w-100 mv2">Trousse ceinturons pour sorties</p>
-        <p class="price tc w-100 mv2">40.00 $</p>
-      </div>
-    </a>
+  </div>
+  {% endfor %}
 
   </div>
 </main>
