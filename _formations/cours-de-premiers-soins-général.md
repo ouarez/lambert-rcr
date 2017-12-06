@@ -5,7 +5,7 @@ layout: formation-page
 title: Cours de premiers soins général
 order: '4'
 permalink: /formations-cours-de-premiers-soins-general
-image: /img/soins_mains.jpg
+image: /img/rcr-2.jpg
 description: >-
   Cours de premiers soins général selon les normes de la fondation des maladies
   du coeurs et de l'AVC
