@@ -3,15 +3,29 @@ layout: default
 ---
 <main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
 
-    <div class="w-100 w-40-l mv2 mv4-l">
+  <div class="crumbs w-100 mt3">
+    <a href="#">Matériel de premiers soins </a> >
+  </div>
+
+    <div class="w-100 w-40-l mt3">
       <img src="{{page.image}}" alt="{{page.title}}" class="w-100 mv2 mv3-l ba b--light-gray"/>
     </div>
 
-    <div class="w-100 w-60-l ph4-l mv2 mv4-l">
+    <div class="w-100 w-60-l ph4-l mt3">
       <h1 class="mv2 f2"> {{ page.title }}</h2>
-      <p class="b f3">{{page.price}} $</p>
+      <p class="f3 mh2">{{page.price}} $</p>
       <hr/>
-      <p class="f4">{{page.description}}</p>
+      <p class="f3">{{page.content}}</p>
+      <button
+    class="snipcart-add-item mv2 w-100"
+    data-item-id="{{page.title}}"
+    data-item-name="{{page.title}}"
+    data-item-price="{{page.price}}"
+    data-item-url="{{page.permalink}}"
+    data-item-image="{{page.image}}"
+    data-item-description="{{page.description}}">
+        Ajouter au panier
+      </button>
     </div>
 
 </main>

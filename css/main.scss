@@ -125,7 +125,7 @@ main {
 
 p {
   line-height:1.5;
-  text-align: justify;
+  text-align: left;
 }
 
 a {
@@ -172,7 +172,8 @@ hr {
     color:#333;
     font-weight:bold;
   }
-  img {&:hover + p {
+  img {
+    &:hover + p {
       color:$blue;
     }
   }
@@ -201,6 +202,16 @@ form {
     border:none;
     color:#eee;
   }
+}
+
+button.snipcart-add-item {
+  background-color:$red;
+  border:none;
+  padding:20px;
+  border-radius:4px;
+  color:white;
+  font-weight:bold;
+  cursor:pointer;
 }
 
 footer {
