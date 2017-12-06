@@ -2,6 +2,9 @@
 layout: formation
 title: Formations
 permalink: /formations
+description: >-
+  Lambert RCR offre plusieurs formations en réanimation cardiorespiratoire dans
+  le secteur du Grand Montréal.
 ---
 Nous offrons deux formations de premiers soins. Le cours de base (8 heures) s'addresse aux débutants ainsi qu'à ceux qui ont déjà complété le cours mais qui n'ont pas complété le cours de mise à niveau avant l'échéance.
 
