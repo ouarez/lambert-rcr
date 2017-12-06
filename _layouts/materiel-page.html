@@ -3,13 +3,15 @@ layout: default
 ---
 <main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
 
-    <div class="w-100 w-30-l mv2 mv4-l">
-      <img src="{{page.image}}" alt="{{page.title}}" class="w-100 mv2 mv3-l"/>
+    <div class="w-100 w-40-l mv2 mv4-l">
+      <img src="{{page.image}}" alt="{{page.title}}" class="w-100 mv2 mv3-l ba b--light-gray"/>
     </div>
 
-    <div class="w-100 w-70-l">
-      <h1> {{ page.title }}</h1>
-      <p>{{page.description}}
+    <div class="w-100 w-60-l ph4-l mv2 mv4-l">
+      <h1 class="mv2 f2"> {{ page.title }}</h2>
+      <p class="b f3">{{page.price}} $</p>
+      <hr/>
+      <p class="f4">{{page.description}}</p>
     </div>
 
 </main>
