@@ -8,17 +8,29 @@ title: Premiers soins milieux de garde - cours de base
 order: '1'
 permalink: /formations/premiers-soins-milieux-de-garde-cours-de-base
 image: /img/cpr-4.jpg
-description: >-
-  Nous offrons cette formation de 8h avec un volet adapté à la petite enfance
-  ainsi qu'une portion sur les chocs anaphylactiques et allergies sévères. Ce
-  cours est ouvert à tous.
+description: Cours de premiers soins pour milieux de garde de base
 duration: 8h
-price: '199.95'
+price: '63'
+certification: Lambert RCR
 ---
-Nous offrons deux formations de premiers soins.
+# Cours de premiers soins pour milieux de garde de base
 
-Le cours de base (8 heures) s'addresse aux débutants ainsi qu'à ceux qui ont déjà complété le cours mais qui n'ont pas complété le cours de mise à niveau avant l'échéance.Nos cours de bases sont conformes à ceux exigés par le MFA.
+Le cours comprend 
 
-[Le cours de mise à niveau (6 heures) ](/formations/premiers-soins-milieux-de-garde-mise-a-niveau)s'addresse à ceux qui possèdent une carte de cours non échue.
+* RCR (bébé, enfant, adulte)
+* Approche à la victime (CAB)
+* Aspects légaux
+* Approche à la victime en trauma
+* Allergies sévères et choc anaphylactique 
+* Dégagement des voies respiratoires (bébé, enfant, adulte)
+* Brûlures, engelures, hypothermie, hyperthermie et traitements
+* Fractures/dislocation des membres supérieurs
 
-Nous offrons la formation complète de 8 heures pour les éducatrices avec un volet adapté à la petite enfance ainsi qu'une portion sur les chocs anaphylaxiques et allergies sévères.Nous offrons 2 cours par mois ouverts à tous.
+Le cours s'adresse à 
+
+* Responsables en services de garde
+* Éducatrices
+* Gardiennes
+* Aide éducatrices
+* Remplaçantes pour éducatrices
+* Éducatrices en milieux scolaires
