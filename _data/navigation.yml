@@ -7,7 +7,7 @@ main_nav:
     - title: Inscription
       url: /inscription
     - title: Matériel de premiers soins
-      url: /materiel
+      url: /materiel-de-premiers-soins
 top_nav:
   links:
     - title: FAQ
