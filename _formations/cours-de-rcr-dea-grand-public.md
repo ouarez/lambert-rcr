@@ -21,3 +21,11 @@ Le cours comprend
 * Étouffements (bébé, enfant, adulte)
 * Chaine de survie 
 * Reconnaissance des signes Angine, AVC, ICT, crise cardiaque
+
+Le cours s'adresse à : 
+
+* Parents de nouveaux nés
+* Sauveteurs
+* Toutes personnes désirant aider 
+* Étudiants
+* Secouristes
