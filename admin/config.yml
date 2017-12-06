@@ -39,7 +39,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "formation"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/formations" }
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/formations/" }
           - {label: "Description", name: "description", widget: "string" }
           - {label: "Contenu", name: "body", widget: "markdown"}
 
@@ -49,7 +49,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "materiel"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/materiel-de-premiers-soins" }
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/materiel-de-premiers-soins/" }
           - {label: "Description", name: "description", widget: "string" }
           - {label: "Contenu", name: "body", widget: "markdown"}
 
@@ -59,7 +59,7 @@ collections:
         fields:
           - {label: "Layout", name: "layout", widget: "hidden", default: "inscription"}
           - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/inscription" }
+          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/inscription/" }
           - {label: "Description", name: "description", widget: "string" }
           - {label: "Contenu", name: "body", widget: "markdown"}
 

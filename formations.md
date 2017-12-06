@@ -1,7 +1,7 @@
 ---
 layout: formation
 title: Formations
-permalink: /formations
+permalink: /formations/
 description: >-
   Lambert RCR offre plusieurs formations en réanimation cardiorespiratoire dans
   le secteur du Grand Montréal.
