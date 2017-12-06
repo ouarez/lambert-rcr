@@ -57,20 +57,20 @@ layout: default
             <span>{{formation.price}} $</span>
           </div>
 
-          <select class="pa2 mv2 input-reset ba bg-transparent w-80 br2" name="{{formation.title}}" id="{{formation.title}}">
+          <select class="pa2 mv2 input-reset ba bg-transparent w-60 br2" name="{{formation.title}}" id="{{formation.title}}">
             <option value="">Choisir une date</option>
           {% for date in formation.dates %}
            <option value="{{date.date}}">{{date.date}}</option>
           {% endfor %}
           </select>
 
+            <input class="b ph3 pv3 ml4 input-reset grow pointer br3 submit w-30" type="submit" value="Inscription">
+
         </div>
       </div>
       {% endfor %}
 
-    <div class="mv3">
-      <input class="b ph3 pv3 input-reset grow pointer br3 submit" type="submit" value="Inscription">
-    </div>
+
 
   </form>
 
