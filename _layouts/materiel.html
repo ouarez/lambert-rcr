@@ -2,12 +2,16 @@
 layout: default
 ---
 <main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
+
+  <div class="crumbs w-100 mt3 pb3 bb b--light-gray">
+    <a class="mr2" href="/">Accueil</a>
+    <span> > </span>
+    <span class="ml2">{{page.title}}</span>
+  </div>
+
   <div class="w-100">
-
     <h1> {{ page.title }}</h1>
-
     {{ content }}
-
   </div>
 
   {% assign sorted = site.materiel | sort:"order" %}

@@ -3,8 +3,12 @@ layout: default
 ---
 <main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
 
-  <div class="crumbs w-100 mt3">
-    <a href="#">Matériel de premiers soins </a> >
+  <div class="crumbs w-100 mt3 pb3 bb b--light-gray">
+    <a class="mr2" href="/">Accueil</a>
+    <span> > </span>
+    <a class="mh2" href="/materiel-de-premiers-soins/">Matériel de premiers soins</a>
+    <span> > </span>
+    <span class="ml2">{{page.title}}</span>
   </div>
 
     <div class="w-100 w-40-l mt3">
@@ -12,10 +16,10 @@ layout: default
     </div>
 
     <div class="w-100 w-60-l ph4-l mt3">
-      <h1 class="mv2 f2"> {{ page.title }}</h2>
+      <h1 class="mv2 f2">{{ page.title }}</h1>
       <p class="f3 mh2">{{page.price}} $</p>
       <hr/>
-      <p class="f3">{{page.content}}</p>
+      {{page.content}}
       <button
     class="snipcart-add-item mv2 w-100"
     data-item-id="{{page.title}}"
