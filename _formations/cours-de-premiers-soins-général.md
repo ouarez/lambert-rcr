@@ -1,0 +1,38 @@
+---
+dates:
+  - date: 31 décembre
+layout: formation-page
+title: Cours de premiers soins général
+order: '4'
+permalink: /formations-cours-de-premiers-soins-general
+image: /img/soins_mains.jpg
+description: >-
+  Cours de premiers soins général selon les normes de la fondation des maladies
+  du coeurs et de l'AVC
+duration: 8h
+price: '90'
+certification: Fondation des maladies du coeur et de l'AVC
+---
+# Cours de premiers soins général selon les normes de la fondation des maladies du coeur et de l'AVC.
+
+# 
+
+Le cours comprend 
+
+* Philosophie de la formation de Premiers secours
+* Trousse de premiers secours
+* Aspects légaux
+* Amorcer une intervention de secours
+* Les hémorragies (Hémorragies externes et internes)
+* Les blessures liées à l’environnement (Hyperthermie et hypothermie - Asthme et anaphylaxie)
+* Les blessures ostéo-articulaires
+* Urgences diverses
+
+Le cours s'adresse à 
+
+* Entraineurs 
+* Coachs
+* Grand public
+* Secouristes
+
+#
