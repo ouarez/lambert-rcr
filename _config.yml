@@ -22,10 +22,8 @@ data_dir: ./_data
 collections:
   formations:
     output: true
-    permalink: pretty
   materiel:
     output: true
-    permalink: pretty
 
 # SASS
 sass:
