@@ -13,11 +13,9 @@ duration: 6h
 price: '53'
 certification: Lambert RCR
 ---
-# **Cours de premiers soins mise à jour** 
+# **Cours de premiers soins mise à jour**
 
-## Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise à jour) selon les normes du ministère. 
-
-
+## Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise à jour) selon les normes du ministère.
 
 Le cours comprend 
 
@@ -27,3 +25,12 @@ Le cours comprend
 * Approche avec victime en trauma
 * Choc anaphylactique et allergies sévères
 * Étouffement (bébé, enfant, adulte)
+
+Le cours s'adresse à 
+
+* Responsables en services de garde
+* Éducatrices
+* Gardiennes
+* Aide éducatrices
+* Remplaçantes pour éducatrices
+* Éducatrices en milieux scolaires
