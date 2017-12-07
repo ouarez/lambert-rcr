@@ -7,14 +7,17 @@ title: Premiers soins milieux de garde - cours de base
 order: '1'
 permalink: /formations/premiers-soins-milieux-de-garde-cours-de-base
 image: /img/cpr-4.jpg
-description: Cours de premiers soins pour milieux de garde de base
+description: >-
+  Ce cours de premiers soins pour milieux de garde s'addresse aux responsables
+  en services de garde, éducatrices, gardiennes, ou tout autre individu qui
+  travaille régulièrement en présence d'enfants.
 duration: 8h
 price: '63'
 certification: Lambert RCR
 ---
-# Cours de premiers soins pour milieux de garde de base
+Ce cours de premiers soins pour milieux de garde s'addresse aux responsables en services de garde, éducatrices, gardiennes, ou tout autre individu qui travaille régulièrement en présence d'enfants.
 
-Le cours comprend 
+Le cours comprend :
 
 * RCR (bébé, enfant, adulte)
 * Approche à la victime (CAB)
@@ -25,7 +28,7 @@ Le cours comprend
 * Brûlures, engelures, hypothermie, hyperthermie et traitements
 * Fractures/dislocation des membres supérieurs
 
-Le cours s'adresse à 
+Le cours s'adresse à :
 
 * Responsables en services de garde
 * Éducatrices
