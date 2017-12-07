@@ -2,7 +2,7 @@
 layout: materiel-page
 title: Trousse de premiers soins modèle milieux de garde
 price: '43.49'
-permalink: /materiel-trousse-premiers-soins-garderie-cpe
+permalink: /materiel-de-premiers-soins/trousse-premiers-soins-garderie-cpe
 description: >-
   Trousse de premiers soins modèle garderie selon normes du ministère de la
   famille
