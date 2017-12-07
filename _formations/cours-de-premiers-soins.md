@@ -8,12 +8,14 @@ title: Premiers soins milieux de garde - mise à jour
 order: '2'
 permalink: /formation/cours-de-premiers-soins-milieux-de-garde-mise-a-jour
 image: /img/cpr-4.jpg
-description: Renouvellement du cours de premiers soins pour milieux de garde
+description: >-
+  Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise
+  à jour) selon les normes du ministère.
 duration: 6h
 price: '53'
 certification: Lambert RCR
 ---
-## Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise à jour) selon les normes du ministère.
+Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise à jour) selon les normes du ministère.
 
 Le cours comprend :
 
