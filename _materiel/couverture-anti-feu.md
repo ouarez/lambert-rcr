@@ -2,7 +2,7 @@
 layout: materiel-page
 title: 'Couverture Anti-Feu '
 price: '87'
-permalink: '/materiel-couverture-anti-feu '
+permalink: '/materiel-de-premiers-soins/couverture-anti-feu '
 description: Couverture anti feu 150 x 183 cm
 image: /img/Firepouch..jpg
 ---
