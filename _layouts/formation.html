@@ -9,8 +9,6 @@ layout: default
     <span class="ml2">{{page.title}}</span>
   </div>
 
-
-
   <div class="w-100">
     <h1> {{ page.title }}</h1>
     {{ content }}
@@ -21,7 +19,9 @@ layout: default
   {% for formation in sorted %}
 
   <div class="formation w-100 w-80-m w-50-l mv2 pr5-l">
-    <img src="{{formation.image}}" alt="{{formation.title}}" class="mv3 w-100"/>
+    <div class="image mv4 w-100">
+      <img src="{{formation.image}}" alt="{{formation.title}}"/>
+    </div>
     <h3>{{formation.title}}</h3>
     <p>{{formation.description}}</p>
     <a href="{{formation.permalink}}">Consulter les détails du cours ></a>

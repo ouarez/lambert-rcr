@@ -158,8 +158,9 @@ hr {
 }
 
 .formation {
-  img {
-    max-height:225px;
+  .image {
+    height:200px;
+    overflow:hidden;
   }
 }
 
