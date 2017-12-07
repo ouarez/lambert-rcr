@@ -8,7 +8,6 @@ description: >-
   en milieux de gardes.
 slideshow:
   slideshow-images:
-    - image: /img/first-aid-957433_1280.jpg
     - image: /img/first-aid-1882053_1280.jpg
     - image: /img/first-aid-1882049_1280.jpg
 ---
