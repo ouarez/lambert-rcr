@@ -10,8 +10,6 @@ slideshow:
   slideshow-images:
     - image: /img/twenty20_54c32917-0ee8-45a0-a81e-c354c2c1241e.jpg
       title: réanimation cardi respiratoire
-    - image: /img/twenty20_ca01e219-5b0b-4cce-b4dd-8f0eb36e54ca.jpg
-      title: réanimation sur mannequin
     - image: /img/twenty20_e950ea4d-b01a-417e-83c4-cbb78504e6a2.jpg
       title: Cours de réanimation en groupe
 ---
