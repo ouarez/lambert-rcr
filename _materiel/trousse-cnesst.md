@@ -2,7 +2,7 @@
 layout: materiel-page
 title: 'Trousse CNESST '
 price: '36.52'
-permalink: /materiel-trousse-CNESST-CSST
+permalink: /materiel-de-premiers-soins/trousse-CNESST-CSST
 description: 'Trousse CNESST modèle industrie '
 image: /img/trousse_garderie_2.jpg
 ---
