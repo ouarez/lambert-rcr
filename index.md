@@ -8,10 +8,9 @@ description: >-
   en milieux de gardes.
 slideshow:
   slideshow-images:
-    - image: /img/twenty20_54c32917-0ee8-45a0-a81e-c354c2c1241e.jpg
-      title: réanimation cardi respiratoire
-    - image: /img/twenty20_e950ea4d-b01a-417e-83c4-cbb78504e6a2.jpg
-      title: Cours de réanimation en groupe
+    - image: /img/first-aid-957433_1280.jpg
+    - image: /img/first-aid-1882053_1280.jpg
+    - image: /img/first-aid-1882049_1280.jpg
 ---
 Lambert RCR est une entreprise de matériel de premiers soins, qui offre également des formations aux services de gardes et CPEs adaptés pour les gens en milieux de gardes.
 
