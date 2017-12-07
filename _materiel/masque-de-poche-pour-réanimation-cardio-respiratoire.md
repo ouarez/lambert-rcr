@@ -2,7 +2,7 @@
 layout: materiel-page
 title: Masque de poche pour réanimation cardio respiratoire
 price: '13.05'
-permalink: /materiel-masque-de-poche
+permalink: /materiel-de-premiers-soins/masque-de-poche
 description: 'Masque de poche '
 image: /img/Masque_de_Poche.jpg
 ---
