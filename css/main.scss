@@ -163,14 +163,21 @@ hr {
   }
 }
 
-.product {
+.products {
   &:last-child {
     padding:0;
+  }
+  .product {
+    height:400px;
   }
   a {
     text-decoration: none;
     color:#333;
     font-weight:bold;
+  }
+  .image {
+    height:300px;
+    overflow:hidden;
   }
   img {
     &:hover + p {

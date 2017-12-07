@@ -16,19 +16,19 @@ layout: default
 
   {% assign sorted = site.materiel | sort:"order" %}
 
-  {% for materiel in sorted %}
-  <div class="product w-100 mv2 mv4-l tc">
+  <div class="products w-100 mv2 mv4-l tc">
 
+  {% for materiel in sorted %}
     <a class="pointer" href="{{materiel.permalink}}">
-      <div class="w-50 w-33-l fl">
-        <img class="w-90 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+      <div class="product w-50 w-33-l fl mv2">
+        <div class="image w-90">
+          <img class="w-100 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+        </div>
         <p class="tc w-100 mv2">{{materiel.title}}</p>
         <p class="price tc w-100 mv2">{{materiel.price}} $</p>
       </div>
     </a>
-
-  </div>
   {% endfor %}
-
+  </div>
   </div>
 </main>
