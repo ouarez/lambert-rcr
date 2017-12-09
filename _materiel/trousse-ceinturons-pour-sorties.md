@@ -3,6 +3,7 @@ layout: materiel-page
 title: Trousse ceinturons pour sorties
 price: '25.22'
 permalink: /materiel-de-premiers-soins/trousse-ceinturons-pour-sorties
+featured: true
 description: Trousse ceinturon pour sorties (faites pour milieux de gardes)
 image: /img/Trousse_Ceinturon.jpg
 ---
