@@ -75,13 +75,13 @@ collections:
          description: "Paramètres Généraux"
          fields:
            - {label: "Titre du site", name: "site_title", widget: "string"}
-           - {label: "Slogan du site", name: "site_slogan", widget: "string"}
-           - {label: "Image de page d'accueil", name: "site_image", widget: "image"}
-           - {label: "Courriel de contact", name: "site_email", widget: "string"}
-           - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string"}
-           - {label: "Lien vers page Facebook", name: "url_facebook", widget: "string"}
-           - {label: "Lien vers page Instagram", name: "url_instagram", widget: "string"}
-           - {label: "Lien vers page Twitter", name: "url_twitter", widget: "string"}
+           - {label: "Slogan du site", name: "site_slogan", widget: "string", required: false}
+           - {label: "Image de page d'accueil", name: "site_image", widget: "image", required: false}
+           - {label: "Courriel de contact", name: "site_email", widget: "string", required: false}
+           - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string", required: false}
+           - {label: "Lien vers page Facebook", name: "url_facebook", widget: "string", required: false}
+           - {label: "Lien vers page Instagram", name: "url_instagram", widget: "string", required: false}
+           - {label: "Lien vers page Twitter", name: "url_twitter", widget: "string", required: false}
 
        - name: "navigation"
          label: "Navigation"
