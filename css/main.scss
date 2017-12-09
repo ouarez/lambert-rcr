@@ -129,6 +129,8 @@ body {
   position:relative;
   width:100%;
   height:220px;
+  background-repeat: no-repeat;
+  background-size:cover;
 
   nav.main   {
     background-color:$red;
