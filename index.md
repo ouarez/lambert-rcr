@@ -9,7 +9,9 @@ description: >-
 slideshow:
   slideshow-images:
     - image: /img/first-aid-1882053_1280.jpg
-    - image: /img/first-aid-1882049_1280.jpg
+      title: Image Premiers soins 1
+    - image: /img/twenty20_54c32917-0ee8-45a0-a81e-c354c2c1241e.jpg
+      title: Image Premiers Soins 2
 ---
 Lambert RCR est une entreprise de matériel de premiers soins, qui offre également des formations aux services de gardes et CPEs adaptés pour les gens en milieux de gardes.
 
