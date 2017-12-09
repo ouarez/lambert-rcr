@@ -87,9 +87,22 @@ body {
     background-color:$primary-bg;
 }
 
+.max {
+  max-width:$max-width;
+}
+
 .logo {
   max-width:$max-width;
-  img {
+  img { 
+  }
+}
+
+nav {
+  a {
+    font-family:$sans;
+    font-weight:bold;
+    color:$red;
+    text-shadow:1px 1px #aaa;
   }
 }
 
