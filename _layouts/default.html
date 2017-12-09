@@ -15,7 +15,7 @@
 <header>
 
   <div class="top-nav">
-    <div class="flex flex-wrap ml-auto mr-auto pv2">
+    <div class="flex flex-wrap ml-auto mr-auto pv2 max">
       <nav class="w-100 w-50-l tc tl-l pv2">
         {% for link in site.data.navigation.top_nav.links %}
         <a class="ph3" href="{{link.url}}">{{link.title}}</a>
@@ -29,13 +29,13 @@
   </div>
 
   <div class="flex justify-center">
-    <div class="logo w-100-l pv3 pv3-l ph3-l">
+    <div class="logo max w-100-l pv3 pv3-l ph3-l">
       <a href="/"><img src="/img/lambert-rcr-logo.jpg" alt="{{site.title}}"/></a>
     </div>
   </div>
 
   <nav class="main">
-    <div class="ml-auto mr-auto">
+    <div class="ml-auto mr-auto max">
       <div class="flex flex-wrap justify-center justify-start-l pv2 pv1-l ml4-l">
         {% for link in site.data.navigation.main_nav.links %}
           <div class="w-80 pt3 pb3 w-auto-l pv3-l mr5-l"><a href="{{ link.url }}">{{ link.title }}</a></div>
@@ -44,19 +44,21 @@
     </div>
   </nav>
 
-
 </header>
+
+<main class="mv2 ml-auto mr-auto max ph4 flex flex-wrap justify-center justify-start-l">
 
 {{ content }}
 
+</main>
+
 <footer>
-  <div class="flex flex-wrap ml-auto mr-auto pv1 pv2-l">
+  <div class="flex flex-wrap max ml-auto mr-auto pv1 pv2-l">
     <a href="#" class="f6">Lambert RCR 2017</a>
   </div>
 </footer>
 
 <script src="/js/jquery.js"></script>
-<script src="/js/flexslider.js"></script>
 <script src="/js/main.js"></script>
 
 <script src="/js/snipcart.js" id="snipcart" data-api-key="ZTIyYzAzMzgtZTZkOC00MmFiLWE5N2MtMzg4Zjk2ZmJkYWEyNjM2NDYyMjU0NTQ3NDM3NjEy"></script>

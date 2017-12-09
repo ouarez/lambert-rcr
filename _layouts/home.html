@@ -2,20 +2,4 @@
 layout: default
 ---
 
-<div class="flexslider">
-  <ul class="slides">
-    {% for slide in page.slideshow.slideshow-images %}
-      <li>
-        <img src="{{ slide.image }}" alt="{{ slide.title}}"/>
-      </li>
-    {% endfor %}
-  </ul>
-</div>
-
-<main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
-  <div class="w-100">
-
     {{ content }}
-
-  </div>
-</main>

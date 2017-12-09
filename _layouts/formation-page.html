@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-<main class="mv2 ml-auto mr-auto ph4 flex flex-wrap justify-center justify-start-l">
 
   <div class="crumbs w-100 mt3 pb3 bb b--light-gray">
     <a class="mr2" href="/">Accueil</a>
@@ -22,7 +21,10 @@ layout: default
       <span>{{ page.price }} $</span>
     </div>
 
+    <div class="banner">
+      <img src="{{page.image}}" alt="{{page.title}}"/>
+    </div>
+
     {{ content }}
 
   </div>
-</main>
