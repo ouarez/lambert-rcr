@@ -66,15 +66,15 @@
 
 {% for materiel in sorted %}
 {% if materiel.featured == true  %}
-  <a class="pointer" href="{{materiel.permalink}}">
-    <div class="product w-50 w-33-l fl mv2">
-      <div class="image w-100 ph4">
-        <img class="w-100 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
-      </div>
-      <p class="tc w-100 mv2">{{materiel.title}}</p>
-      <p class="price tc w-100 mv2">{{materiel.price}} $</p>
+<a class="pointer" href="{{materiel.permalink}}">
+  <div class="product w-100 w-50-m w-33-l fl">
+    <div class="image w-100 ph4">
+      <img class="w-100 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
     </div>
-  </a>
+    <p class="tc w-100 mv2">{{materiel.title}}</p>
+    <p class="price tc w-100 mv2">{{materiel.price}} $</p>
+  </div>
+</a>
 {% endif %}
 {% endfor %}
 </div>
