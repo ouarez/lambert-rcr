@@ -76,6 +76,7 @@ collections:
          fields:
            - {label: "Titre du site", name: "site_title", widget: "string"}
            - {label: "Slogan du site", name: "site_slogan", widget: "string"}
+           - {label: "Image de page d'accueil", name: "site_image", widget: "image"}
            - {label: "Courriel de contact", name: "site_email", widget: "string"}
            - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string"}
            - {label: "Lien vers page Facebook", name: "url_facebook", widget: "string"}
