@@ -78,6 +78,9 @@ collections:
            - {label: "Slogan du site", name: "site_slogan", widget: "string"}
            - {label: "Courriel de contact", name: "site_email", widget: "string"}
            - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string"}
+           - {label: "Lien vers page Facebook", name: "url_facebook", widget: "string"}
+           - {label: "Lien vers page Instagram", name: "url_instagram", widget: "string"}
+           - {label: "Lien vers page Twitter", name: "url_twitter", widget: "string"}
 
        - name: "navigation"
          label: "Navigation"
