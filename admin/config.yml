@@ -18,20 +18,12 @@ collections:
           - {label: "Layout", name: "layout", widget: "hidden", default: "home"}
           - {label: "Title", name: "title", widget: "string"}
           - {label: "Permalink", name: "permalink", widget: "hidden", default: "/" }
-          - {label: "Description", name: "description", widget: "string" }
-          - label: "Slideshow"
-            name: slideshow
-            widget: object
-            required: false
-            fields:
-              - label: Image
-                name: slideshow-images
-                widget: list
-                required: false
-                fields:
-                  - {label: Image, name: image, widget: image}
-                  - {label: Title, name: title, widget: string}
-          - {label: "Contenu", name: "body", widget: "markdown"}
+          - {label: "Description", name: "description", widget: "string"}
+          - {label: "Paragraphe d'introduction", name: "home_intro", widget: "markdown"}
+          - {label: "Paragraphe pour matériel premier soins", name: "home_materiel", widget: "markdown"}
+          - {label: "Lien vers matériel premier soins", name: "link_materiel", widget: "string"}
+          - {label: "Paragraphe pour formations", name: "home_formations", widget: "markdown"}
+          - {label: "Lien vers formations", name: "link_formations", widget: "string"}
 
       - name: "formation-page"
         file: "formations.md"
@@ -158,6 +150,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Prix", name: "price", widget: "number"}
       - {label: "Lien", name: "permalink", widget: "string"}
+      - {label: "Visible sur page d'accueil", name: "featured", widget: "boolean", default: false}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Contenu", name: "body", widget: "markdown"}

@@ -52,7 +52,38 @@
 
 <main class="mv4 ml-auto mr-auto max ph4 flex flex-wrap justify-center justify-start-l">
 
-{{ content }}
+{{ page.home_intro | markdownify }}
+
+<h2>Matériel de premiers soins</h2>
+
+{{ page.home_materiel | markdownify }}
+
+<a href="/materiel-de-premiers-soins" alt="Lien vers matériel de premiers soins">{{page.link_materiel}}</a>
+
+{% assign sorted = site.materiel | sort:"featured" %}
+
+<div class="products w-100 mv2 mv4-l tc">
+
+{% for materiel in sorted %}
+{% if materiel.featured == true  %}
+  <a class="pointer" href="{{materiel.permalink}}">
+    <div class="product w-50 w-33-l fl mv2">
+      <div class="image w-100 ph4">
+        <img class="w-100 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+      </div>
+      <p class="tc w-100 mv2">{{materiel.title}}</p>
+      <p class="price tc w-100 mv2">{{materiel.price}} $</p>
+    </div>
+  </a>
+{% endif %}
+{% endfor %}
+</div>
+
+<h2>Formations</h2>
+
+{{ page.home_formations | markdownify }}
+
+<a href="/formations" alt="Lien vers les formations">{{page.link_formations}}</a>
 
 </main>
 
