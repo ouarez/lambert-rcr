@@ -3,11 +3,28 @@
 ---
 @import "tachyons";
 
+// fonts
+
+@font-face {
+  font-family: Montserrat;
+	src: url('/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Merriweather;
+	src: url('/fonts/Merriweather-Regular.ttf');
+}
+
+@font-face {
+  font-family: OpenSans;
+	src: url('/fonts/OpenSans.ttf'); 
+}
+
 // variables
 
 $max-width:1200px;
 $primary-font:'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
-$sans: 'Open Sans', Arial, sans-serif;
+$sans: 'OpenSans', Arial, sans-serif;
 $serif: 'Merriweather', serif;
 $primary-bg: #fff;
 $primary-color: #333;
