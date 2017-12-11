@@ -15,6 +15,11 @@ home_intro: >-
   Nous offrons aussi sur demande des cours de RCR/DEA de la fondation des
   Maladies du coeur et de l'AVC canadienne. Nous pouvons nous déplacer chez vous
   pour un groupe de 8 à 12 participants.
+
+
+  Nos cours peuvent être bâtis en fonction de vos besoins. Nous offrons une
+  vaste gamme de cours de premiers soins. Nous travaillons avec les camps de
+  jours, éducatrices en CPEs/garderies, les physiothérapeutes, ostéopathes etc.
 home_materiel: >-
   Nous avons une gamme variée de produits de premiers soins comprenant des
   trousses de premiers soins pour services de garde, trousses de sorties ainsi
