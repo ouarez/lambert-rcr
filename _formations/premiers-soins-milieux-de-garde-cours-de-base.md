@@ -1,7 +1,29 @@
 ---
 dates:
-  - date: 9 décembre 2017
   - date: 16 décembre 2017
+  - date: 20 janvier 2018
+  - date: 3 Février 2018
+  - date: 17 Février 2018
+  - date: 3 Mars 2018
+  - date: 17 Mars 2018
+  - date: 31 Mars 2018
+  - date: 14 Avril 2018
+  - date: 28 Avril 2018
+  - date: 12 Mai 2018
+  - date: 26 Mai 2018
+  - date: 9 Juin 2018
+  - date: 14 Juillet 2018
+  - date: 11 Aout 2018
+  - date: 25 Aout 2018
+  - date: 8 septembre 2018
+  - date: 22 septembre 2018
+  - date: 6 octobre 2018
+  - date: 20 octobre 2018
+  - date: 3 Novembre 2018
+  - date: 17 Novembre 2018
+  - date: 1 Décembre 2018
+  - date: 15 Décembre 2018
+  - {}
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
