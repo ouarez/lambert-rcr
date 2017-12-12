@@ -9,6 +9,16 @@
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>{{page.title}} | {{site.data.settings.site_title}}</title>
     <link rel="stylesheet" href="/css/main.css"/>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107295384-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-107295384-2');
+    </script>
+
   </head>
   <body>
 
