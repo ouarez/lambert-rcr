@@ -1,7 +1,6 @@
 ---
 dates:
-  - date: 16 décembre
-  - date: 20 janvier
+  - date: 20 janvier 2018
   - date: 3 Février 2018
   - date: 17 Février 2018
   - date: 3 Mars 2018
