@@ -1,5 +1,7 @@
 main_nav:
-  links: []
+  links:
+    - title: Formations pour écoles secondaires et primaires
+      url: /formations/écoles-secondaires
 top_nav:
   links:
     - title: FAQ
