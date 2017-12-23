@@ -45,16 +45,6 @@ collections:
           - {label: "Description", name: "description", widget: "string" }
           - {label: "Contenu", name: "body", widget: "markdown"}
 
-      - name: "inscription-page"
-        file: "inscription.md"
-        label: "Éditer la page des inscriptions"
-        fields:
-          - {label: "Layout", name: "layout", widget: "hidden", default: "inscription"}
-          - {label: "Title", name: "title", widget: "string"}
-          - {label: "Permalink", name: "permalink", widget: "hidden", default: "/inscription/" }
-          - {label: "Description", name: "description", widget: "string" }
-          - {label: "Contenu", name: "body", widget: "markdown"}
-
   - name: "settings"
     label: "Paramètres du site"
     delete: false # Prevent users from deleting documents in this collection
