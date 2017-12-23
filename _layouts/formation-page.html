@@ -28,3 +28,40 @@ layout: default
     {{ content }}
 
   </div>
+
+  <h2 class="w-100">Inscription</h2>
+
+  <form name="inscription-{{page.title | url_encode}}" data-netlify="true" class="w-100">
+
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <label for="prenom">Prénom</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="prenom" id="prenom" required>
+      </div>
+
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <label for="nom">Nom</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="nom" id="nom" required>
+      </div>
+
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <label for="tel">Numéro de téléphone (Format: xxx-xxx-xxxx)</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="tel" name="tel" id="tel" pattern="^\d{3}-\d{3}-\d{4}$" required >
+      </div>
+
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <label for="email">Courriel</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+      </div>
+
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="{{page.title}}" id="{{page.title}}">
+          <option value="">Choisir une date</option>
+        {% for date in page.dates %}
+         <option value="{{date.date}}">{{date.date}}</option>
+        {% endfor %}
+        </select>
+      </div>
+
+      <input class="b ph3 pv3 mt2 input-reset grow pointer br3 submit w-20" type="submit" value="Inscription">
+
+    </form>
