@@ -33,7 +33,7 @@ description: >-
   services de garde, éducatrices, gardiennes, ou tout autre individu qui
   travaille régulièrement en présence d'enfants.
 duration: 8h
-price: '63'
+price: '64'
 certification: Lambert RCR
 ---
 _Ce cours de premiers soins pour milieux de garde s'adresse aux responsables en services de garde, éducatrices, gardiennes, ou tout autre individu qui travaille régulièrement en présence d'enfants._
