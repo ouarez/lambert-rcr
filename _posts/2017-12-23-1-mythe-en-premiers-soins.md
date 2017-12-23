@@ -11,7 +11,7 @@ Lorsque nous donnons des cours de premiers soins et réanimations nous avons sou
 
 Mythe du traitement des brûlures
 
-Utilisation de beurre, pâte a dent et vaseline pour traiter une brûlure.
+Utilisation de beurre, pâte à dents et vaseline pour traiter une brûlure.
 
 Ceci est un traitement que l'on entend souvent comme "remède de grand-mère". Le problème avec ce type de traitement vient du fait que de couvrir la brûlure avec un corps gras de ce type bloque le transfert d'énergie dans l'air. Ce qui en retour cause la brûlure à continuer de chauffer et empirer. La pâte à dents donne un sentiment de rafraichissement sur la blessure, car elle contient de la menthe qui fait cet effet. 
 
