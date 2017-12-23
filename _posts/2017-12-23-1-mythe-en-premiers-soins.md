@@ -1,5 +1,5 @@
 ---
-title: 'Mythe en premiers soins '
+title: Mythe en premiers soins (Brûlures)
 date: 2017-12-23T17:31:27.426Z
 author: >-
   Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
