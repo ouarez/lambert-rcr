@@ -1,18 +1,10 @@
 main_nav:
   links:
-    - title: Accueil
-      url: /
-    - title: Formations
-      url: /formations
-    - title: Inscription
-      url: /inscription
-    - title: Matériel de premiers soins
-      url: /materiel-de-premiers-soins
-top_nav:
-  links:
     - title: FAQ
       url: /faq
     - title: Contact
       url: /contact
+top_nav:
+  links: []
 bottom_nav:
   links: []
