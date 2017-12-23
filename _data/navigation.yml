@@ -1,10 +1,10 @@
 main_nav:
+  links: []
+top_nav:
   links:
     - title: FAQ
       url: /faq
     - title: Contact
       url: /contact
-top_nav:
-  links: []
 bottom_nav:
   links: []
