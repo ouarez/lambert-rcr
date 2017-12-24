@@ -9,7 +9,7 @@ Nous ferons une série d'article sur des questions posées lors de cours de prem
 
 Lorsque nous donnons des cours de premiers soins et réanimations nous avons souvent des questions de nos participant(e)s. Ces questions aident la compréhension des gens pour mieux traiter les blessures auxquelles ils ou elles font face. 
 
-Mythe du traitement des brûlures
+\### Mythe du traitement des brûlures
 
 Utilisation de beurre, pâte à dents et vaseline pour traiter une brûlure.
 
