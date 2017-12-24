@@ -165,6 +165,7 @@ collections:
     create: true
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
+      - {label: "Layout", name: "layout", widget: "hidden", default: "articles-page"}
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Date de publication", name: "date", widget: "datetime"}
       - {label: "Image", name: "image", widget: "image", required: false}
