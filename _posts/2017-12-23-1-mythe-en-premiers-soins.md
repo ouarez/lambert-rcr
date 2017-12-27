@@ -2,6 +2,7 @@
 layout: articles-page
 title: Mythe en premiers soins (Brûlures)
 date: 2017-12-23T17:31:27.426Z
+image: /img/first-aid-1882053_1280.jpg
 author: >-
   Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
   Réanimation cardio-respiratoire/Défibrilation externe automatisée
