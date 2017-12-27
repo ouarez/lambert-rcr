@@ -15,7 +15,7 @@ certification: Fondation des maladies du coeur et de l'AVC
 ---
 # Cours de premiers soins général selon les normes de la fondation des maladies du coeur et de l'AVC.
 
-# 
+ 
 
 Le cours comprend 
 
@@ -35,4 +35,4 @@ Le cours s'adresse à
 * Grand public
 * Secouristes
 
-#
+
