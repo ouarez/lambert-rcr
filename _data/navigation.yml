@@ -8,5 +8,9 @@ top_nav:
       url: /faq
     - title: Contact
       url: /contact
+    - title: Articles
+      url: /articles/
 bottom_nav:
-  links: []
+  links:
+    - title: articles
+      url: /articles
