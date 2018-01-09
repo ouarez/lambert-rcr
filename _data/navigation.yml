@@ -8,6 +8,8 @@ top_nav:
       url: /faq
     - title: Contact
       url: /contact
+    - title: Articles
+      url: /articles/
 bottom_nav:
   links:
     - title: articles
