@@ -9,4 +9,6 @@ top_nav:
     - title: Contact
       url: /contact
 bottom_nav:
-  links: []
+  links:
+    - title: articles
+      url: /articles
