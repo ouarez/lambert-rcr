@@ -53,9 +53,9 @@ Le cours comprend :
 
 Le cours s'adresse à :
 
-* Responsables en services de garde
-* Éducatrices
-* Gardiennes
-* Aide éducatrices
-* Remplaçantes pour éducatrices
-* Éducatrices en milieux scolaires
+* [Responsables en services de garde](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
+* [Éducatrices](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
+* [Gardiennes](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
+* [Aide éducatrices](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
+* [Remplaçantes pour éducatrices](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
+* [Éducatrices en milieux scolaires](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
