@@ -31,9 +31,9 @@ home_materiel: >-
   que du matériel pour industrie.
 link_materiel: Visiter le magasin
 home_formations: >-
-  Nous offrons des cours de RCR/DEA de la fondation des Maladies du coeur et de
-  l'AVC canadienne. Nous pouvons nous déplacer chez vous pour un groupe de 8 à
-  12 participants.
+  Nous offrons des cours de RCR/DEA de la [fondation des Maladies du coeur et de
+  l'AVC canadienne](http://www.coeuretavc.ca/avc). Nous pouvons nous déplacer
+  chez vous pour un groupe de 8 à 12 participants.
 link_formations: Voir toutes les formations
 ---
 
