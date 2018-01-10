@@ -58,6 +58,7 @@ collections:
          fields:
            - {label: "Titre du site", name: "site_title", widget: "string"}
            - {label: "Slogan du site", name: "site_slogan", widget: "string", required: false}
+           - {label: "Description du site", name: "site_description", widget: "markdown", required: false}
            - {label: "Image de page d'accueil", name: "site_image", widget: "image", required: false}
            - {label: "Courriel de contact", name: "site_email", widget: "string", required: false}
            - {label: "Numéro de téléphone de contact", name: "site_tel", widget: "string", required: false}
