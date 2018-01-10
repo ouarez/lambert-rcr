@@ -10,7 +10,7 @@ top_nav:
       url: /contact
     - title: Articles
       url: /articles/
+    - title: Inscription par groupe
+      url: /inscription-par-groupe
 bottom_nav:
-  links:
-    - title: articles
-      url: /articles
+  links: []
