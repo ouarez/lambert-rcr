@@ -22,3 +22,5 @@ Nous couvrons aussi le traitement des hémorragies externes et les aspects léga
 Ce cours est [un cours adapté pour la petite enfance](https://www.mfa.gouv.qc.ca/fr/ministere/centre-presse/Nouvelles/Pages/nouvelle_2014-11-04.aspx) (donc nous couvrons des situations qui touchent plus souvent les enfants) selon les demandes du ministère de la famille. Finalement nous touchons aussi dans tout nos cours de premiers soins les allergies sévères et le choc anaphylactique que ce soit hors installation ou dans les milieux de gardes.
 
 Nous nous efforçons de bien répondre aux éducatrices et leurs questionnements sur les matières de premiers soins pour nous assurer que celles-ci soient le mieux équipées possibles pour faire face à des situations d'urgences.
+
+Si jamais vous avez de plus amples questions ou désirez faire un de nos cours à Laval ou même faire votre propre groupe, n'hésitez pas à nous contacter : Lambertrcr@gmail.com ou 450-974-0972
