@@ -1,0 +1,47 @@
+<footer>
+  <div class="flex flex-wrap max ml-auto mr-auto pv2">
+
+    <div class="w-100 w-40-l ph4 fl">
+      <h3>Lambert RCR</h3>
+      <p>{{site.data.settings.site_description | markdownify}}</p>
+    </div>
+
+    <nav class="w-100 w-20-l pl4 pt4 pt0-l fl">
+      <h3>Liens rapides</h3>
+      <div class="w-80 w-auto-l pv2"><a href="/formations">Formations</a></div>
+      <div class="w-80 w-auto-l pv2"><a href="/materiel-de-premiers-soins">Matériel de premiers soins</a></div>
+      {% for link in site.data.navigation.main_nav.links %}
+        <div class="w-80 w-auto-l pv2"><a href="{{ link.url }}">{{ link.title }}</a></div>
+      {% endfor %}
+      {% for link in site.data.navigation.top_nav.links %}
+      <div class="w-80 w-auto-l pv2"><a href="{{ link.url }}">{{ link.title }}</a></div>
+      {% endfor %}
+    </nav>
+
+    <div class="w-100 w-30-l pl4 fl">
+        <h3>Nous joindre</h3>
+        <div class="social-media mb3">
+          <a href="{{site.data.settings.url_facebook}}">
+            <img class="icon" src="/img/icons/facebook-icon.png" />
+          </a>
+          <a href="{{site.data.settings.url_twitter}}" class="ml2">
+            <img class="icon" src="/img/icons/twitter-icon.png" />
+          </a>
+          <a href="{{site.data.settings.url_instagram}}" class="ml2">
+            <img class="icon" src="/img/icons/instagram-icon.png" />
+          </a>
+        </div>
+        <div class="contact">
+          <img class="icon dib" src="/img/icons/phone-icon.png" alt="Téléphone: "/>
+          <span class="dib ml2">{{site.data.settings.site_tel}}
+        </div>
+        <div class="contact">
+          <img class="icon dib" src="/img/icons/email-icon.png" alt="Courriel: "/>
+          <span class="dib ml2">{{site.data.settings.site_email}}
+        </div>
+
+    </div>
+
+    </div>
+  </div>
+</footer>

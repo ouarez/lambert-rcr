@@ -283,13 +283,35 @@ footer {
   background-color:$primary-color;
   padding:20px 0;
   margin:60px 0 0 0;
-  div {
-    padding:0 20px;
-    a {
+
+  a {
+    text-decoration:none;
+  }
+  a,h1,h2,h3,span {
+    color:#eee;
+  }
+
+  p {
+    font-size:14px;
+    color:#ccc;
+  }
+
+  img.icon {
+    width:30px;
+    position:relative;
+    top:10px;
+  }
+
+  .contact {
+    height:40px;
+  }
+
+  .social-media {
+    a:hover {
       text-decoration:none;
-      color:#fff;
     }
   }
+
 }
 
 // flexslider
