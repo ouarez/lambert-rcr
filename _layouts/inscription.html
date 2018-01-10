@@ -12,16 +12,18 @@ layout: default
     {{ content }}
   </div>
 
-  <form name="inscription" data-netlify="true">
+  <h3>Formulaire d'inscription pour les groupes</h3>
+
+  <form name="inscription-groupe" data-netlify="true" class="w-100">
 
       <div class="mv3 w-100 w-80-m w-40-l">
-        <label for="prenom">Prénom</label>
-        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="prenom" id="prenom" required>
+        <label for="nom-compagnie">Nom de la compagnie ou CPE</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="nom-compagnie" id="nom-compagnie" required>
       </div>
 
       <div class="mv3 w-100 w-80-m w-40-l">
-        <label for="nom">Nom</label>
-        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="nom" id="nom" required>
+        <label for="contact-name">Nom du contact</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="text" name="contact-name" id="contact-name" required>
       </div>
 
       <div class="mv3 w-100 w-80-m w-40-l">
@@ -34,40 +36,42 @@ layout: default
         <input class="pa2 mv2 input-reset ba bg-transparent w-100 br2" type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
       </div>
 
-      <h3>Choisir une formation</h3>
-
-      {% assign sorted = site.formations | sort:"order" %}
-
-      {% for formation in sorted %}
-      <div class="mv4 w-100 flex flex-wrap ba b--light-gray">
-
-        <img src="{{formation.image}}" alt="formation.title" class="w100 w-30-l"/>
-
-        <div class="w-100 w-60-l mv3 mh3">
-
-          <label class="f4" for="{{formation.title}}">{{formation.title}}</label>
-          <div class="icon mv2">
-            <img src="/img/clock-icon.png" alt="Durée:" class="mr3"/>
-            <span>{{formation.duration}}</span>
-          </div>
-          <div class="icon mv2">
-            <img src="/img/dollar-icon.png" alt="Prix:" class="mr3"/>
-            <span>{{formation.price}} $</span>
-          </div>
-
-          <select class="pa2 mv2 input-reset ba bg-transparent w-60 br2" name="{{formation.title}}" id="{{formation.title}}">
-            <option value="">Choisir une date</option>
-          {% for date in formation.dates %}
-           <option value="{{date.date}}">{{date.date}}</option>
-          {% endfor %}
-          </select>
-
-            <input class="b ph3 pv3 ml4 input-reset grow pointer br3 submit w-30" type="submit" value="Inscription">
-
-        </div>
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <label for="nombre-participants" class="w-40">Nombre de participants</label>
+        <input class="pa2 mv2 input-reset ba bg-transparent w-40 ml4 br2" type="number" name="nombre-participants" id="nombre-participants" required>
       </div>
-      {% endfor %}
 
+      <div class="mv3 w-100 w-80-m w-40-l">
+        <label for="date">Choisir un mois</label>
+        <span>
+          <select class="pa2 mv2 input-reset ba bg-transparent w-60 br2 ml3" id="month" name="month">
+            <option selected>Janvier</option>
+            <option>Février</option>
+            <option>Mars</option>
+            <option>Avril</option>
+            <option>Mai</option>
+            <option>Juin</option>
+            <option>Juillet</option>
+            <option>Août</option>
+            <option>Septembre</option>
+            <option>Octobre</option>
+            <option>Novembre</option>
+            <option>Décembre</option>
+          </select>
+        </span>
+      </div>
 
+      <div class="mv3 w-100 w-80-m w-40-l">
+        {% assign sorted = site.formations | sort:"order" %}
+        <label for="formation">Formation</label>
+        <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="formation" id="formation">
+          <option value="">Choisir une formation</option>
+          {% for formation in sorted %}
+         <option value="{{ormation.title}}">{{formation.title}}</option>
+         {% endfor %}
+        </select>
+      </div>
+
+      <input class="b ph3 pv3 mt2 input-reset grow pointer br3 submit w-40" type="submit" value="Soumettre">
 
   </form>
