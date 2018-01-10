@@ -44,7 +44,7 @@ layout: default
       <div class="mv3 w-100 w-80-m w-40-l">
         <label for="date">Choisir un mois</label>
         <span>
-          <select class="pa2 mv2 input-reset ba bg-transparent w-60 br2 ml3" id="month" name="month">
+          <select class="pa2 mv2 input-reset ba bg-transparent w-60 br2 ml3" id="month" name="month" required>
             <option selected>Janvier</option>
             <option>Février</option>
             <option>Mars</option>
@@ -64,7 +64,7 @@ layout: default
       <div class="mv3 w-100 w-80-m w-40-l">
         {% assign sorted = site.formations | sort:"order" %}
         <label for="formation">Formation</label>
-        <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="formation" id="formation">
+        <select class="pa2 mv2 input-reset ba bg-transparent w-100 br2" name="formation" id="formation" required>
           <option value="">Choisir une formation</option>
           {% for formation in sorted %}
          <option value="{{formation.title}}">{{formation.title}}</option>
