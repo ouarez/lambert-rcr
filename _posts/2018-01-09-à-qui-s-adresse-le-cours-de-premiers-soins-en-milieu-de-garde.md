@@ -13,7 +13,7 @@ Tout d'abord ce cours donné peut s'adresser aux gens qui ont des enfants et qui
 
 Nous offrons régulièrement ce cours à des nouveaux parents qui ont vu leur famille s'agrandir. Nous avons aussi parfois des gens qui sont curieux et aimeraient en savoir plus sur les premiers soins. Nos cours sont construits et axés sur la préparation et la pratique dans un milieu détendu, pour favoriser les questions et interactions avec nos instructeurs. 
 
-Nos cours sont majoritairement donnés à montréal et la rive-nord (Laval, Terrebonne, Blainville, St-eustache,etc) et donc notre clientèle vient très souvent de plusieurs groupes différents. La principale clientèle visée bien entendu les éducatrices et gardiennes en services de gardes et centres de la petites enfance. Ces professions sont les plus visées, car le cours doit se renouveler aux 3 ans. 
+Nos cours sont majoritairement donnés à montréal et la rive-nord (Laval, Terrebonne, Blainville, St-eustache,etc) ([voir dates de cours](https://lambertrcr.com/formations/premiers-soins-milieux-de-garde-cours-de-base)) et donc notre clientèle vient très souvent de plusieurs groupes différents. La principale clientèle visée bien entendu les éducatrices et gardiennes en services de gardes et centres de la petites enfance. Ces professions sont les plus visées, car le cours doit se renouveler aux 3 ans. 
 
 Nos cours contiennent les bases des premiers soins. Comment traiter une personne en arrêt cardiaque, comment traiter une victime qui vient de faire une chute (ce sont des blessures qui sont fréquemment vues en centres de la petites enfances). Aussi nous traitons les blessures aux membres supérieurs (fracture du bras, de l'avant-bras, dislocation des épaules et fractures de clavicules). 
 
