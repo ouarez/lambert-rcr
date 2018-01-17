@@ -5,6 +5,8 @@ permalink: /formations/écoles-secondaires
 description: Formations de réanimation cardio-respiratoire pour écoles secondaires
 image: /img/first-aid-850489_1920.jpg
 ---
+# Formations de réanimation pour écoles secondaires
+
 Nous offrons aux écoles primaires des formations de premiers soins et réanimation cardio respiratoire faites sur mesure. 
 
 Nous couvrons le territoire de Laval, Montréal nord(ahuntsic, cartierville, St léonard, rosemont et petite patrie, et les villes de la rive nord (Blainville, Saint-eustache, Terrebonne, Mascouche, Sainte-anne-des-plaines, Bois des fillions, Boisbriand etc)
