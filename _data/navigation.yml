@@ -12,5 +12,9 @@ top_nav:
       url: /articles/
     - title: Inscription par groupe
       url: /inscription-par-groupe
+    - title: À propos de nous
+      url: /a-propos
 bottom_nav:
-  links: []
+  links:
+    - title: À propos de nous
+      url: /a-propos
