@@ -7,6 +7,9 @@ description: >-
   également des formations aux services de gardes et CPEs adaptés pour les gens
   en milieux de gardes.
 home_intro: >-
+  # Formations de premiers soins et Réanimation cardio respiratoire
+
+
   Lambert RCR est une entreprise de matériel de premiers soins, qui offre
   également des formations[ aux services de gardes et CPEs adaptés pour les gens
   en milieux de
@@ -26,6 +29,9 @@ home_intro: >-
   physiothérapeutes](https://lambertrcr.com/formation/cpr-rcr-dea-professionnel-de-la-sant%C3%A9),
   [ostéopathes](https://lambertrcr.com/formation/cpr-rcr-dea-grand-public) etc.
 home_materiel: >-
+  ## Matériel de premiers soins (CSST, trousses etc)
+
+
   Nous avons une gamme variée de produits de premiers soins comprenant des
   trousses de premiers soins pour services de garde, trousses de sorties ainsi
   que du matériel pour industrie.
