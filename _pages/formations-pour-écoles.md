@@ -17,14 +17,14 @@ Nous pouvons aussi offrir des formations aux étudiants de secondaire en réanim
 
 Nos formations sur mesures peuvent comprendre :
 
-* _Premiers soins rapides _
-* _Écharpes et attèles de fortunes lors de chute_
-* _Réanimation d'adultes, d'enfants et de bébés_
-* _Traitement en premiers soins de foulures_
-* _Dégagement des voies respiratoires pour personne ayant un blocage partiel ou complet._
-* _Appel au 9-1-1_
-* _Et autres sujets sur demande! _
+1. _Premiers soins rapides _
+2. _Écharpes et attèles de fortunes lors de chute_
+3. _Réanimation d'adultes, d'enfants et de bébés_
+4. _Traitement en premiers soins de foulures_
+5. _Dégagement des voies respiratoires pour personne ayant un blocage partiel ou complet._
+6. _Appel au 9-1-1_
+7. _Et autres sujets sur demande! _
 
-Pour les formations des écoles secondaires vous pouvez prendre rendez-vous avec nous! Nos formations sont accrédités par la [Fondation des Maladies du coeur et AVC](http://www.coeuretavc.ca/avc).
+Pour les formations des écoles secondaires vous pouvez prendre rendez-vous avec nous! Nos formations sont accréditées par la [Fondation des Maladies du coeur et AVC](http://www.coeuretavc.ca/avc).
 
 Nous pouvons former vos écoles selon vos besoins ! Nous offrons les formations de semaine selon votre horaire.
