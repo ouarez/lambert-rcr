@@ -1,6 +1,6 @@
 ---
 layout: articles-page
-title: 'Faire quelque chose! '
+title: 'Faire quelque chose en premiers soins! '
 date: 2017-12-24T16:29:45.616Z
 image: /img/first-aid-850485_1920.jpg
 author: >-
