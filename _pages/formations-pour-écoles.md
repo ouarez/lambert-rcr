@@ -2,7 +2,9 @@
 layout: page
 title: 'Formations pour écoles '
 permalink: /formations/écoles-secondaires
-description: Formations de réanimation cardio-respiratoire pour écoles secondaires
+description: >-
+  Formations de réanimation cardio-respiratoire pour écoles secondaires |
+  Lambert RCR
 image: /img/first-aid-850489_1920.jpg
 ---
 # Formations de réanimation pour écoles secondaires
