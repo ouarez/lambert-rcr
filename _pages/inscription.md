@@ -2,7 +2,9 @@
 layout: inscription
 title: Inscription par groupe
 permalink: /inscription-par-groupe/
-description: Page d'inscription de groupe pour les formations de RCR/DEA.
+description: >-
+  Page d'inscription de groupe pour les formations de RCR/DEA et premiers soins.
+  | Lambert RCR
 ---
 Si vous voulez inscrire un groupe de 8 personnes ou plus, vous pouvez réserver un cours d'avance en remplissant le formulaire ci-dessous.
 
