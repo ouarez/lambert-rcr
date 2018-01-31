@@ -7,7 +7,7 @@ featured: true
 description: 'Trousse de premiers soins pour véhicule '
 image: /img/trousse_sac_et_poignées_2.jpg
 ---
-Trousse de premiers soins dans sac de nylon contient : 
+Trousse de premiers soins dans sac de nylon parfaite pour la voiture ou autre mode de transport. Celle-ci contient : 
 
 * Pansements de gauze 
 * Pansement de plusieurs grandeurs 
@@ -16,3 +16,5 @@ Trousse de premiers soins dans sac de nylon contient :
 * Protecteur facial
 * Ciseau
 * Pince à écharde
+* Couverture d'urgence
+* Gauze 4x4
