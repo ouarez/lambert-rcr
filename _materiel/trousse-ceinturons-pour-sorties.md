@@ -7,7 +7,7 @@ featured: true
 description: Trousse ceinturon pour sorties (faites pour milieux de gardes)
 image: /img/trousse_ceinturon.jpg
 ---
-Trousse modèle ceinturon, faite pour sorties a l'extérieur.
+Trousse modèle ceinturon, faite pour sorties à l'extérieur.
 
 Contient : 
 
