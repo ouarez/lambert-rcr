@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Formations pour écoles '
+title: Formations pour écoles secondaires
 permalink: /formations/écoles-secondaires
 description: >-
   Formations de réanimation cardio-respiratoire pour écoles secondaires |
