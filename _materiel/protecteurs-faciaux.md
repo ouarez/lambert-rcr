@@ -3,7 +3,7 @@ layout: materiel-page
 title: Protecteurs faciaux pour respiration artificielle
 price: '21.75'
 permalink: /materiel-de-premiers-soins/protecteurs-faciaux-respiration-artificielle
-featured: true
+featured: false
 description: 5 protecteurs faciaux pour faire la respiration articielle | Lambert RCR
 image: /img/Faceshield_Rouge.jpg
 ---
