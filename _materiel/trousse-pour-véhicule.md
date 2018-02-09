@@ -3,7 +3,7 @@ layout: materiel-page
 title: Trousse pour véhicule
 price: '40'
 permalink: /materiel-de-premiers-soins/trousse-premiers-soins-vehicule
-featured: true
+featured: false
 description: 'Trousse de premiers soins pour véhicule '
 image: /img/trousse_sac_et_poignées_2.jpg
 ---
