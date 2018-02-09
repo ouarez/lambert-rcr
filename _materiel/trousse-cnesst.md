@@ -3,7 +3,7 @@ layout: materiel-page
 title: 'Trousse CNESST '
 price: '36.52'
 permalink: /materiel-de-premiers-soins/trousse-CNESST-CSST
-featured: true
+featured: false
 description: Trousse CNESST modèle industrie | Lambert RCR
 image: /img/trousse_garderie_2.jpg
 ---
