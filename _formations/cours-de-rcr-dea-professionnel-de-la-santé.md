@@ -7,7 +7,7 @@ order: '3'
 permalink: /formation/cpr-rcr-dea-professionnel-de-la-santé
 image: /img/artificial-respiration-first-aid.jpg
 description: Cours de réanimation cardio respiratoire pour professionnel de la santé
-duration: 5h
+duration: 4.5h
 price: '65'
 certification: Fondation des maladies du coeur et de l'AVC
 ---
