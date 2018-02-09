@@ -4,7 +4,7 @@ title: 'Rouleau de Kinésiotape '
 price: '36'
 permalink: /materiel-de-premiers-soins/rouleau-bandage-Kinesio
 featured: false
-description: 'Rouleaux de bandages adhésifs thérapeutiques kinésiologiques '
+description: Rouleaux de bandages adhésifs thérapeutiques kinésiologiques | Lambert RCR
 image: /img/rouleau de kinésiotappe .jpg
 ---
 Gamme de rouleaux de bandages adhésifs pour aider aux mouvements et à la course. 
