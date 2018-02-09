@@ -6,7 +6,7 @@ permalink: /materiel-de-premiers-soins/trousse-premiers-soins-garderie-cpe
 featured: true
 description: >-
   Trousse de premiers soins modèle garderie selon normes du ministère de la
-  famille
+  famille | Lambert RCR
 image: /img/trousse_garderie_2.jpg
 ---
 Trousse de garderie/CPE milieu de garde faite selon normes du ministère de la famille. Contient un livre de premiers soins général ainsi que le matériel requis selon le Ministère de la famille. (voir [lien](https://www.mfa.gouv.qc.ca/fr/publication/Documents/fiches-auto-inspection-installation.pdf) )
