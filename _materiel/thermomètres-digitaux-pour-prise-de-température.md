@@ -1,13 +1,15 @@
 ---
 layout: materiel-page
-title: Thermomètres digitaux pour prise de température
-price: '20.25'
-permalink: /matériel-de-premiers-soins/thermometre-digitaux
+title: Thermomètres digitaux pour prise de température QTE 2
+price: '13.50'
+permalink: /matériel-de-premiers-soins/thermometres-digitaux
 featured: true
 description: Thermomètre digitaux pour prise de température orale/anale | Lambert RCR
 image: /img/thermomètre digital.jpg
 ---
-# Thermomètre digital
+# Thermomètres digitaux
+
+## Quantité 2
 
 * Thermomètre digital avec capsule de protection en plastique. 
 * Parfait pour la prise de température rapide soit Buccale ou Anale. 
