@@ -4,10 +4,10 @@ title: Trousse ceinturons pour sorties
 price: '25.22'
 permalink: /materiel-de-premiers-soins/trousse-ceinturons-pour-sorties
 featured: true
-description: Trousse ceinturon pour sorties (faites pour milieux de gardes)
+description: Trousse ceinturon pour sorties (faites pour milieux de gardes) | Lambert RCR
 image: /img/trousse_ceinturon.jpg
 ---
-Trousse modèle ceinturon, faite pour sorties à l'extérieur.
+# Trousse modèle ceinturon, faite pour sorties à l'extérieur.
 
 Contient : 
 
