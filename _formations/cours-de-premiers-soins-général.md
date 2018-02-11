@@ -1,6 +1,6 @@
 ---
 dates:
-  - date: 31 décembre
+  - date: 18 mars 2018
 layout: formation-page
 title: Cours de premiers soins général
 order: '4'
