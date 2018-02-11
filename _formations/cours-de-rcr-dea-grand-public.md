@@ -6,7 +6,7 @@ title: Cours de RCR/DEA grand public
 order: '2'
 permalink: /formation/cpr-rcr-dea-grand-public
 image: /img/first-aid-1882053_1280.jpg
-description: Cours de Réanimation cardio respiratoire pour grand public
+description: Cours de Réanimation cardio respiratoire pour grand public | Lambert RCR
 duration: 4h
 price: '65'
 certification: Fondation des maladies du coeur et de l'AVC
