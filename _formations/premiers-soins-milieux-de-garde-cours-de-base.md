@@ -4,7 +4,6 @@ dates:
   - date: 17 Mars 2018
   - date: 31 Mars 2018
   - date: 14 Avril 2018
-  - date: 28 Avril 2018
   - date: 12 Mai 2018
   - date: 26 Mai 2018
   - date: 9 Juin 2018
