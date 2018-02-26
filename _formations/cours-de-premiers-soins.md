@@ -17,7 +17,7 @@ dates:
   - date: 17 novembre 2018
   - date: '1 décembre 2018 '
   - date: 15 décembre 2018
-  - {}
+  - date: 3 mars 2018
 layout: formation-page
 title: Premiers soins milieux de garde - mise à jour 6h
 order: '2'
