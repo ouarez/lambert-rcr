@@ -6,7 +6,7 @@ description: L'histoire de Lambert RCR | Lambert RCR
 ---
 # Notre histoire
 
-Lambert RCR a été fondé en 2015 par Vincent Lambert. Instructeur d'expériences ayant formé plus de 4000 personnes dans sa carrière. 
+Lambert RCR a été fondé en 2015 par Vincent Lambert. Instructeur d'expérience ayant formé plus de 4000 personnes dans sa carrière. 
 
 Vincent est devenu instructeur de la Fondation des maladies du coeur et AVC en 2005. Instructeur premiers soins 4h, Réanimation Cardio Rrespiratoire et défibrilation externe automatisée ainsi que Soins anaphylactique. 
 
