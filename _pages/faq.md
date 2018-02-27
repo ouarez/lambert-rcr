@@ -2,7 +2,7 @@
 layout: page
 title: FAQ
 permalink: faq
-description: 'Questions fréquentes '
+description: Questions fréquentes | Lambert RCR
 ---
 Q : Comment faire pour m'inscrire au prochain cours?  
 R : Simplement nous envoyer un courriel à <mailto:Lambertrcr@gmail.com> avec votre nom et numéro de téléphone avec la date du cours voulu.
