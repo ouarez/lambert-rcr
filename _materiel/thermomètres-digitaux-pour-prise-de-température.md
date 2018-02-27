@@ -14,6 +14,6 @@ image: /img/thermomètre digital.jpg
 * Thermomètre digital avec capsule de protection en plastique. 
 * Parfait pour la prise de température rapide soit Buccale ou Anale. 
 * Facilement lavable 
-* Lecture précise 
+* Lecture précise et rapide
 * Batterie durant longtemps
 * Facile à manipuler
