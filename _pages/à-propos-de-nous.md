@@ -26,11 +26,9 @@ Devenir la référence Québecoise en matériel de premiers soins et en formatio
 
 Tout les gens qui collaborent avec nous savent que nous donnons des cours de qualité et ce parce que nos formateurs sont choisis et formés par notre fondateur pour donner la même information de la même façon que notre fondateur. Les instructeurs qui collaborent avec nous sont tenus à une haute qualité de formation et d'enseignement. 
 
-
-
 ## Nos valeurs
 
-Chez Lambert RCR nous avons à coeur votre enseignement, nos valeurs d'entreprises sont celles de la transparence, de la fraternité, de l'empathie et du dévouement! Nous bâtissons nos cours de façon à ce que les gens puissent s'exprimer et poser des questions et mettre en pratique leurs apprentissages. 
+Chez Lambert RCR nous avons à coeur votre enseignement, nos valeurs d'entreprises sont celles de la transparence, de la fraternité, de l'empathie et du dévouement! Nous bâtissons nos cours de façon à ce que les gens puissent s'exprimer et poser des questions et mettre en pratique leurs apprentissages. La rigueur : notre équipe s'affaire a s'assurer que la meilleur information soit donnée au cours.
 
 Notre philosophie : Si nous n'aimerions pas prendre le cours, nous ne le donnons pas! 
 
