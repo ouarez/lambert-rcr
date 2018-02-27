@@ -14,17 +14,19 @@ La philosophie de Lambert RCR est d'apprendre dans un environnement décontract�
 
 Chez Lambert RCR nous voulons que nos participants soient à l'aise de faire des interventions d'urgence.
 
-
-
 ## Notre Mission
 
 Former les gens pour faire face à des situations d'urgences et créer des formations qui permettent l'apprentissage plus facile via la pratique et des explications claires.
 
-
-
 ## Notre Vision
 
 Devenir la référence Québecoise en matériel de premiers soins et en formations de réanimation cardio respiratoire ainsi qu'en formation de premiers soins. 
+
+
+
+## Notre équipe 
+
+Tout les gens qui collaborent avec nous savent que nous donnons des cours de qualité et ce parce que nos formateurs sont choisis et formés par notre fondateur pour donner la même information de la même façon que notre fondateur. Les instructeurs qui collaborent avec nous sont tenus à une haute qualité de formation et d'enseignement. 
 
 ## Villes où nous donnons des cours
 
