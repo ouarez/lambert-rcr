@@ -2,7 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact
-description: Page contact
+description: Page contact | Lambert RCR
 ---
 Vous pouvez nous contacter pour une livraison sur la rive nord. (Laval et environs (Terrebonne, Mascouche, Boisbriand, Bois-des-fillions, Rosemère,Sainte-Thérèse, Saint-eustache, Deux-montagnes, etc)
 
