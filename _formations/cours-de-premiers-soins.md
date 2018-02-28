@@ -30,7 +30,9 @@ duration: 6h
 price: '54'
 certification: Lambert RCR
 ---
-_Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise à jour) de 6h selon les normes du ministère._
+# _Cours de premiers soins pour milieux de gardes _
+
+_Fait pour renouvellement (mise à jour) de 6h selon les normes du ministère._
 
 _Le cours de renouvellement en premiers soins est axé sur la pratique et l'évaluation des compétences des participant(e)s ainsi que la mise à niveau des techniques et pratiques de réanimation, de dégagement des voies respiratoires, d'approche à la victime trauma ainsi que de traitement de choc anaphylactique._
 
