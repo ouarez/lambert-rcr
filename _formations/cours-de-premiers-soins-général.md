@@ -15,8 +15,6 @@ certification: Fondation des maladies du coeur et de l'AVC
 ---
 # Cours de premiers soins général selon les normes de la fondation des maladies du coeur et de l'AVC.
 
- 
-
 Le cours comprend 
 
 * Philosophie de la formation de Premiers secours
@@ -27,6 +25,7 @@ Le cours comprend
 * Les blessures liées à l’environnement (Hyperthermie et hypothermie - Asthme et anaphylaxie)
 * Les blessures ostéo-articulaires
 * Urgences diverses
+* Réanimation cardio respiratoire et Défibrillation externe automatisée
 
 Le cours s'adresse à 
 
@@ -34,5 +33,3 @@ Le cours s'adresse à
 * Coachs
 * Grand public
 * Secouristes
-
-
