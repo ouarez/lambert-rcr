@@ -3,7 +3,7 @@ layout: materiel-page
 title: Rouleau Hypafix 4 pouce x 10 mètres
 price: '10.95'
 permalink: /materiel-de-premiers-soins/rouleau-hypafix
-featured: true
+featured: false
 description: >-
   Rouleau hypafix format 4 pouces par 10 mètres pour mettre sur blessures |
   Lambert RCR
