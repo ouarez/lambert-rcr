@@ -1,78 +1,132 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <url>
-    <loc>https://lambertrcr.com/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/trousse-ceinturons-pour-sorties</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/trousse-premiers-soins-garderie-cpe</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/trousse-premiers-soins-vehicule</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/formations/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/faq</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/gluconate-de-calcium</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/contact</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/masque-de-poche</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/protecteurs-faciaux-respiration-artificielle</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/inscription/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/materiel-de-premiers-soins/couverture-anti-feu/</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/formation/cpr-rcr-dea-professionnel-de-la-santé</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/formation/cpr-rcr-dea-grand-public</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/formations/cours-de-premiers-soins-general</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/formations/premiers-soins-milieux-de-garde-cours-de-base</loc>
-    <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://lambertrcr.com/formation/cours-de-premiers-soins-milieux-de-garde-mise-a-jour</loc>
-    <changefreq>monthly</changefreq>
-  </url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://lambertrcr.com/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/faq</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/contact</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/articles/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/a-propos</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/formations/premiers-soins-milieux-de-garde-cours-de-base</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/formation/cpr-rcr-dea-professionnel-de-la-sant%C3%A9</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/formation/cpr-rcr-dea-grand-public</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/rouleau-hypafix</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/trousse-ceinturons-pour-sorties</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/masque-de-poche</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/trousse-premiers-soins-garderie-cpe</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/trousse-premiers-soins-vehicule</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/2018/01/18/voyez-un-arr%C3%AAt-cardiaque-en-3d/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/2017/12/24/faire-quelque-chose/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/2017/12/23/1-mythe-en-premiers-soins/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/formations/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/formation/cours-de-premiers-soins-milieux-de-garde-mise-a-jour</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/formations/cours-de-premiers-soins-general</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/couverture-anti-feu/</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/protecteurs-faciaux-respiration-artificielle</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://lambertrcr.com/materiel-de-premiers-soins/gluconate-de-calcium</loc>
+  <lastmod>2018-03-03T16:26:16+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+
+
 </urlset>
-<!--<guid value="bc6b3fcc-393f-40a8-9317-49816d1f5f73" />-->
-<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
