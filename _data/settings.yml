@@ -29,6 +29,8 @@ site_head: >-
   </noscript> 
 
   <!-- End Facebook Pixel Code -->
+
+  <script>console.log("it works!");</script>
 site_image: /img/rcr-premiers-soins-cover-image.jpg
 site_email: lambertrcr@gmail.com
 site_tel: (450) 974-0972
