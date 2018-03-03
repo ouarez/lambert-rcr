@@ -8,6 +8,7 @@
     <meta name="description" content="{{page.description}}">
     <meta name="google-site-verification" content="D4b8sg45A7zsXUSLD-w7FXL-GYGx0SOpKZB4SFlKDqw" />
     <meta name="msvalidate.01" content="A62CB6AA1DC4D9C07DD78F3C4C16A631" />
+    {{site.data.settings.site_head}}
     <!-- Use the title from a page's frontmatter if it has one -->
     <title>{{page.title}} | {{site.data.settings.site_title}}</title>
     <link rel="stylesheet" href="/css/main.css"/>
@@ -29,8 +30,6 @@
 <main class="mv4 ml-auto mr-auto body-max ph4 flex flex-wrap justify-center justify-start-l">
 
 {{ page.home_intro | markdownify }}
-
-<h2>Matériel de premiers soins</h2>
 
 {{ page.home_materiel | markdownify }}
 
