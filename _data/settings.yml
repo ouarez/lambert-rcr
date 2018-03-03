@@ -11,6 +11,11 @@ site_description: >-
 
    Nos groupes sont ouverts à tous. Nos cours de premiers soins en milieux de garde sont conformes aux demandes du ministère de la famille et des ainés
 site_head: >-
+  <meta name="google-site-verification"
+  content="D4b8sg45A7zsXUSLD-w7FXL-GYGx0SOpKZB4SFlKDqw" />
+
+  <meta name="msvalidate.01" content="A62CB6AA1DC4D9C07DD78F3C4C16A631" />
+
   <!-- Facebook Pixel Code -->
 
   <script>
@@ -29,8 +34,6 @@ site_head: >-
   </noscript> 
 
   <!-- End Facebook Pixel Code -->
-
-  <script>console.log("it works!");</script>
 site_image: /img/rcr-premiers-soins-cover-image.jpg
 site_email: lambertrcr@gmail.com
 site_tel: (450) 974-0972
