@@ -32,9 +32,9 @@ home_materiel: >-
   ## Matériel de premiers soins (CSST, trousses etc)
 
 
-  Nous avons une gamme variée de produits de premiers soins comprenant des
+  _Nous avons une gamme variée de produits de premiers soins comprenant des
   trousses de premiers soins pour services de garde, trousses de sorties ainsi
-  que du matériel pour industrie.
+  que du matériel pour industrie._
 link_materiel: Visiter le magasin
 home_formations: >-
   Nous offrons des cours de Réanimation Cardio-Respiratoire/Défibrilation
