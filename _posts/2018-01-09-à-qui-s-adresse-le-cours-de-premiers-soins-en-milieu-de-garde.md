@@ -7,6 +7,8 @@ author: >-
   Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
   Réanimation cardio-respiratoire/Défibrilation externe automatisée
 ---
+# Cours de premiers soins pour milieux de garde! 
+
 Il nous ai souvent demandé "À qui s'adresse le [cours de premiers soins en milieux de gardes](https://lambertrcr.com/formations/premiers-soins-milieux-de-garde-cours-de-base)." 
 
 Tout d'abord ce cours donné peut s'adresser aux gens qui ont des enfants et qui désirent avoir une bonne base solide en premiers soins. 
