@@ -16,4 +16,4 @@ Une question qui revient souvent lors de nos cours est "Qu'est-ce qu'une intolé
 
 Une allergie quant à elle, repose sur le fait que votre système immunitaire répond de façon démesurée à ce qu'il perçoit être un envahisseur. La réaction cause le système immunitaire à envoyer de l'histamine dans le sang de la personne. L'histamine en petite quantité cause les symptômes comme la congestion nasale, des petites plaques d'urticaire ainsi que de la rougeur dans le blanc des yeux. Ceci est reconnu comme symptôme d'allergie locale. 
 
-Pour les allergies sévères ou le choc anaphylactique, la quantité d'histamine dans le sang est beaucoup plus grande et cause des symptômes beaucoup plus grave comme
+Pour les allergies sévères ou le choc anaphylactique, la quantité d'histamine dans le sang est beaucoup plus grande et cause des symptômes beaucoup plus grave comme l'enflure des voies respiratoires et la défaillance circulatoire. Certains autres symptômes peuvent apparaitre tel que l'enflure du visage ou de la langue, aussi l'urticaire sur tout le corps, des vomissements et diarrhées sévères.
