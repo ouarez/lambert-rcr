@@ -1,6 +1,6 @@
 ---
 layout: articles-page
-title: Pour qui sont les premiers soins en milieux de gardes
+title: Pour qui sont les premiers soins en milieux de gardes | Lambert RCR
 date: 2018-01-09T23:57:54.152Z
 image: /img/first-aid-1882049_1280.jpg
 author: >-
