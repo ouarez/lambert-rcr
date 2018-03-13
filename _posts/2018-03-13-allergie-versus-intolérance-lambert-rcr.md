@@ -1,6 +1,6 @@
 ---
 layout: articles-page
-title: Allergie versus intolérance | Lambert RCR
+title: Allergie versus intolerance | Lambert RCR
 date: 2018-03-13T21:50:46.520Z
 author: >-
   Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
