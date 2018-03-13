@@ -19,6 +19,6 @@ Ceci est un traitement que l'on entend souvent comme "remède de grand-mère". L
 
 Donc selon le degré de brûlure le traitement le plus facile pour un premier degré est de mettre la zone touchée sous l'eau tiède fraiche pour enlever l'énergie de la chaleur.
 
-Pour un deuxième degré le traitement est similaire au premier degré.
+Pour un deuxième degré le traitement est similaire au premier degré.La distinction entre une brûlure de premier degré et une brûlure de 2ième degré est la présence de cloques sur la zone touchée.
 
 Pour le troisième degré par contre rendez vous directement a l'hôpital. Ne mettez pas d'onguent ni de corps gras et seulement des pansements secs et propres pour la blessure.
