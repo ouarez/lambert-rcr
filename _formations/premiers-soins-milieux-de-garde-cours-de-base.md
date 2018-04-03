@@ -15,7 +15,6 @@ dates:
   - date: 17 Novembre 2018
   - date: 1 Décembre 2018
   - date: 15 Décembre 2018
-  - date: 3 mars 2018
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
