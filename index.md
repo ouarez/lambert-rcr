@@ -2,10 +2,7 @@
 layout: home
 title: Accueil
 permalink: /
-description: >-
-  Lambert RCR est une entreprise de matériel de premiers soins, qui offre
-  également des formations aux services de gardes et CPEs adaptés pour les gens
-  en milieux de gardes.
+description: ' Lambert RCR est une entreprise de matériel de premiers soins, qui offre également des formations aux services de gardes et CPEs adaptés pour les gens en milieux de gardes.'
 home_intro: >-
   # Formations de premiers soins et Réanimation cardio respiratoire (RCR/DEA)
 
