@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 12 mai 2018
   - date: 26 mai 2018
   - date: 9 juin 2018
   - date: 14 juillet 2018
