@@ -187,14 +187,11 @@ hr {
   }
 }
 
-.formation {
-  .image {
-    height:250px;
-    width:100%;
-    overflow:hidden;
-    img {
+.formations {
+    img.banner {
+      height:200px;
+      overflow:hidden;
     }
-  }
 }
 
 .products {
