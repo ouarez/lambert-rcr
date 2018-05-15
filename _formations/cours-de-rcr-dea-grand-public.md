@@ -5,6 +5,7 @@ layout: formation-page
 title: Cours de RCR/DEA grand public
 order: '3'
 permalink: /formation/cpr-rcr-dea-grand-public
+featured: true
 image: /img/cpr-training-first-aid.jpg
 description: >-
   Cours de RCR/DEA pour grand public donné selon les normes et certifications de
