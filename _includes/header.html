@@ -1,42 +1,56 @@
 <header>
 
-  <div class="top-nav">
-    <div class="flex flex-wrap ml-auto mr-auto pv1 ph2 ph3-l max">
-      <nav class="w-100 tl pv2">
-        <a class="ph2 f6 b" href="/">English</a>
-        {% for link in site.data.navigation.top_nav.links %}
-        <a class="ph2 f6" href="{{link.url}}">{{link.title}}</a>
-        {% endfor %}
-      </nav>
-      <!--
-      <nav class="w-70 w-50-l tr pv2">
-        <p class="ph2 f6">{{site.data.settings.site_tel}}</p>
-        <p class="ph2 f6">{{site.data.settings.site_email}}</p>
-      </nav>
-      -->
-    </div>
-  </div>
+  <nav class="top-nav ph3 pv2 tc tl-l">
+    {% for link in site.data.navigation.top_nav.links %}
+      <a class="dib pa2 white f6" href="{{link.url}}">{{link.title}}</a>
+    {% endfor %}
+  </nav>
 
-  <div class="flex justify-center">
-    <div class="logo max w-100-l pv2 ph3-l">
-      <a href="/"><img src="/img/lambert-rcr-logo.jpg" alt="{{site.title}}"/></a>
+  <div class="flex items-center">
+    <div class="mr5 dn db-l w-20">
+      <a href="/"><img class="ml3 logo v-mid" src="/img/lambert-rcr-logo.png" alt="LAMBERT RCR"/></a>
     </div>
+    <nav class="main w-80 ml-auto mr-auto pt4 dn db-l">
+      <a class="dib mr4 mb4 ttu b" href="/formations">Formations</a>
+      <a class="dib mr4 mb4 ttu b" href="/materiel-de-premiers-soins">Matériel de premiers soins</a>
+      <a class="dib mr4 mb4 ttu b" href="/materiel-de-premiers-soins">Articles</a>
+      {% for link in site.data.navigation.main_nav.links %}
+        <a class="dib mr4 mb4 ttu b" href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
   </div>
 
   <div class="hero-image" style="background-image:url({{site.data.settings.site_image}})">
 
-    <nav class="main w-100">
-      <div class="ml-auto mr-auto max">
-        <div class="flex flex-wrap w-100 justify-center justify-start-l pv2 pv1-l ml4-l">
-          <div class="w-80 pv3 w-auto-l mr5-l"><a href="/">Accueil</a></div>
-          <div class="w-80 pv3 w-auto-l mr5-l"><a href="/formations">Formations</a></div>
-          <div class="w-80 pv3 w-auto-l mr5-l"><a href="/materiel-de-premiers-soins">Matériel de premiers soins</a></div>
-          {% for link in site.data.navigation.main_nav.links %}
-            <div class="w-80 pt3 pb3 w-auto-l pv3-l mr5-l"><a href="{{ link.url }}">{{ link.title }}</a></div>
-          {% endfor %}
-        </div>
+  {% if page.layout == 'home' %}
+    <div class="slogan dn db-l bg-black pv5">
+      <div class="container pv3 tl w-70 ml-auto mr-auto">
+        <h2 class="white mv3 b">Lambert RCR offre des formations de premiers soins et de réanimation cardio respiratoire (RCR/DEA) à Laval et la Rive Nord.</h2>
+          <div class="box ba bw1 b--white ph4 pv2 mv3">
+            <a href="/formations">
+              <h3 class="white dib">Voir nos formations</h3>
+              <img class="absolute pt3 ml3" src="img/icons/arrow-right.png"/>
+            </a>
+          </div>
       </div>
-    </nav>
+    </div>
+  {% else %}
+  <div class="w-100 bg-black">
+    <div class="container pv5">
+      <h1 class="white ma0">{{page.title}}</h1>
+    </div>
+  </div>
+  {% endif %}
+
+  <nav class="mobile w-100 dn-l tc pv3 bg-black">
+    <a href="/"><img class="w5" src="/img/lambert-rcr-logo.png" alt="LAMBERT RCR"/></a>
+    <a class="w-100 db pv3 ttu b" href="/formations">Formations</a>
+    <a class="w-100 db pv3 ttu b" href="/materiel-de-premiers-soins">Matériel de premiers soins</a>
+    <a class="w-100 db pv3 ttu b" href="/materiel-de-premiers-soins">Articles</a>
+    {% for link in site.data.navigation.main_nav.links %}
+      <a class="w-100 db pv3 ttu b" href="{{ link.url }}">{{ link.title }}</a>
+    {% endfor %}
+  </nav>
 
   </div>
 

@@ -25,7 +25,7 @@
 
 {% include header.html %}
 
-<main class="mv2 ml-auto mr-auto body-max ph4 flex flex-wrap justify-center justify-start-l">
+<main class="flex flex-wrap container pv3">
 
 {{ content }}
 
@@ -34,10 +34,10 @@
 {% include footer.html %}
 
 <script src="/js/jquery.js"></script>
-<script src="/js/main.js"></script>
 
 <script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ZTY3MGQyYTAtMDQ4Yi00YmQ4LTlkNzAtMjZkMGQ1M2RhNDBhNjM2NDYyMjU0NTQ3NDM3NjEy"></script>
 <link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
 <script>
   if (window.netlifyIdentity) {
     window.netlifyIdentity.on("init", user => {

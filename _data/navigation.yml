@@ -2,16 +2,14 @@ main_nav:
   links:
     - title: 'Formations écoles '
       url: /formations/écoles-secondaires
+    - title: Inscription par groupe
+      url: /inscription-par-groupe
 top_nav:
   links:
     - title: FAQ
       url: /faq
     - title: Contact
       url: /contact
-    - title: Articles
-      url: /articles/
-    - title: Inscription par groupe
-      url: /inscription-par-groupe
     - title: À propos de nous
       url: /a-propos
 bottom_nav:

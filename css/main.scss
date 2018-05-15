@@ -23,8 +23,6 @@
 
 // variables
 
-$max-width:1400px;
-$body-width:1100px;
 $primary-font:'Montserrat', Helvetica, Helvetica Neue, Arial, sans-serif;
 $sans: 'OpenSans', Arial, sans-serif;
 $serif: 'Merriweather', serif;
@@ -39,12 +37,18 @@ body {
     background-color:$primary-bg;
 }
 
-.max {
-  max-width:$max-width;
+.container {
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
 }
 
-.body-max {
-  max-width:$body-width;
+.bg-red {
+  background:rgba(180,20,20,0.6);
+}
+
+.bg-black {
+  background:rgba(0,0,0,0.6);
 }
 
 // typography
@@ -95,67 +99,52 @@ body {
 
 // main
 
-.logo {
-  img {
-    width:200px;
+
+
+.slogan {
+  h2 {
+    font-family: $sans;
+    line-height:1.5;
+    text-shadow: #000 1px 1px;
+  }
+  .box {
+    width:380px;
+    img {
+      width:32px;
+    }
+  }
+}
+
+nav.main {
+  a {
+    font-size:14px;
+    font-family:$primary-font;
+    color:#222;
+  }
+}
+
+nav.mobile   {
+  top:0px;
+  z-index:1;
+  a {
+    color:#fff;
+    text-shadow:1px 1px #000;
   }
 }
 
 .top-nav {
   background-color:#333;
-  div {
-    nav {
-      p,a {
-        display:inline;
-        color:#ccc;
-        font-family:$sans;
-        &:last-child {
-          border:none;
-        }
-      }
-      a {
-        &:hover {
-          text-decoration:underline;
-        }
-      }
-    }
-  }
-
 }
 
+.logo {
+  height:60px;
+}
 
 // home page special nav
 .hero-image {
-  overflow:hidden;
-  position:relative;
-  width:100%;
-  height:220px;
   background-repeat: no-repeat;
   background-size:cover;
-
-  nav.main   {
-    background-color:$red;
-    background:rgba(180,20,20,0.7);
-    position:absolute;
-    top:0px;
-    left:0px;
-    z-index:1;
-    div {
-      text-align:center;
-      a {
-        color:$primary-bg;
-        text-transform:uppercase;
-        font-size:1em;
-        font-family:$sans;
-        font-weight:bold;
-        text-shadow:1px 1px 1px #333;
-        text-decoration:none;
-        &:hover {
-          text-decoration: underline;
-        }
-      }
-    }
-  }
+  background-position: center center;
 }
 
 main {

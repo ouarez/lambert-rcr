@@ -1,31 +1,6 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="HandheldFriendly" content="True" />
-    <meta name="description" content="{{page.description}}">
-    {{site.data.settings.site_head}}
-    <!-- Use the title from a page's frontmatter if it has one -->
-    <title>{{page.title}} | {{site.data.settings.site_title}}</title>
-    <link rel="stylesheet" href="/css/main.css"/>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107295384-2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'UA-107295384-2');
-    </script>
-  </head>
-  <body>
-
-{% include header.html %}
-
-<main class="mv4 ml-auto mr-auto body-max ph4 flex flex-wrap justify-center justify-start-l">
+---
+layout: default
+---
 
 {{ page.home_intro | markdownify }}
 
@@ -57,27 +32,3 @@
 {{ page.home_formations | markdownify }}
 
 <a href="/formations" alt="Lien vers les formations">{{page.link_formations}}</a>
-
-</main>
-
-{% include footer.html %}
-
-<script src="/js/jquery.js"></script>
-<script src="/js/main.js"></script>
-
-<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="ZTY3MGQyYTAtMDQ4Yi00YmQ4LTlkNzAtMjZkMGQ1M2RhNDBhNjM2NDYyMjU0NTQ3NDM3NjEy"></script>
-<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
-
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
-</script>
-</body>
-</html>
