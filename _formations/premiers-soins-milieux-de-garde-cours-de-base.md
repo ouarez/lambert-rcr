@@ -27,9 +27,7 @@ duration: 8h
 price: '64'
 certification: Lambert RCR
 ---
-# _Ce cours de premiers soins pour milieux de garde _
-
-_s'adresse aux responsables en services de garde, éducatrices, gardiennes, ou tout autre individu qui travaille régulièrement en présence d'enfants._
+_Ce cours de premiers soins pour milieux de garde s'adresse aux responsables en services de garde, éducatrices, gardiennes, ou tout autre individu qui travaille régulièrement en présence d'enfants._
 
 _Nos cours de premiers soins sont axés sur la pratique de plusieurs techniques. Nous favorisons les échanges et questions ainsi que la participation en groupe. Nos cours sont basés sur la pratique suite à des démonstrations._
 

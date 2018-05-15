@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<div class="container">
 
   <div class="crumbs w-100 mt3 pb3 bb b--light-gray">
     <a class="mr2" href="/">Accueil</a>
@@ -10,22 +11,28 @@ layout: default
     <span class="ml2">{{page.title}}</span>
   </div>
 
-  <div class="w-100">
-    <h1> {{ page.title }}</h1>
-    <div class="icon mv4">
-      <img src="/img/icons/clock-icon.png" alt="Durée:" class="mr3"/>
-      <span>{{ page.duration }}</span>
-    </div>
-    <div class="icon mv4">
-      <img src="/img/icons/dollar-icon.png" alt="Prix:" class="mr3"/>
-      <span>{{ page.price }} $</span>
-    </div>
+  <div class="flex flex-wrap">
 
-    <div class="banner">
+    <div class="w-70 banner">
       <img src="{{page.image}}" alt="{{page.title}}"/>
     </div>
 
-    {{ content }}
+    <div class="w-30">
+      <div class="icon-large mv3">
+        <img class="relative mr3" src="/img/icons/clock-icon.png" alt="Durée:" class="mr3"/>
+        <span>{{ page.duration }}</span>
+      </div>
+      <div class="icon-large mv3">
+        <img class="relative mr3" src="/img/icons/dollar-icon.png" alt="Prix:" class="mr3"/>
+        <span>{{ page.price }} $</span>
+      </div>
+    </div>
+
+    <div class="w-100">
+
+      {{ content }}
+
+    </div>
 
   </div>
 
@@ -65,3 +72,4 @@ layout: default
       <input class="b ph3 pv3 mt2 input-reset grow pointer br3 submit w-20" type="submit" value="Inscription">
 
     </form>
+</div> <!-- end container -->

@@ -171,7 +171,6 @@ hr {
 }
 
 .banner {
-  width:100%;
   height:300px;
   overflow: hidden;
   img {
@@ -180,11 +179,12 @@ hr {
 }
 
 .icon {
-  img {
-    width:18px;
-    /* Adjust icon position to align with text */
-    top: 3px;
-  }
+  img {width:18px;top: 3px;}
+}
+
+.icon-large {
+  img {width:36px;top:8px;}
+  span {font-size:30px;}
 }
 
 .formations {
