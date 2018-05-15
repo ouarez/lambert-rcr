@@ -4,14 +4,14 @@ title: Protecteurs faciaux pour respiration artificielle
 price: '21.75'
 permalink: /materiel-de-premiers-soins/protecteurs-faciaux-respiration-artificielle
 featured: false
-description: 5 protecteurs faciaux pour faire la respiration articielle | Lambert RCR
+description: 5 protecteurs faciaux pour faire la respiration articielle
 image: /img/Faceshield_Rouge.jpg
 ---
 Protecteurs faciaux pour réanimation cardio respiratoire
 
-Envoi en quantité de 5 
+Envoi en quantité de 5
 
-* Compacte 
+* Compacte
 * Porte-clé
 * 4 couleurs (bleu, noir, rouge, jaune)
 * Facile d'usage

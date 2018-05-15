@@ -195,31 +195,13 @@ hr {
 }
 
 .products {
-  &:last-child {
-    padding:0;
-  }
-  .product {
-    height:300px;
-  }
-  a {
-    text-decoration: none;
-    color:#333;
-    font-weight:bold;
-  }
-  .image {
+  img.banner {
+    height:180px;
     overflow:hidden;
-    height:60%;
   }
-  img {
-    &:hover + p {
-      color:$blue;
-    }
-  }
-  p:hover {color:$blue;}
-  .price {
-    color:$red;
-    &:hover {color:$red;
-    }
+  span {
+    top:150px;
+    left:10px;
   }
 }
 

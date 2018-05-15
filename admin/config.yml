@@ -24,7 +24,6 @@ collections:
           - {label: "Texte du lien slogan", name: "slogan_link_text", widget: "string"}
           - {label: "Paragraphe d'introduction", name: "home_intro", widget: "markdown"}
           - {label: "Lien vers matériel premier soins", name: "link_materiel", widget: "string"}
-          - {label: "Lien vers formations", name: "link_formations", widget: "string"}
 
       - name: "formation-page"
         file: "formations.md"

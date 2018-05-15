@@ -30,15 +30,5 @@ home_intro: >-
   [les
   physiothérapeutes](https://lambertrcr.com/formation/cpr-rcr-dea-professionnel-de-la-sant%C3%A9),
   [ostéopathes](https://lambertrcr.com/formation/cpr-rcr-dea-grand-public) etc.
-home_materiel: >-
-  ## Matériel de premiers soins (CSST, trousses etc)
-
-
-  _Nous avons une gamme variée de produits de premiers soins comprenant des
-  trousses de premiers soins pour services de garde, trousses de sorties ainsi
-  que du matériel pour industrie._
 link_materiel: Visiter le magasin
-home_formations: gdfgdf
-link_formations: Voir toutes les formations
 ---
-

@@ -5,8 +5,7 @@ price: '43.49'
 permalink: /materiel-de-premiers-soins/trousse-premiers-soins-garderie-cpe
 featured: true
 description: >-
-  Trousse de premiers soins modèle garderie selon normes du ministère de la
-  famille | Lambert RCR
+  Trousse de premiers soins modèle garderie selon normes du ministère de la famille
 image: /img/trousse_garderie_2.jpg
 ---
 # Trousse de garderie/CPE milieu de garde
@@ -19,11 +18,11 @@ image: /img/trousse_garderie_2.jpg
 * Pansements compressifs 4x4
 * Pince à écharde 1
 * Ciseau
-* Livre de premiers soins 
+* Livre de premiers soins
 * Pansements de différents formats
 * Rouleaux de gauze 4x9 et 2x9
 * Pansements oculaires
 * Épingles
-* Sac avec embout avec fermeture pour gestion des déchets 
-* Paires de gants de vinyle 
+* Sac avec embout avec fermeture pour gestion des déchets
+* Paires de gants de vinyle
 * Protecteur facial pour bouche à bouche

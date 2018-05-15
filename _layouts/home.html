@@ -2,57 +2,66 @@
 layout: default
 ---
 
-<h2 class="mv3">Formations</h2>
+<div class="container pa3">
 
-{% assign sorted = site.formations | sort:"order" %}
+  {% assign sorted = site.formations | sort:"order" %}
 
-<div class="formations flex flex-wrap pv3">
-{% for formation in sorted %}
-{% if formation.featured == true  %}
+  <div class="formations flex flex-wrap pv3">
 
-  <div class="w-100 w-50-ns w-30-l ba b--light-gray pa1 mh1-l">
-    <a class="red" href="{{formation.permalink}}">
-      <img class="banner" src="{{formation.image}}" alt="{{formation.title}}"/>
-      <h3 class="f4 red ph3 pt3 ma0">{{formation.title}}</h3>
-    </a>
-    <div class="icon ph3 ml1 pt3">
-      <img class="relative mr2" src="/img/icons/clock-icon.png" alt="Durée"/>
-      <span class="w5">{{formation.duration}}</span>
+    {% for formation in sorted %}
+    {% if formation.featured == true  %}
+
+    <div class="w-100 w-50-ns w-30-l ba bw1 b--light-gray pa1 ma1-l">
+      <a class="red" href="{{formation.permalink}}">
+        <img class="banner" src="{{formation.image}}" alt="{{formation.title}}"/>
+        <h3 class="f4 ph3 pt3 ma0">{{formation.title}}</h3>
+      </a>
+      <div class="icon ph3 ml1 pt3">
+        <img class="relative mr2" src="/img/icons/clock-icon.png" alt="Durée"/>
+        <span class="w5">{{formation.duration}}</span>
+      </div>
+      <div class="icon ph3 ml1 pt2">
+        <img class="relative mr2" src="/img/icons/dollar-icon.png" alt="Prix"/>
+        <span class="w5">{{formation.price}} $</span>
+      </div>
+      <p class="ph3 f6 pt3 ma0">{{formation.description}}</p>
+      <a class="dib f6 ph3 pt3 pb4" href="{{formation.permalink}}">Détails du cours &rarr;</a>
     </div>
-    <div class="icon ph3 ml1 pt2">
-      <img class="relative mr2" src="/img/icons/dollar-icon.png" alt="Prix"/>
-      <span class="w5">{{formation.price}} $</span>
-    </div>
-    <p class="ph3 f6 pt3 ma0">{{formation.description}}</p>
-    <a class="dib f6 ph3 pt3 pb4" href="{{formation.permalink}}">Détails du cours &rarr;</a>
+
+    {% endif %}
+    {% endfor %}
+
+  </div> <!-- end formation -->
+
+</div> <!-- end container -->
+
+<div class="hero-image w-100" style="background-image:url(/img/emergency-kit.jpg)">
+  <div class="w-100 bg-black tc pv5">
+      <h2 class="w-100 pv3 mv0 white">Matériel de premiers soins</h2>
+      <a class="dib w-100 pv3 white f4 pointer">{{page.link_materiel}} &rarr;</a>
   </div>
-{% endif %}
-{% endfor %}
 </div>
 
-<a href="/formations" alt="Lien vers les formations">{{page.link_formations}} &rarr;</a>
+<div class="container pa3">
 
-{{ page.home_intro | markdownify }}
+  {% assign sorted = site.materiel | sort:"title" %}
 
-{{ page.home_materiel | markdownify }}
+  <div class="products flex flex-wrap pv3">
 
-<a href="/materiel-de-premiers-soins" alt="Lien vers matériel de premiers soins">{{page.link_materiel}}</a>
+    {% for materiel in sorted %}
+    {% if materiel.featured == true  %}
 
-{% assign sorted = site.materiel %}
-
-<div class="products w-100 mt4 tc">
-
-{% for materiel in sorted %}
-{% if materiel.featured == true  %}
-<a class="pointer" href="{{materiel.permalink}}">
-  <div class="product w-100 w-50-m w-33-l fl">
-    <div class="image w-100 ph4">
-      <img class="w-100 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+    <div class="relative w-100 w-50-ns w-25-l ba bw1 b--light-gray pa1 mv1">
+      <span class="absolute pv2 ph3 bg-black b white">{{materiel.price}} $</span>
+      <a href="{{materiel.permalink}}">
+        <img class="banner" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+        <h3 class="f5 ph3 pt3 ma0">{{materiel.title}}</h3>
+      </a>
+      <p class="ph3 f6">{{materiel.description}}
     </div>
-    <p class="tc w-100 mv2">{{materiel.title}}</p>
-    <p class="price tc w-100 mv2">{{materiel.price}} $</p>
-  </div>
-</a>
-{% endif %}
-{% endfor %}
-</div>
+    {% endif %}
+    {% endfor %}
+
+  </div> <!-- end materiel -->
+
+</div> <!-- end container -->

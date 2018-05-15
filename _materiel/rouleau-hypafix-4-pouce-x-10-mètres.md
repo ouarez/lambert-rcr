@@ -5,8 +5,7 @@ price: '10.95'
 permalink: /materiel-de-premiers-soins/rouleau-hypafix
 featured: false
 description: >-
-  Rouleau hypafix format 4 pouces par 10 mètres pour mettre sur blessures |
-  Lambert RCR
+  Rouleau hypafix format 4 pouces par 10 mètres pour mettre sur blessures
 image: /img/rouleau hypafix 4pox10m.jpg
 ---
 # Rouleau Hypafix 10cm x 10 mètres
@@ -19,6 +18,6 @@ image: /img/rouleau hypafix 4pox10m.jpg
 * Étanche et à l’épreuve des bactéries
 * Laisse respirer la peau, perméable à la vapeur d’eau et à̀ l’oxygène
 * Transparente, elle permet visuellement d'inspecter les blessures sans enlever le pansement
-* Rouleau très pratique pour stockage 
+* Rouleau très pratique pour stockage
 * Sans latex
 * Non stérile
