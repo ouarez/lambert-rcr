@@ -126,13 +126,6 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Ordre", name: "order", widget: "number", default: "1"}
       - {label: "Lien", name: "permalink", widget: "string"}
-      - {label: "Visible sur page d'accueil", name: "featured", widget: "boolean", default: false}
-      - {label: "Image", name: "image", widget: "image", required: false}
-      - {label: "Description", name: "description", widget: "string"}
-      - {label: "Durée", name: "duration", widget: "string", required: false}
-      - {label: "Prix", name: "price", widget: "string", required: false}
-      - {label: "Certification", name: "certification", widget: "string", required: false}
-      - {label: "Contenu", name: "body", widget: "markdown"}
 
   - name: "materiel" # Used in routes, e.g., /admin/collections/blog
     label: "Matériel de premiers soins" # Used in the UI
