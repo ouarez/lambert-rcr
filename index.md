@@ -10,7 +10,7 @@ slogan: >-
   Lambert RCR offre des formations de premiers soins et de réanimation cardio
   respiratoire (RCR/DEA) à Laval et la Rive Nord.
 slogan_link: /formations
-slogan_link_text: Voir nos formations pour ecole
+slogan_link_text: Voir nos formations
 home_intro: >-
   # Formations de premiers soins et Réanimation cardio respiratoire (RCR/DEA)
 
