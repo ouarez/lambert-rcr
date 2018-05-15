@@ -23,9 +23,7 @@ collections:
           - {label: "Lien slogan", name: "slogan_link", widget: "string"}
           - {label: "Texte du lien slogan", name: "slogan_link_text", widget: "string"}
           - {label: "Paragraphe d'introduction", name: "home_intro", widget: "markdown"}
-          - {label: "Paragraphe pour matériel premier soins", name: "home_materiel", widget: "markdown"}
           - {label: "Lien vers matériel premier soins", name: "link_materiel", widget: "string"}
-          - {label: "Paragraphe pour formations", name: "home_formations", widget: "markdown"}
           - {label: "Lien vers formations", name: "link_formations", widget: "string"}
 
       - name: "formation-page"
@@ -128,6 +126,7 @@ collections:
       - {label: "Titre", name: "title", widget: "string"}
       - {label: "Ordre", name: "order", widget: "number", default: "1"}
       - {label: "Lien", name: "permalink", widget: "string"}
+      - {label: "Visible sur page d'accueil", name: "featured", widget: "boolean", default: false}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Durée", name: "duration", widget: "string", required: false}

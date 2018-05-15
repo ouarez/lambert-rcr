@@ -2,6 +2,36 @@
 layout: default
 ---
 
+<h2 class="mv3">Formations</h2>
+
+{% assign sorted = site.formations | sort:"order" %}
+
+<div class="formations flex flex-wrap pv3">
+{% for formation in sorted %}
+{% if formation.featured == true  %}
+
+  <div class="w-100 w-50-ns w-30-l ba b--light-gray pa1 mh1-l">
+    <a class="red" href="{{formation.permalink}}">
+      <img src="{{formation.image}}" alt="{{formation.title}}"/>
+      <h3 class="f4 red ph3 pt3 ma0">{{formation.title}}</h3>
+    </a>
+    <div class="icon ph3 ml1 pt3">
+      <img class="relative mr2" src="/img/icons/clock-icon.png" alt="Durée"/>
+      <span class="w5">{{formation.duration}}</span>
+    </div>
+    <div class="icon ph3 ml1 pt2">
+      <img class="relative mr2" src="/img/icons/dollar-icon.png" alt="Prix"/>
+      <span class="w5">{{formation.price}} $</span>
+    </div>
+    <p class="ph3 f6 pt3 ma0">{{formation.description}}</p>
+    <a class="dib f6 ph3 pt3 pb4" href="{{formation.permalink}}">Détails du cours &rarr;</a>
+  </div>
+{% endif %}
+{% endfor %}
+</div>
+
+<a href="/formations" alt="Lien vers les formations">{{page.link_formations}} &rarr;</a>
+
 {{ page.home_intro | markdownify }}
 
 {{ page.home_materiel | markdownify }}
@@ -26,9 +56,3 @@ layout: default
 {% endif %}
 {% endfor %}
 </div>
-
-<h2>Formations</h2>
-
-{{ page.home_formations | markdownify }}
-
-<a href="/formations" alt="Lien vers les formations">{{page.link_formations}}</a>

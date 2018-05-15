@@ -3,8 +3,9 @@ dates:
   - date: 18 mars
 layout: formation-page
 title: Cours de RCR/DEA grand public
-order: '2'
+order: '3'
 permalink: /formation/cpr-rcr-dea-grand-public
+featured: true
 image: /img/first-aid-1882053_1280.jpg
 description: Cours de Réanimation cardio respiratoire pour grand public | Lambert RCR
 duration: 4h
@@ -19,13 +20,13 @@ Le cours comprend
 
 * RCR/DEA (bébé, enfant, adulte)
 * Étouffements (bébé, enfant, adulte)
-* Chaine de survie 
+* Chaine de survie
 * Reconnaissance des signes Angine, AVC, ICT, crise cardiaque
 
-Le cours s'adresse à : 
+Le cours s'adresse à :
 
 * Parents de nouveaux nés
 * Sauveteurs
-* Toutes personnes désirant aider 
+* Toutes personnes désirant aider
 * Étudiants
 * Secouristes

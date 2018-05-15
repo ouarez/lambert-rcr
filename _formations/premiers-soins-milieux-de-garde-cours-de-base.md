@@ -17,6 +17,7 @@ layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
 permalink: /formations/premiers-soins-milieux-de-garde-cours-de-base
+featured: true
 image: /img/cpr-4.jpg
 description: >-
   Ce cours de premiers soins pour milieux de garde s'adresse aux responsables en
@@ -38,7 +39,7 @@ Le cours comprend :
 * Approche à la victime (CAB)
 * Aspects légaux
 * Approche à la victime en trauma
-* Allergies sévères et choc anaphylactique 
+* Allergies sévères et choc anaphylactique
 * Dégagement des voies respiratoires (bébé, enfant, adulte)
 * Brûlures, engelures, hypothermie, hyperthermie et traitements
 * Fractures/dislocation des membres supérieurs

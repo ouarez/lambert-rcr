@@ -13,7 +13,7 @@
     <nav class="main w-80 ml-auto mr-auto pt4 dn db-l">
       <a class="dib mr4 mb4 ttu b" href="/formations">Formations</a>
       <a class="dib mr4 mb4 ttu b" href="/materiel-de-premiers-soins">Matériel de premiers soins</a>
-      <a class="dib mr4 mb4 ttu b" href="/materiel-de-premiers-soins">Articles</a>
+      <a class="dib mr4 mb4 ttu b" href="/articles">Articles</a>
       {% for link in site.data.navigation.main_nav.links %}
         <a class="dib mr4 mb4 ttu b" href="{{ link.url }}">{{ link.title }}</a>
       {% endfor %}
@@ -25,10 +25,10 @@
   {% if page.layout == 'home' %}
     <div class="slogan dn db-l bg-black pv5">
       <div class="container pv3 tl w-70 ml-auto mr-auto">
-        <h2 class="white mv3 b">Lambert RCR offre des formations de premiers soins et de réanimation cardio respiratoire (RCR/DEA) à Laval et la Rive Nord.</h2>
-          <div class="box ba bw1 b--white ph4 pv2 mv3">
-            <a href="/formations">
-              <h3 class="white dib">Voir nos formations</h3>
+        <h2 class="white mv3 b">{{page.slogan}}</h2>
+          <div class="box ba bw1 b--white pl4 pr5 pv2 mv3 dib">
+            <a href="{{page.slogan_link}}">
+              <h3 class="white dib">{{page.slogan_link_text}}</h3>
               <img class="absolute pt3 ml3" src="img/icons/arrow-right.png"/>
             </a>
           </div>
@@ -46,7 +46,7 @@
     <a href="/"><img class="w5" src="/img/lambert-rcr-logo.png" alt="LAMBERT RCR"/></a>
     <a class="w-100 db pv3 ttu b" href="/formations">Formations</a>
     <a class="w-100 db pv3 ttu b" href="/materiel-de-premiers-soins">Matériel de premiers soins</a>
-    <a class="w-100 db pv3 ttu b" href="/materiel-de-premiers-soins">Articles</a>
+    <a class="w-100 db pv3 ttu b" href="/articles">Articles</a>
     {% for link in site.data.navigation.main_nav.links %}
       <a class="w-100 db pv3 ttu b" href="{{ link.url }}">{{ link.title }}</a>
     {% endfor %}
