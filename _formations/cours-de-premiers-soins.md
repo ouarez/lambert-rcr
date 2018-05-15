@@ -21,7 +21,7 @@ featured: true
 image: /img/cpr-4.jpg
 description: >-
   Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise
-  à jour) selon les normes du ministère.
+  à jour) du cours de base, selon les normes du ministère.
 duration: 6h
 price: '54'
 certification: Lambert RCR
