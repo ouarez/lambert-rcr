@@ -12,9 +12,6 @@ slogan: >-
 slogan_link: /formations
 slogan_link_text: Voir nos formations
 home_intro: >-
-  # Formations de premiers soins et Réanimation cardio respiratoire (RCR/DEA)
-
-
   Lambert RCR est une entreprise de matériel de premiers soins, qui offre
   également des formations[ aux services de gardes et CPEs adaptés pour les gens
   en milieux de
