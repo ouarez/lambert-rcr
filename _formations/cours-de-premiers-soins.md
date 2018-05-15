@@ -18,7 +18,7 @@ title: Premiers soins milieux de garde - mise à jour 6h
 order: '2'
 permalink: /formation/cours-de-premiers-soins-milieux-de-garde-mise-a-jour
 featured: true
-image: /img/rcr-2.jpg
+image: /img/cpr-4.jpg
 description: >-
   Cours de premiers soins pour milieux de gardes fait pour renouvellement (mise
   à jour) du cours de base, selon les normes du ministère.
