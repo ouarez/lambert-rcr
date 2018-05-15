@@ -5,7 +5,7 @@ price: '50'
 permalink: /materiel-de-premiers-soins/gluconate-de-calcium
 featured: true
 description: Tube de gluconate de calcium | Lambert RCR
-image: /img/screen shot 2017-01-14 at 10.37.24 am.png
+image: /img/gluconate-de-calcium.png
 ---
 Tube de gluconate de calcium 
 
