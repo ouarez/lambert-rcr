@@ -91,6 +91,7 @@ body {
 
    p,li,label,input,select {
      color:$primary-color;
+     line-height:1.5;
    }
 
    p.light {
@@ -171,11 +172,9 @@ hr {
 }
 
 .banner {
-  height:300px;
+  min-height:200px;
+  max-height:400px;
   overflow: hidden;
-  img {
-      margin-top:-100px;
-  }
 }
 
 .icon {
@@ -189,7 +188,8 @@ hr {
 
 .formations {
     img.banner {
-      height:200px;
+      min-height:100px;
+      max-height:200px;
       overflow:hidden;
     }
 }
@@ -200,7 +200,7 @@ hr {
     overflow:hidden;
   }
   span {
-    top:150px;
+    top:170px;
     left:10px;
   }
 }

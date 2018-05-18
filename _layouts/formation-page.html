@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="container">
+<div class="container pa3">
 
   <div class="crumbs w-100 mt3 pb3 bb b--light-gray">
     <a class="mr2" href="/">Accueil</a>
@@ -11,13 +11,11 @@ layout: default
     <span class="ml2">{{page.title}}</span>
   </div>
 
-  <div class="flex flex-wrap">
-
-    <div class="w-70 banner">
+    <div class="banner">
       <img src="{{page.image}}" alt="{{page.title}}"/>
     </div>
 
-    <div class="w-30">
+    <div class="w-100 pv3">
       <div class="icon-large mv3">
         <img class="relative mr3" src="/img/icons/clock-icon.png" alt="Durée:" class="mr3"/>
         <span>{{ page.duration }}</span>
@@ -30,11 +28,11 @@ layout: default
 
     <div class="w-100">
 
+      <h3>Description du cours</h3>
+
       {{ content }}
 
     </div>
-
-  </div>
 
   <h2 class="w-100">Inscription</h2>
 
@@ -69,7 +67,7 @@ layout: default
         </select>
       </div>
 
-      <input class="b ph3 pv3 mt2 input-reset grow pointer br3 submit w-20" type="submit" value="Inscription">
+      <input class="b ph3 pv3 mt2 input-reset grow pointer br3 submit w-50 w-30-ns w-20-l" type="submit" value="Inscription">
 
     </form>
 </div> <!-- end container -->

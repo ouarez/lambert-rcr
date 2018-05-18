@@ -35,10 +35,10 @@ layout: default
 
 </div> <!-- end container -->
 
-<div class="hero-image w-100" style="background-image:url(/img/emergency-kit.jpg)">
-  <div class="w-100 bg-black tc pv5">
-      <h2 class="w-100 pv3 mv0 white">Matériel de premiers soins</h2>
-      <a class="dib w-100 pv3 white f4 pointer">{{page.link_materiel}} &rarr;</a>
+<div class="hero-image w-100" style="background-image:url(/img/first-aid-supplies.jpg)">
+  <div class="w-100 bg-black tc pv5 vh-50">
+      <h2 class="w-100 mv4 pt4 white">Matériel de premiers soins</h2>
+      <a class="dib w-100 white f4 pointer" href="/materiel-de-premiers-soins">{{page.link_materiel}} &rarr;</a>
   </div>
 </div>
 
@@ -55,13 +55,13 @@ layout: default
       <span class="absolute pv2 ph3 bg-black b white">{{materiel.price}} $</span>
       <a href="{{materiel.permalink}}">
         <img class="banner" src="{{materiel.image}}" alt="{{materiel.title}}"/>
-        <h3 class="f5 ph3 pt3 ma0">{{materiel.title}}</h3>
+        <h3 class="f3 ph3 pt3 ma0">{{materiel.title}}</h3>
       </a>
       <p class="ph3 f6">{{materiel.description}}
     </div>
     {% endif %}
     {% endfor %}
 
-  </div> <!-- end materiel -->
+  </div> <!-- end products -->
 
 </div> <!-- end container -->

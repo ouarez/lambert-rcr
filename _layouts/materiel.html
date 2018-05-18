@@ -9,27 +9,27 @@ layout: default
     <span class="ml2">{{page.title}}</span>
   </div>
 
-  <div class="w-100">
-    <h1> {{ page.title }}</h1>
+  <div class="w-100 pv3">
     {{ content }}
   </div>
 
-  {% assign sorted = site.materiel | sort:"order" %}
+  {% assign sorted = site.materiel | sort:"title" %}
 
-  <div class="products w-100 mv2 mv4-l tc">
+  <div class="products flex flex-wrap pv3">
 
-  {% for materiel in sorted %}
-  <a class="pointer" href="{{materiel.permalink}}">
-    <div class="product w-100 w-50-m w-33-l fl">
-      <div class="image w-100 ph4">
-        <img class="w-100 mv2 grow" src="{{materiel.image}}" alt="{{materiel.title}}"/>
-      </div>
-      <p class="tc w-100 mv2">{{materiel.title}}</p>
-      <p class="price tc w-100 mv2">{{materiel.price}} $</p>
+    {% for materiel in sorted %}
+
+    <div class="relative w-100 w-50-ns w-25-l ba bw1 b--light-gray pa1 mv1">
+      <span class="absolute pv2 ph3 bg-black b white">{{materiel.price}} $</span>
+      <a href="{{materiel.permalink}}">
+        <img class="banner" src="{{materiel.image}}" alt="{{materiel.title}}"/>
+        <h3 class="f5 ph3 pt3 ma0">{{materiel.title}}</h3>
+      </a>
+      <p class="ph3 f6">{{materiel.description}}
     </div>
-  </a>
-  {% endfor %}
-  </div>
-  </div>
+
+    {% endfor %}
+
+  </div> <!-- end products -->
 
 </div> <!-- end container -->

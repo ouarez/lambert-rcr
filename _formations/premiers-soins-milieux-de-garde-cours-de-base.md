@@ -53,4 +53,4 @@ Le cours s'adresse à :
 
 
 
-_Inscrivez-vous aujourd'hui pour un livre gratuit! _
+_Inscrivez-vous aujourd'hui pour un livre gratuit!_

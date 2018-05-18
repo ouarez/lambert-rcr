@@ -20,7 +20,20 @@
     </nav>
   </div>
 
+  {% if page.layout == 'materiel' or page.layout == 'materiel-page' %}
+  <div class="hero-image" style="background-image:url(/img/emergency-kit.jpg)">
+  {% else %}
   <div class="hero-image" style="background-image:url({{site.data.settings.site_image}})">
+  {% endif %}
+    <nav class="mobile w-100 dn-l tc pv3 bg-black">
+      <a href="/"><img class="w5" src="/img/lambert-rcr-logo.png" alt="LAMBERT RCR"/></a>
+      <a class="w-100 db pv3 ttu b" href="/formations">Formations</a>
+      <a class="w-100 db pv3 ttu b" href="/materiel-de-premiers-soins">Matériel de premiers soins</a>
+      <a class="w-100 db pv3 ttu b" href="/articles">Articles</a>
+      {% for link in site.data.navigation.main_nav.links %}
+        <a class="w-100 db pv3 ttu b" href="{{ link.url }}">{{ link.title }}</a>
+      {% endfor %}
+    </nav>
 
   {% if page.layout == 'home' %}
     <div class="slogan dn db-l bg-black pv5">
@@ -36,21 +49,13 @@
     </div>
   {% else %}
   <div class="w-100 bg-black">
-    <div class="container pv4">
-      <h1 class="white mt5 mb0">{{page.title}}</h1>
+    <div class="container pv1 pv4-l">
+      <h1 class="white mt1 mt5-l mb0 pt1 pt5-l pb4 pb3-l b ph3">{{page.title}}</h1>
     </div>
   </div>
   {% endif %}
 
-  <nav class="mobile w-100 dn-l tc pv3 bg-black">
-    <a href="/"><img class="w5" src="/img/lambert-rcr-logo.png" alt="LAMBERT RCR"/></a>
-    <a class="w-100 db pv3 ttu b" href="/formations">Formations</a>
-    <a class="w-100 db pv3 ttu b" href="/materiel-de-premiers-soins">Matériel de premiers soins</a>
-    <a class="w-100 db pv3 ttu b" href="/articles">Articles</a>
-    {% for link in site.data.navigation.main_nav.links %}
-      <a class="w-100 db pv3 ttu b" href="{{ link.url }}">{{ link.title }}</a>
-    {% endfor %}
-  </nav>
+
 
   </div>
 
