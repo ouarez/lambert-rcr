@@ -38,6 +38,15 @@ site_head: >-
 
   <meta name="google-site-verification"
   content="gmincYH1G8iw_VaJNLBegkjMMcKSUVb-MOkeWeqnZw0" />
+
+
+
+  <script type="text/javascript">var lphURL = (("https:" ==
+  document.location.protocol) ? "https://analytics.lipperhey.com/" :
+  "http://analytics.lipperhey.com/");document.write(unescape("%3Cscript src='" +
+  lphURL + "tracker.js'
+  type='text/javascript'%3E%3C/script%3E"));</script><script
+  type="text/javascript">lphTracker.trackPageView(2922930);</script>
 site_image: /img/lambert-rcr-cover.jpg
 site_email: lambertrcr@gmail.com
 site_tel: (450) 974-0972
