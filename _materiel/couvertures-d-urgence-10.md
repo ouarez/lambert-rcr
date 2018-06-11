@@ -14,5 +14,6 @@ Pour garder vos enfants au chaud durant une évacuation.
 * Compactes
 * Réutilisables
 * Permet un repérage rapide en forêt
-* Coût relativement bas
+* Coût bas
 * Permet de conserver la chaleur
+* Permet un contact visuel pour retrouver plus rapidement les gens perdu en forêt
