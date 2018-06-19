@@ -1,9 +1,11 @@
 ---
-dates: []
+dates:
+  - date: 7 juillet 2018
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
 permalink: /formation/cpr-rcr-dea-professionnel-de-la-santé
+featured: true
 image: /img/artificial-respiration-first-aid.jpg
 description: Cours de réanimation cardio respiratoire pour professionnel de la santé
 duration: 4.5h
