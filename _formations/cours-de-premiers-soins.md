@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 25 aout 2018
   - date: 8 septembre 2018
   - date: 22 septembre 2018
   - date: 6 octobre 2018
