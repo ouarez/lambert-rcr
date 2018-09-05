@@ -2,7 +2,7 @@
 layout: articles-page
 title: >-
   Quel est le contenu optimal d'une trousse de premiers soins pour milieux de
-  garde
+  garde | Lambert RCR
 date: 2018-09-04T23:44:29.390Z
 image: /img/trousse_garderie_2.jpg
 author: >-
