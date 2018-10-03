@@ -1,7 +1,6 @@
 ---
 dates:
   - date: 6 octobre 2018
-  - date: 20 octobre 2018
   - date: 3 novembre 2018
   - date: 17 novembre 2018
   - date: '1 décembre 2018 '
