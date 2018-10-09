@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 6 octobre 2018
   - date: 17 Novembre 2018
   - date: 1 Décembre 2018
   - date: 15 Décembre 2018
