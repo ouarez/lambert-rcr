@@ -1,6 +1,6 @@
 ---
 dates:
-  - date: 18 mars
+  - date: '18 novembre 2018 '
 layout: formation-page
 title: Cours de RCR/DEA grand public
 order: '3'
