@@ -30,5 +30,12 @@ home_intro: >-
   [les
   physiothérapeutes](https://lambertrcr.com/formation/cpr-rcr-dea-professionnel-de-la-sant%C3%A9),
   [ostéopathes](https://lambertrcr.com/formation/cpr-rcr-dea-grand-public) etc.
+
+
+
+
+  Voyez qui nous sommes --> [ici](https://www.youtube.com/watch?v=5_TScrqcQeY)
+  <--
 link_materiel: Visiter le magasin
 ---
+
