@@ -1,6 +1,6 @@
 ---
 dates:
-  - date: 14 octobre 2018
+  - date: 20 janvier 2019
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
