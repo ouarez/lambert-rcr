@@ -1,10 +1,11 @@
 ---
 dates:
-  - date: 18 mars 2018
+  - date: '20 janvier 2019 '
 layout: formation-page
 title: Cours de premiers soins général
 order: '4'
 permalink: /formations/cours-de-premiers-soins-general
+featured: true
 image: /img/rcr-2.jpg
 description: >-
   Cours de premiers soins général selon les normes de la fondation des maladies
