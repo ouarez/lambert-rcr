@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 1 Décembre 2018
   - date: 15 Décembre 2018
   - date: 19 janvier 2019
   - date: '9 février 2019 '
