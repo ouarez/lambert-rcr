@@ -12,6 +12,8 @@ duration: 4.5h
 price: '65'
 certification: Fondation des maladies du coeur et de l'AVC
 ---
+Cardio Secours SIR 
+
 _Cours de réanimation cardio respiratoire pour professionnels de la santé._
 
 _Ce cours est donné selon les normes de la fondation des maladies du coeur et de l'AVC. Nous axons notre cours sur la pratique, la démonstration des techniques de réanimations ainsi que le visionnement des bonnes pratiques. Les techniques de réanimations en équipe ainsi que celles avec le ballon masque sont parties intégrantes du cours._
