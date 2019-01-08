@@ -1,5 +1,6 @@
 ---
 dates:
+  - date: 27 janvier 2019
   - date: '9 février 2019 '
   - date: '23 février 2019 '
   - date: '9 mars 2019 '
@@ -20,7 +21,6 @@ dates:
   - date: '16 novembre 2019 '
   - date: '30 novembre 2019 '
   - date: '14 décembre 2019 '
-  - date: 27 janvier 2019
   - {}
 layout: formation-page
 title: Premiers soins milieux de garde - mise à jour 6h
