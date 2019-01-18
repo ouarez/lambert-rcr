@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: '23 février 2019 '
   - date: '9 mars 2019 '
   - date: '23 mars 2019 '
   - date: '13 avril 2019 '
