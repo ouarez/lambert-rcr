@@ -1,8 +1,8 @@
 ---
 dates:
+  - date: 24 mars 2019
   - date: 14 avril 2019
   - date: '12 mai 2019 '
-  - date: 24 mars 2019
 layout: formation-page
 title: Cours de RCR/DEA grand public
 order: '3'
