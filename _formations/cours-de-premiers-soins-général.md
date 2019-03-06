@@ -1,8 +1,6 @@
 ---
 dates:
-  - date: '20 janvier 2019 '
-  - date: '10 février 2019 '
-  - date: '3 mars 2019 '
+  - date: 24 mars 2019
   - date: '14 avril 2019 '
   - date: '12 mai 2019 '
 layout: formation-page
