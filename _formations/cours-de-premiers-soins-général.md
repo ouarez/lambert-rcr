@@ -1,7 +1,8 @@
 ---
 dates:
-  - date: '12 mai 2019 '
-  - date: 19 mai 2019
+  - date: '19 mai 2019 '
+  - date: 26 mai 2019
+  - date: 22 juin 2019
 layout: formation-page
 title: Cours de premiers soins général
 order: '4'
