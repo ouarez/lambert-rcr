@@ -13,7 +13,6 @@ dates:
   - date: '2 novembre 2019 '
   - date: '16 novembre 2019 '
   - date: '30 novembre 2019 '
-  - date: 27 janvier 2019
   - date: '14 décembre 2019 '
   - {}
 layout: formation-page
