@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: '11 mai 2019 '
   - date: '25 mai 2019 '
   - date: '15 juin 2019 '
   - date: '13 juillet 2019 '
