@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: 25 aout 2019
+dates: []
 layout: formation-page
 title: Cours de premiers soins général
 order: '4'
