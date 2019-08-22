@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: 24 aout 2019
+dates: []
 layout: formation-page
 title: Cours de RCR/DEA grand public
 order: '3'
