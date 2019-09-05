@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 8 septembre 2019
   - date: 22 septembre 2019
   - date: 6 octobre 2019
   - date: 17 novembre 2019
