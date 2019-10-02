@@ -1,9 +1,5 @@
 ---
 dates:
-  - date: '24 aout 2019 '
-  - date: '7 septembre 2019 '
-  - date: '21 septembre 2019 '
-  - date: '5 octobre 2019 '
   - date: '19 octobre 2019 '
   - date: '2 novembre 2019 '
   - date: '16 novembre 2019 '
