@@ -1,8 +1,5 @@
 ---
 dates:
-  - date: 22 septembre 2019
-  - date: 6 octobre 2019
-  - date: 17 novembre 2019
   - date: 1 décembre 2019
   - date: 15 décembre 2019
 layout: formation-page
