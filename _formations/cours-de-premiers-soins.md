@@ -1,9 +1,28 @@
 ---
 dates:
-  - date: '16 novembre 2019 '
   - date: '30 novembre 2019 '
   - date: '14 décembre 2019 '
-  - {}
+  - date: 18 janvier 2020
+  - date: 1 février 2020
+  - date: 15 février 2020
+  - date: 29 février 2020
+  - date: 14 mars 2020
+  - date: 28 mars 2020
+  - date: 11 avril 2020
+  - date: 9 mai 2020
+  - date: 23 mai 2020
+  - date: 15 juin 2020
+  - date: 11 juillet 2020
+  - date: 8 aout 2020
+  - date: 22 aout 2020
+  - date: 5 septembre 2020
+  - date: 19 septembre 2020
+  - date: 3 octobre 2020
+  - date: 17 octobre 2020
+  - date: 31 octobre 2020
+  - date: 14 novembre 2020
+  - date: 28 novembre 2020
+  - date: 12 décembre 2020
 layout: formation-page
 title: Premiers soins milieux de garde - mise à jour 6h
 order: '2'
