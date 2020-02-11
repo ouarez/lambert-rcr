@@ -1,9 +1,5 @@
 ---
 dates:
-  - date: '30 novembre 2019 '
-  - date: '14 décembre 2019 '
-  - date: 18 janvier 2020
-  - date: 1 février 2020
   - date: 15 février 2020
   - date: 29 février 2020
   - date: 14 mars 2020
