@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 15 février 2020
-  - date: 29 février 2020
   - date: 14 mars 2020
   - date: 28 mars 2020
   - date: 11 avril 2020
