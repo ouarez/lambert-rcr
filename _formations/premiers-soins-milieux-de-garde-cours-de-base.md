@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 8 aout 2020
   - date: 22 aout 2020
   - date: 5 septembre 2020
   - date: 19 septembre 2020
