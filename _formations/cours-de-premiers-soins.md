@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 5 septembre 2020
-  - date: 19 septembre 2020
   - date: 3 octobre 2020
   - date: 17 octobre 2020
   - date: 31 octobre 2020
