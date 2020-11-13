@@ -1,7 +1,6 @@
 ---
 dates:
   - date: 14 novembre 2020
-  - date: 12 décembre 2020
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
