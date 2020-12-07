@@ -1,6 +1,26 @@
 ---
 dates:
-  - date: 14 novembre 2020
+  - date: 23 janvier 2021
+  - date: 6 février 2021
+  - date: 20 février 2021
+  - date: '6 mars 2021 '
+  - date: 20 mars 2021
+  - date: 3 avril 2021
+  - date: 17 avril 2021
+  - date: 1 mai 2021
+  - date: 15 mai 2021
+  - date: 29 mai 2021
+  - date: 12 juin 2021
+  - date: 10 juillet 2021
+  - date: 14 aout 2021
+  - date: 28 aout 2021
+  - date: 11 septembre 2021
+  - date: 25 septembre 2021
+  - date: 9 octobre 2021
+  - date: 23 octobre 2021
+  - date: 6 novembre 2021
+  - date: 20 novembre 2021
+  - date: 4 décembre 2021
 layout: formation-page
 title: Premiers soins milieux de garde - mise à jour 6h
 order: '2'
