@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 6 février 2021
   - date: 20 février 2021
   - date: 6 mars 2021
   - date: 20 mars 2021
