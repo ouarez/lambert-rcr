@@ -8,7 +8,7 @@ featured: true
 image: /img/artificial-respiration-first-aid.jpg
 description: Cours de réanimation cardio respiratoire pour professionnel de la santé
 duration: 4.5h
-price: '65'
+price: '75'
 certification: Fondation des maladies du coeur et de l'AVC
 ---
 Cardio Secours SIR 
