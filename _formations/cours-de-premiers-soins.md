@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: '6 mars 2021 '
   - date: 20 mars 2021
   - date: 3 avril 2021
   - date: 17 avril 2021
