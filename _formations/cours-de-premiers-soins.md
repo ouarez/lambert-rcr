@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 10 juillet 2021
   - date: 14 aout 2021
   - date: 28 aout 2021
   - date: 11 septembre 2021
