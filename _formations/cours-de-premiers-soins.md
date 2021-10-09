@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 9 octobre 2021
-  - date: 23 octobre 2021
   - date: 6 novembre 2021
   - date: 20 novembre 2021
   - date: 4 décembre 2021
