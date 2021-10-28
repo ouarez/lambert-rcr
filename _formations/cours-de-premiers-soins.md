@@ -3,7 +3,7 @@ dates:
   - date: 6 novembre 2021
   - date: 20 novembre 2021
   - date: 4 décembre 2021
-  - date: 22 janvier 2022
+  - date: 15 janvier 2022
   - date: 5 février 2022
   - date: 19 février 2022
   - date: 5 mars 2022
