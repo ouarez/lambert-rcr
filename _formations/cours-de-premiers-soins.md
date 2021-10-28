@@ -3,6 +3,27 @@ dates:
   - date: 6 novembre 2021
   - date: 20 novembre 2021
   - date: 4 décembre 2021
+  - date: 22 janvier 2022
+  - date: 5 février 2022
+  - date: 19 février 2022
+  - date: 5 mars 2022
+  - date: 19 mars 2022
+  - date: 2 avril 2022
+  - date: 16 avril 2022
+  - date: 30 avril 2022
+  - date: 14 mai 2022
+  - date: 28 mai 2022
+  - date: 18 juin 2022
+  - date: 9 juillet 2022
+  - date: 13 aout 2022
+  - date: 27 aout 2022
+  - date: 10 septembre 2022
+  - date: 24 septembre 2022
+  - date: 8 octobre 2022
+  - date: 22 octobre 2022
+  - date: 5 novembre 2022
+  - date: 19 novembre 2022
+  - date: 3 décembre 2022
 layout: formation-page
 title: Premiers soins milieux de garde - mise à jour 6h
 order: '2'
