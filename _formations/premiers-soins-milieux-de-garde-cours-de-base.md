@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 6 novembre 2021
   - date: 20 novembre 2021
   - date: 4 décembre 2021
   - date: 15 janvier 2022
