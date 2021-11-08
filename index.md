@@ -12,6 +12,12 @@ slogan: >-
 slogan_link: /formations
 slogan_link_text: Voir nos formations
 home_intro: >-
+  # LambertRCR Cours de premiers soins et vente de matériel
+
+
+  # 
+
+
   Lambert RCR est une entreprise de matériel de premiers soins, qui offre
   également des formations[ aux services de gardes et CPEs adaptés pour les gens
   en milieux de
@@ -30,8 +36,6 @@ home_intro: >-
   [les
   physiothérapeutes](https://lambertrcr.com/formation/cpr-rcr-dea-professionnel-de-la-sant%C3%A9),
   [ostéopathes](https://lambertrcr.com/formation/cpr-rcr-dea-grand-public) etc.
-
-
 
 
   Voyez qui nous sommes --> [ici](https://www.youtube.com/watch?v=5_TScrqcQeY)
