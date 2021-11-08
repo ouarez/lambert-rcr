@@ -3,7 +3,9 @@ layout: articles-page
 title: Le syndrome du bébé brassé
 date: 2021-11-08T13:41:26.042Z
 image: /img/cpr-4.jpg
-author: 'Vincent Lambert '
+author: >-
+  Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
+  Réanimation cardio-respiratoire/Défibrilation externe automatisée
 ---
 **Syndrome du bébé secoué **
 
