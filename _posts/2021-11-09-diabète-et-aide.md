@@ -3,6 +3,9 @@ layout: articles-page
 title: 'Diabète et aide! '
 date: 2021-11-09T17:23:55.009Z
 image: /img/first-aid-supplies.jpg
+author: >-
+  Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
+  Réanimation cardio-respiratoire/Défibrilation externe automatisée
 ---
 # _**Le diabète en premiers soins! **_
 
