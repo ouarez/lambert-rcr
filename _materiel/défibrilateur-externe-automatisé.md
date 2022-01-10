@@ -1,7 +1,7 @@
 ---
 layout: materiel-page
 title: Défibrilateur Externe Automatisé
-price: '1200'
+price: '1350'
 permalink: /materiel-de-premiers-soins/DEA/Samaritan
 featured: true
 description: Défibrilateur externe automatisé pour réanimation Cardio respiratoire
