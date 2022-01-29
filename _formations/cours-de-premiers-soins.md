@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 19 février 2022
   - date: 5 mars 2022
   - date: 19 mars 2022
   - date: 2 avril 2022
