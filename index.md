@@ -3,16 +3,13 @@ layout: home
 title: Accueil
 permalink: /
 description: >-
-  Lambert RCR est une entreprise de matériel de premiers soins, qui offre
-  également des formations aux services de gardes et CPEs adaptés pour les gens
-  en milieux de gardes.
-slogan: >-
-  Lambert RCR offre des formations de premiers soins et de réanimation cardio
-  respiratoire (RCR/DEA) à Laval et la Rive Nord.
+  Lambert RCR offre une gamme de produits de premiers soins et de cours de
+  réanimation/premiers soins pour vos besoins! 
+slogan: 'Lambert RCR de tout pour vos premiers soins! '
 slogan_link: /formations
-slogan_link_text: Voir nos formations
+slogan_link_text: 'Vos besoins, nos formations! '
 home_intro: >-
-  # LambertRCR Cours de premiers soins et vente de matériel
+  # Lambert RCR Cours de premiers soins et vente de matériel
 
 
   # 
