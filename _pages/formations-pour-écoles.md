@@ -2,12 +2,10 @@
 layout: page
 title: Formations pour écoles secondaires
 permalink: /formations/écoles-secondaires
-description: >-
-  Formations de réanimation cardio-respiratoire pour écoles secondaires |
-  Lambert RCR
+description: Formations de premiers soins pour écoles secondaires | Lambert RCR
 image: /img/first-aid-850489_1920.jpg
 ---
-# Formations de réanimation pour écoles secondaires
+# Formations de premiers soins et réanimation pour écoles secondaires
 
 Nous offrons aux écoles primaires des formations de premiers soins et réanimation cardio respiratoire faites sur mesure. 
 
@@ -25,8 +23,13 @@ Nos formations sur mesures peuvent comprendre :
 4. _Traitement en premiers soins de foulures_
 5. _Dégagement des voies respiratoires pour personne ayant un blocage partiel ou complet._
 6. _Appel au 9-1-1_
-7. _Et autres sujets sur demande! _
+7. _Allergies sévères _
+8. _Accidents de voitures _
+9. _Diabète et _
+10. _Brûlures et leurs traitements _
+
+
 
 Pour les formations des écoles secondaires vous pouvez prendre rendez-vous avec nous! Nos formations sont accréditées par la [Fondation des Maladies du coeur et AVC](http://www.coeuretavc.ca/avc).
 
-Nous pouvons former vos écoles selon vos besoins ! Nous offrons les formations de semaine selon votre horaire.
+Les formations sont construites en fonctions de vos besoins, discutez avez nous de vos besoins. Notre équipe est a l'écoute de vos demandes!
