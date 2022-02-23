@@ -16,3 +16,5 @@ bottom_nav:
   links:
     - title: À propos de nous
       url: /a-propos
+    - title: Organismes à but non lucratifs
+      url: /obnl
