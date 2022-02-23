@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: 7 nov 2021
+dates: []
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
