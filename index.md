@@ -7,12 +7,12 @@ description: >-
   réanimation/premiers soins pour vos besoins! 
 slogan: 'Lambert RCR de tout pour vos premiers soins! '
 slogan_link: /formations
-slogan_link_text: 'Vos besoins, nos formations! '
+slogan_link_text: 'De tout pour les premiers soins! Formations et matériel! '
 home_intro: >-
   # Lambert RCR Cours de premiers soins et vente de matériel
 
 
-  # 
+  # Nos cours pour votre réalité! 
 
 
   Lambert RCR est une entreprise de matériel de premiers soins, qui offre
