@@ -7,6 +7,12 @@ featured: true
 description: Couverture anti feu 150 x 183 cm
 image: /img/Firepouch..jpg
 ---
+# Couverture de protection contre le feu. 
+
+Cette couverture permet une protection en cas d'incendie.
+
+
+
 Couverture Anti-feu
 
 * Fait de fibre de verre anti-feu
