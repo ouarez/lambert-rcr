@@ -1,5 +1,6 @@
 ---
-dates: []
+dates:
+  - date: '29 mai 2022 Laval '
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
