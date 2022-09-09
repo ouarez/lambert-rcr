@@ -1,8 +1,5 @@
 ---
 dates:
-  - date: 13 aout 2022
-  - date: 27 aout 2022
-  - date: 10 septembre 2022
   - date: 24 septembre 2022
   - date: 8 octobre 2022
   - date: 22 octobre 2022
