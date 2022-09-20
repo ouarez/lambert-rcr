@@ -1,7 +1,7 @@
 ---
 layout: materiel-page
 title: 'Trousse CNESST '
-price: '36.52'
+price: '112.65'
 permalink: /materiel-de-premiers-soins/trousse-CNESST-CSST
 featured: false
 description: Trousse CNESST modèle industrie
@@ -22,3 +22,9 @@ Parfaite trousse pour une compagnie cherchant à avoir une trousse CSST abordabl
 * Ciseaux
 * Pince à écharde
 * Sparadraps de différents formats
+* Masque de poche 
+* Splint adulte 
+* Gel pour brulure 
+* Garrot 
+* Pansements telfa 
+*
