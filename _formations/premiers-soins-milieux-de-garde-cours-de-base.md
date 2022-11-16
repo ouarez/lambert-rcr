@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 5 novembre 2022
   - date: 19 novembre 2022
   - date: 3 decembre 2022
 layout: formation-page
