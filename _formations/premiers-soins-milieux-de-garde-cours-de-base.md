@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 19 novembre 2022
   - date: 3 decembre 2022
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
