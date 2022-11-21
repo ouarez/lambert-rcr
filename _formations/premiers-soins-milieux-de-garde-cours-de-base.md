@@ -1,6 +1,27 @@
 ---
 dates:
   - date: 3 decembre 2022
+  - date: '21 janvier 2023 '
+  - date: '4 février 2023 '
+  - date: '18 février 2023 '
+  - date: '4 mars 2023 '
+  - date: 18 mars 2023
+  - date: '1 avril 2023 '
+  - date: '15 avril 2023 '
+  - date: '29 avril 2023 '
+  - date: '13 mai 2023 '
+  - date: '27 mai 2023 '
+  - date: '10 juin 2023 '
+  - date: '8 juillet 2023 '
+  - date: '12 aout 2023 '
+  - date: '26 aout 2023 '
+  - date: '9 septembre 2023 '
+  - date: '23 septembre 2023 '
+  - date: 7 octobre 2023
+  - date: 21 octobre 2023
+  - date: 4 novembre 2023
+  - date: '18 novembre 2023 '
+  - date: 2 décembre 2023
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
