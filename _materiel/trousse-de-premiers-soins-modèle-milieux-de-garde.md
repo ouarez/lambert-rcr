@@ -5,7 +5,8 @@ price: '43.49'
 permalink: /materiel-de-premiers-soins/trousse-premiers-soins-garderie-cpe
 featured: true
 description: >-
-  Trousse de premiers soins modèle garderie selon normes du ministère de la famille
+  Trousse de premiers soins modèle garderie selon normes du ministère de la
+  famille
 image: /img/trousse_garderie_2.jpg
 ---
 # Trousse de garderie/CPE milieu de garde
@@ -26,3 +27,5 @@ image: /img/trousse_garderie_2.jpg
 * Sac avec embout avec fermeture pour gestion des déchets
 * Paires de gants de vinyle
 * Protecteur facial pour bouche à bouche
+* Tampons anti-sceptiques 
+* Tampons alcoolisés
