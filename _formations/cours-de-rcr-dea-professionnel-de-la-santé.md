@@ -1,5 +1,6 @@
 ---
-dates: []
+dates:
+  - date: '22 Janvier 2023 LAVAL '
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
