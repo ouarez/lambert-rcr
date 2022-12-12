@@ -1,5 +1,6 @@
 ---
-dates: []
+dates:
+  - date: '29 janvier 2023 LAVAL '
 layout: formation-page
 title: Cours de premiers soins général
 order: '4'
