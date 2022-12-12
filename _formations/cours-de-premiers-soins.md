@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 3 décembre 2022
   - date: 14 janvier 2023
   - date: 4 février 2023
   - date: 18 février 2023
