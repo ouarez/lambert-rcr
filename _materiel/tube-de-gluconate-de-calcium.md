@@ -1,7 +1,7 @@
 ---
 layout: materiel-page
 title: Tube de gluconate de calcium
-price: '50'
+price: '65'
 permalink: /materiel-de-premiers-soins/gluconate-de-calcium
 featured: true
 description: Tube de gluconate de calcium (30g)
