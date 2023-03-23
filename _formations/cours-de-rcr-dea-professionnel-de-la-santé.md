@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: '26 mars 2023 LAVAL '
+dates: []
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
