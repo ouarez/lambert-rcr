@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 4 mars 2023
-  - date: 18 mars 2023
   - date: 1 avril 2023
   - date: '15 avril 2023 '
   - date: 29 avril 2023
