@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: '27 mai 2023 '
-  - date: '10 juin 2023 '
   - date: '8 juillet 2023 '
   - date: '12 aout 2023 '
   - date: '26 aout 2023 '
