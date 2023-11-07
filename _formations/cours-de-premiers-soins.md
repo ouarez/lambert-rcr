@@ -1,13 +1,5 @@
 ---
 dates:
-  - date: '8 juillet 2023 '
-  - date: '12 aout 2023 '
-  - date: '26 aout 2023 '
-  - date: '9 septembre 2023 '
-  - date: '23 septembre 2023 '
-  - date: '7 octobre 2023 '
-  - date: '21 octobre 2023 '
-  - date: '4 novembre 2023 '
   - date: '18 novembre 2023 '
   - date: '2 decembre 2023 '
 layout: formation-page
