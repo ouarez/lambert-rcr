@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: '18 novembre 2023 '
   - date: 2 décembre 2023
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
