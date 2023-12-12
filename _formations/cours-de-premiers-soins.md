@@ -1,6 +1,26 @@
 ---
 dates:
-  - date: '2 decembre 2023 '
+  - date: '27 janvier 2024 '
+  - date: '10 février 2024 '
+  - date: '24 février 2024 '
+  - date: 9 mars 2024
+  - date: 23 mars 2024
+  - date: 6 avril 2024
+  - date: 20 avril 2024
+  - date: 4 mai 2024
+  - date: '18 mai 2024 '
+  - date: 8 juin 2024
+  - date: 6 juillet 2024
+  - date: 10 aout 2024
+  - date: 24 aout 2024
+  - date: 7 septembre 2024
+  - date: 21 septembre 2024
+  - date: 5 octobre 2024
+  - date: 19 octobre 2024
+  - date: 2 novembre 2024
+  - date: 16 novembre 2024
+  - date: 30 novembre 2024
+  - date: 14 décembre 2024
 layout: formation-page
 title: Premiers soins milieux de garde - mise à jour 6h
 order: '2'
