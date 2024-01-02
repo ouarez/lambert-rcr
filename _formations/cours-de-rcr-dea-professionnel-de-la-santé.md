@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: '8 octobre 2023 A Laval '
+dates: []
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
@@ -9,7 +8,7 @@ featured: true
 image: /img/artificial-respiration-first-aid.jpg
 description: Cours de réanimation cardio respiratoire pour professionnel de la santé
 duration: 4.5h
-price: '75'
+price: '100'
 certification: Fondation des maladies du coeur et de l'AVC
 ---
 Cardio Secours SIR 
