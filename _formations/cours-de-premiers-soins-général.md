@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: '29 janvier 2023 LAVAL '
+dates: []
 layout: formation-page
 title: Cours de premiers soins général
 order: '4'
@@ -11,7 +10,7 @@ description: >-
   Cours de premiers soins général selon les normes de la fondation des maladies
   du coeurs et de l'AVC
 duration: 8h
-price: '90'
+price: '110'
 certification: Fondation des maladies du coeur et de l'AVC
 ---
 # Cours de premiers soins général selon les normes de la fondation des maladies du coeur et de l'AVC.
