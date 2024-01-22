@@ -1,6 +1,5 @@
 ---
 dates:
-  - date: 10 février 2024
   - date: 24 février 2024
   - date: 9 mars 2024
   - date: 23 mars 2024
