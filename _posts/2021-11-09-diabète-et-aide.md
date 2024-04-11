@@ -13,13 +13,13 @@ author: >-
 
 Le diabète est un trouble métabolique chronique multisystémique impliquant des perturbations du métabolisme des glucides provoquant une augmentation de la glycémie. 
 
-## Diabète de type 1 : 
+## Diabète de type 1 :
 
 ## Dans ce type de diabète, le pancréas ne produit pas d'insuline. Comme l'insuline réduit les niveaux de glucose dans le sang, son absence provoque une augmentation du taux de glucose dans le sang.
 
 L'âge typique de présentation de la maladie est jeune mais elle peut également se présenter à un âge avancé.
 
-##  Diabète de type 2:
+## Diabète de type 2:
 
 ## Dans ce type de diabète, le pancréas produit de l'insuline. Le problème est avec l'insuline, elle ne remplit pas sa fonction. Cela conduit également à une augmentation des niveaux de glucose dans le sang.
 
@@ -61,19 +61,7 @@ il est très important d'appeler une ambulance et de la laisser s'occuper du res
 
 Il ne devrait y avoir aucun délai car donner du glucose au patient hyperglycémique n'est pas aussi dangereux qu'un hypoglycémique ne recevant pas de glucose.
 
-
-
-
-
-
-
-
-
-
-
 Version Anglaise
-
-
 
 Diabetes is a multisystem chronic metabolic disorder involving disturbances in sugar metabolism causing an increased blood glucose level.
 
