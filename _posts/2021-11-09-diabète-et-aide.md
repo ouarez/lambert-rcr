@@ -7,7 +7,7 @@ author: >-
   Vincent Lambert Formateur - Premiers soins - Soins anaphylactiques -
   Réanimation cardio-respiratoire/Défibrilation externe automatisée
 ---
-# _**Le diabète en premiers soins! **_
+# _**Le diabète en premiers soins!**_
 
 # 
 
