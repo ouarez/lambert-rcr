@@ -53,13 +53,6 @@ site_head: >-
 
 
 
-  <script type="text/javascript">var lphURL = (("https:" ==
-  document.location.protocol) ? "https://analytics.lipperhey.com/" :
-  "http://analytics.lipperhey.com/");document.write(unescape("%3Cscript src='" +
-  lphURL + "tracker.js'
-  type='text/javascript'%3E%3C/script%3E"));</script><script
-  type="text/javascript">lphTracker.trackPageView(2922930);</script>
-
 
 
   <script>
