@@ -9,7 +9,7 @@ author: >-
 ---
 # _**Le diabète en premiers soins!**_
 
-# 
+ 
 
 Le diabète est un trouble métabolique chronique multisystémique impliquant des perturbations du métabolisme des glucides provoquant une augmentation de la glycémie. 
 
