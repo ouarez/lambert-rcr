@@ -1,9 +1,5 @@
 ---
 dates:
-  - date: '24 février 2024 '
-  - date: 9 mars 2024
-  - date: 23 mars 2024
-  - date: 6 avril 2024
   - date: 20 avril 2024
   - date: 4 mai 2024
   - date: '18 mai 2024 '
