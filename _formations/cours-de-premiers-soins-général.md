@@ -1,7 +1,7 @@
 ---
 dates: []
 layout: formation-page
-title: Cours de premiers soins général
+title: Cours de premiers soins de base (Général)
 order: '4'
 permalink: /formations/cours-de-premiers-soins-general
 featured: true
