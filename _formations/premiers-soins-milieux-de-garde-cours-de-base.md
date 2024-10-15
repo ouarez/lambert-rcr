@@ -4,6 +4,28 @@ dates:
   - date: 16 novembre 2024
   - date: 30 novembre 2024
   - date: 14 decembre 2024
+  - date: '11 janvier 2025 '
+  - date: 25 janvier 2025
+  - date: 8 février 2025
+  - date: 22 février 2025
+  - date: 8 mars 2025
+  - date: '22 mars 2025 '
+  - date: 5 avril 2025
+  - date: 3 mai 2025
+  - date: 17 mai 2025
+  - date: 31 mai 2025
+  - date: 14 juin 2025
+  - date: 5 juillet 2025
+  - date: 9 aout 2025
+  - date: '23 aout 2025 '
+  - date: 6 septembre 2025
+  - date: '20 septembre 2025 '
+  - date: '4 octobre 2025 '
+  - date: 18 octobre 2025
+  - date: 1 novembre 2025
+  - date: '15 novembre 2025 '
+  - date: 29 novembre 2025
+  - date: 13 decembre 2025
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
