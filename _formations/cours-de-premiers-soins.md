@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 19 octobre 2024
-  - date: 2 novembre 2024
   - date: 16 novembre 2024
   - date: 30 novembre 2024
   - date: 14 décembre 2024
