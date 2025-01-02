@@ -1,9 +1,5 @@
 ---
 dates:
-  - date: 16 novembre 2024
-  - date: 30 novembre 2024
-  - date: 14 decembre 2024
-  - date: '11 janvier 2025 '
   - date: 25 janvier 2025
   - date: 8 février 2025
   - date: 22 février 2025
