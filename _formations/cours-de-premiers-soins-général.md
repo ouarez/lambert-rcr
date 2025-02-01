@@ -1,5 +1,6 @@
 ---
-dates: []
+dates:
+  - date: '19 avril 2025 a Laval '
 layout: formation-page
 title: Cours de premiers soins de base (Général)
 order: '4'
