@@ -1,6 +1,6 @@
 ---
 dates:
-  - date: '19 avril 2025 a Laval '
+  - date: '24 mai 2025 '
 layout: formation-page
 title: Cours de premiers soins de base (Général)
 order: '4'
