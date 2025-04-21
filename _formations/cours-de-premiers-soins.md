@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 5 avril 2025
-  - date: 3 mai 2025
   - date: 17 mai 2025
   - date: 31 mai 2025
   - date: 14 juin 2025
