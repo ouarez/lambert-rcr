@@ -10,7 +10,7 @@ description: >-
   Cours de RCR/DEA pour grand public donné selon les normes et certifications de
   la Fondation des maladies du coeur et de l'AVC.
 duration: 4h
-price: '75'
+price: '80'
 certification: Fondation des maladies du coeur et de l'AVC
 ---
 _Cours de RCR/DEA pour grand public donné selon les normes et certifications de la Fondation des maladies du coeur et de l'AVC._
