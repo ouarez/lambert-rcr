@@ -1,8 +1,5 @@
 ---
 dates:
-  - date: '23 aout 2025 '
-  - date: 6 septembre 2025
-  - date: '20 septembre 2025 '
   - date: '4 octobre 2025 '
   - date: 18 octobre 2025
   - date: 1 novembre 2025
