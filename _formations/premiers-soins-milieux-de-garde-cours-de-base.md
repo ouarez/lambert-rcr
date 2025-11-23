@@ -1,11 +1,27 @@
 ---
 dates:
-  - date: '4 octobre 2025 '
-  - date: 18 octobre 2025
-  - date: 1 novembre 2025
-  - date: '15 novembre 2025 '
   - date: 29 novembre 2025
   - date: 13 decembre 2025
+  - date: 10 janvier 2026 (Laval)
+  - date: 24 janvier 2026 (Laval)
+  - date: 7 février 2026 (Laval)
+  - date: '21 février 2026 (Laval) '
+  - date: '7 mars 2026 (Laval) '
+  - date: '21 mars 2026 (Laval) '
+  - date: '11 avril 2026 (Laval) '
+  - date: '25 avril 2026 (Laval) '
+  - date: '9 mai 2026 (Laval) '
+  - date: '23 mai 2026 (Laval) '
+  - date: '6 juin 2026 (Laval) '
+  - date: '15 aout 2026 (laval) '
+  - date: '29 aout 2026 (Laval) '
+  - date: '12 septembre 2026 (Laval) '
+  - date: '26 septembre 2026 (Laval) '
+  - date: '10 octobre 2026 (Laval) '
+  - date: '24 octobre 2026 (Laval) '
+  - date: '7 novembre 2026 (Laval) '
+  - date: '21 novembre 2026 (Laval) '
+  - date: '5 décembre 2026 (Laval) '
 layout: formation-page
 title: Premiers soins milieux de garde - cours de base 8h
 order: '1'
