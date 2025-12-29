@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: 13 decembre 2025
-  - date: 10 janvier 2026 (Laval)
   - date: 24 janvier 2026 (Laval)
   - date: 7 février 2026 (Laval)
   - date: '21 février 2026 (Laval) '
