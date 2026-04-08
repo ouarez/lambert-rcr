@@ -1,5 +1,6 @@
 ---
-dates: []
+dates:
+  - date: '24 mai 2026 a Laval '
 layout: formation-page
 title: Cours de RCR/DEA professionnel de la santé
 order: '3'
