@@ -1,6 +1,5 @@
 ---
-dates:
-  - date: '24 mai 2025 '
+dates: []
 layout: formation-page
 title: Cours de premiers soins de base (Général)
 order: '4'
