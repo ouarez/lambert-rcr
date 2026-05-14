@@ -1,7 +1,5 @@
 ---
 dates:
-  - date: '9 mai 2026 (Laval) '
-  - date: '23 mai 2026 (Laval) '
   - date: '6 juin 2026 (Laval) '
   - date: '15 aout 2026 (Laval) '
   - date: '29 aout 2026 (Laval) '
