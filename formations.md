@@ -20,10 +20,8 @@ Nous offrons deux formations de premiers soins. Le cours de base (8 heures) s'ad
 
 Le cours de mise à niveau (6 heures) s'adresse à ceux qui possèdent une carte de cours non échue.
 
+## Premiers soins Standard et Urgence
 
+Le cours de **premiers soins de Base** est un cours de premiers soins général de 8h s'adressant a tous. Nous l'offrons actuellement seulement sur demande et pour des groupes déjà formés (8 à 12 participants). 
 
-## Premiers soins Standard et Urgence 
-
-Le cours de **premiers soins d'urgence** est un cours de premiers soins général de 8h s'adressant a tous. Nous l'offrons actuellement seulement sur demande et pour des groupes déjà formés (8 à 12 participants). 
-
-Nous avons aussi le cours de **premiers soins Standard** de Coeur et AVC qui est _un cours de 16h_ qui est seulement offert aux groupes deja formés (8 à 12 personnes)
+Nous avons aussi le cours de **premiers soins Intermédiaire** de Coeur et AVC qui est _un cours de 16h_ qui est seulement offert aux groupes deja formés (8 à 12 personnes)
