@@ -38,8 +38,6 @@ Le cours comprend :
 * Brûlures, engelures, hypothermie, hyperthermie et traitements
 * Fractures/dislocation des membres supérieurs
 
-FLALALA
-
 Le cours s'adresse à :
 
 * [Responsables en services de garde](https://lambertrcr.com/2018/01/09/%C3%A0-qui-s-adresse-le-cours-de-premiers-soins-en-milieu-de-garde/)
